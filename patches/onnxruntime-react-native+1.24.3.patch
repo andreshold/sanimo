@@ -1,0 +1,54 @@
+diff --git a/node_modules/onnxruntime-react-native/android/build.gradle b/node_modules/onnxruntime-react-native/android/build.gradle
+index 41b4359..3bfbef3 100644
+--- a/node_modules/onnxruntime-react-native/android/build.gradle
++++ b/node_modules/onnxruntime-react-native/android/build.gradle
+@@ -119,11 +119,13 @@ android {
+     }
+   }
+ 
+-  packagingOptions {
+-    pickFirst '**/libc++_shared.so'
+-    pickFirst '**/libfbjni.so'
+-    doNotStrip resolveBuildType() == 'debug' ? "**/**/*.so" : ''
+-    excludes = [
++  // Sanimo patch (AGP 9): packagingOptions -> packaging
++  packaging {
++    pickFirsts += ['**/libc++_shared.so', '**/libfbjni.so']
++    if (resolveBuildType() == 'debug') {
++      jniLibs.keepDebugSymbols += ["**/**/*.so"]
++    }
++    excludes += [
+       "META-INF",
+       "META-INF/**",
+       "**/libjsi.so",
+@@ -138,8 +140,9 @@ android {
+       minifyEnabled false
+     }
+   }
+-  lintOptions {
+-    disable 'GradleCompatible'
++  // Sanimo patch (AGP 9): lintOptions -> lint
++  lint {
++    disable += ['GradleCompatible']
+   }
+   compileOptions {
+     sourceCompatibility JavaVersion.VERSION_17
+@@ -247,7 +250,8 @@ dependencies {
+     extractLibs "com.microsoft.onnxruntime:onnxruntime-android:latest.integration@aar"
+   }
+ 
+-  if (VersionNumber.parse(REACT_NATIVE_VERSION) < VersionNumber.parse("0.71")) {
++  // Sanimo patch (Gradle 9): VersionNumber removed; React Native >= 0.71 does not need these fbjni libs
++  if (REACT_NATIVE_MINOR_VERSION < 71) {
+     extractLibs "com.facebook.fbjni:fbjni:+:headers"
+     extractLibs "com.facebook.fbjni:fbjni:+"
+   }
+@@ -264,7 +268,7 @@ task extractLibs {
+       def file = it.absoluteFile
+       copy {
+         from zipTree(file)
+-        into "$buildDir/$file.name"
++        into layout.buildDirectory.dir(file.name)
+         include "**/*.h", "**/*.so"
+       }
+     }
