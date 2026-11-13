@@ -1,0 +1,76 @@
+﻿id;langue;espece;age;sexe;texte;symptomes_attendus;niveau_attendu;type_cas;note;statut
+ct_001;ht;chat;adulte;male;Chat mwen an ale nan sab li plizyè fwa depi maten an, l ap fòse men pipi a pa soti, epi l ap kriye.;ne_peut_pas_uriner,signes_douleur;ijans;alerte;Cas typique chat mâle bloqué;brouillon
+ct_002;ht;chen;adulte;male;Chen an manje anpil aswè a, kounye a vant li gonfle, li di tankou tanbou, l ap eseye vomi men anyen pa soti.;ventre_gonfle_douloureux,efforts_vomir_sans_resultat;ijans;alerte;Tableau de torsion d'estomac;brouillon
+ct_003;ht;chen;adulte;femelle;Li tonbe atè toudenkou, kò l ap sakade, l ap kimen nan bouch. Sa dire apeprè senk minit.;convulsions;ijans;alerte;;brouillon
+ct_004;ht;chat;adulte;femelle;Depi kèk minit chat la ap respire ak bouch li louvri, li pa vle bouje.;respiration_bouche_ouverte_chat,signes_douleur;ijans;alerte;;brouillon
+ct_005;ht;chen;adulte;male;Yon moto frape chen an devan lakay la. Li kanpe, li sanble byen, men l ap bwete enpe.;accident_chute,boiterie;ijans;alerte;Urgence même s'il a l'air bien;brouillon
+ct_006;ht;chen;adulte;femelle;Chen m nan manje yon pakèt chokola ki te sou tab la, sa fè de zèdtan. Li poko gen anyen.;ingestion_toxique;ijans;alerte;Pas de signes : 🔴 quand même (décision V1);brouillon
+ct_007;ht;chat;adulte;femelle;Mwen te gen tèt fè mal, m ba chat la yon grenn tylenòl paske li te sanble l malad.;medicament_humain_donne;ijans;alerte;Paracétamol chez le chat;brouillon
+ct_008;ht;chat;adulte;male;Mwen mete remèd pis chen an sou chat la ayè swa, kounye a l ap tranble san rete.;medicament_humain_donne,tremblements_actifs;ijans;alerte;Perméthrine · « medicament_humain_donne » couvre l'antipuces mal utilisé ? à décider;brouillon
+ct_009;ht;chen;adulte;male;Chen an pa ka kanpe ankò depi maten an, pye dèyè l pa mache, l ap trennen yo.;incapable_se_lever;ijans;alerte;;brouillon
+ct_010;ht;chen;adulte;femelle;Jansiv li vin blan nèt, li fèb, li kouche la li pa leve.;gencives_pales_bleues,abattu_se_cache;ijans;alerte;;brouillon
+ct_011;ht;chen;adulte;male;L ap vomi san rete depi maten an, menm dlo li bwè li rann li.;vomissements_repetes;ijans;alerte;;brouillon
+ct_012;ht;chen;adulte;male;Chen an gen dyare depi ayè, jodi a m wè gen san wouj nan poupou l.;diarrhee,diarrhee_sang;ijans;alerte;;brouillon
+ct_013;ht;chat;adulte;femelle;Chat la vomi de fwa, dènye fwa a te gen san ladan l.;vomissements,vomit_sang;ijans;alerte;;brouillon
+ct_014;ht;chen;adulte;male;Li goumen ak yon lòt chen, li gen yon gwo blesi nan kou, san an pa vle rete.;morsure_par_animal,plaie_profonde_os,saignement_important;ijans;alerte;;brouillon
+ct_015;ht;chen;adulte;male;Pye devan l kase, m wè zo a ki soti deyò.;plaie_profonde_os;ijans;alerte;;brouillon
+ct_016;ht;chat;adulte;femelle;Dlo cho tonbe sou do chat la nan kizin nan, po l boule anpil.;brulure_grave;ijans;alerte;;brouillon
+ct_017;ht;chen;adulte;male;Chen bouldòg mwen an te nan lakou a anba solèy midi, kounye a li cho anpil, l ap souf fò, li pa ka kanpe.;coup_chaleur,incapable_se_lever;ijans;alerte;Race à nez court;brouillon
+ct_018;ht;chen;adulte;femelle;Chen an ap pouse pou l fè pitit depi plizyè èdtan, yon ti pitit sanble kole, okenn pa soti.;mise_bas_difficile;ijans;alerte;;brouillon
+ct_019;ht;chat;adulte;femelle;Gen yon bagay wouj k ap pandye nan dèyè chat la depi l fin fè pitit.;organe_sorti;ijans;alerte;;brouillon
+ct_020;ht;chen;adulte;male;Li t ap manje yon zo poul, kounye a l ap toufe, l ap grate bouch li ak pat li.;etouffement;ijans;alerte;Aussi : os cuits (toxiques.csv);brouillon
+ct_021;ht;chen;adulte;male;Yon gèp pike chen an, figi l ap gonfle, bouch li anfle.;gonflement_visage_piqure;ijans;alerte;;brouillon
+ct_022;ht;chen;adulte;male;Lè chen an goumen an, je l soti nan twou l.;oeil_sorti,morsure_par_animal;ijans;alerte;;brouillon
+ct_023;ht;chen;adulte;male;Chen vwazen an vin mechan toudenkou, l ap bave anpil, li mòde pitit mwen.;signes_rage;ijans;alerte;Déclenche aussi le module rage (humain mordu);brouillon
+ct_024;ht;chen;chiot;male;Ti chen an gen twa mwa, li poko pran vaksen, l ap vomi epi l gen dyare depi ayè, li pa manje.;chiot_vomit_diarrhee,vomissements,diarrhee,ne_mange_plus;ijans;alerte;Niveau 🔴 proposé, à valider;brouillon
+ct_025;ht;chen;adulte;femelle;Li manje pwazon rat yo te mete nan depo a.;ingestion_toxique;ijans;alerte;;brouillon
+ct_026;ht;chat;adulte;male;Chat la manje fèy flè lis ki nan vaz la, li sanble l byen.;ingestion_toxique;ijans;alerte;Lys + chat : 🔴 même sans signes;brouillon
+ct_027;ht;chen;adulte;male;Chen an bwè kleren ki te tonbe atè a, kounye a l ap mache tankou l sou.;ingestion_toxique;ijans;alerte;Démarche titubante : ne pas confondre avec rage;brouillon
+ct_028;ht;chen;adulte;male;Li pa respire byen, souf li kout, vant li ap monte desann vit.;difficulte_respirer;ijans;alerte;;brouillon
+ct_029;ht;chat;adulte;femelle;Chat la endispoze, li pa reponn lè m rele l.;effondrement_inconscient;ijans;alerte;;brouillon
+ct_030;ht;chen;adulte;male;Yon kamyon pase sou pye chen an.;accident_chute;ijans;alerte;;brouillon
+ct_031;ht;chen;adulte;femelle;M ba l de grenn ibipwofèn paske l t ap bwete.;medicament_humain_donne,boiterie;ijans;alerte;;brouillon
+ct_032;ht;chat;adulte;male;Chat la pa pipi depi ayè, li ale nan sab la souvan men anyen pa soti.;ne_peut_pas_uriner,changement_litiere_chat;ijans;alerte;« anyen pa soti » sans « vomi » : uriner;brouillon
+ct_033;ht;chen;adulte;male;Chen an manje chiklèt ki te nan valiz mwen.;ingestion_toxique;ijans;alerte;Xylitol;brouillon
+ct_034;ht;chen;adulte;male;Li fè kriz ayè, jodi a li sanble byen.;convulsions;ijans;alerte;Crise passée : 🔴 ou 🟠 ? à valider;brouillon
+ct_035;ht;chat;adulte;femelle;Chat la pa ka vale, l ap bave, l ap grate bouch li.;etouffement;ijans;alerte;Peut aussi évoquer la rage : à discuter;brouillon
+ct_036;ht;chen;adulte;male;Chen an vomi yon fwa maten an, apre sa li manje, l ap jwe nòmal.;vomissements;siveye;non_alerte;Niveau proposé;brouillon
+ct_037;ht;chen;adulte;femelle;Li gen dyare depi maten an, men l ap manje, l ap jwe, pa gen san ladan l.;diarrhee;siveye;non_alerte;Contient une négation (« pa gen san ») : ne pas détecter diarrhee_sang;brouillon
+ct_038;ht;chat;adulte;male;Chat la pa manje depi de jou, l ap kache anba kabann nan.;ne_mange_plus,abattu_se_cache;konsilte;non_alerte;Chat sans manger > 24 h;brouillon
+ct_039;ht;chen;adulte;male;L ap bwete sou pye dèyè a depi twa jou, men l ap manje.;boiterie;konsilte;non_alerte;Durée > 48 h;brouillon
+ct_040;ht;chen;adulte;femelle;Li pa poze pye devan l atè ditou, l ap mache sou twa pye.;boiterie_sans_appui;konsilte;non_alerte;;brouillon
+ct_041;ht;chat;adulte;femelle;Je chat la wouj, li kenbe l fèmen, l ap fwote l.;oeil_douloureux_ferme;konsilte;non_alerte;🟠 ou 🔴 à valider;brouillon
+ct_042;ht;chen;adulte;male;L ap touse depi kèk jou, sitou lannwit, men li manje byen.;toux;siveye;non_alerte;;brouillon
+ct_043;ht;chat;adulte;femelle;Nen chat la ap koule, l ap estènen, je l ap koule tou.;ecoulement_yeux_nez;siveye;non_alerte;;brouillon
+ct_044;ht;chen;adulte;male;Li gen yon ti blese nan pye, li grafouye sou yon fil fè.;plaie_petite;siveye;non_alerte;;brouillon
+ct_045;ht;chen;adulte;male;Blese li te genyen nan pye a anfle, l ap koule, li santi move.;plaie_infectee;konsilte;non_alerte;;brouillon
+ct_046;ht;chat;adulte;male;Yon lòt chat mòde l nan kou ayè.;morsure_par_animal;konsilte;non_alerte;;brouillon
+ct_047;ht;chen;adulte;femelle;L ap grate san rete, pwal li ap tonbe sou do l, m wè pis sou li.;grattage_intense,puces_tiques;siveye;non_alerte;;brouillon
+ct_048;ht;chen;adulte;male;L ap souke tèt li tout tan, zòrèy li santi move.;probleme_oreille;siveye;non_alerte;🟠 si douleur, à valider;brouillon
+ct_049;ht;chat;senior;femelle;Chat la ap bwè dlo anpil, li pipi anpil, epi l ap megri.;boit_urine_beaucoup,perte_poids;konsilte;non_alerte;;brouillon
+ct_050;ht;chen;senior;male;Li fatige anpil depi kèk jou, li pa vle jwe, li kouche tout jounen.;abattu_se_cache;konsilte;non_alerte;;brouillon
+ct_051;ht;chat;adulte;male;Chat la ap pipi lòt kote pase nan sab li, ti kras chak fwa.;changement_litiere_chat;konsilte;non_alerte;Mâle : poser la question ne_peut_pas_uriner;brouillon
+ct_052;ht;chen;adulte;femelle;L ap plenn lè m manyen do l, do l bosi, li pa vle monte eskalye.;signes_douleur;konsilte;non_alerte;;brouillon
+ct_053;ht;chen;adulte;male;Li gen karapat plen sou li.;puces_tiques;siveye;non_alerte;;brouillon
+ct_054;ht;chen;adulte;male;Li pa manje depi maten an, men l ap bwè dlo, l ap jwe.;ne_mange_plus;siveye;non_alerte;;brouillon
+ct_055;ht;chat;adulte;femelle;Li vomi yon boul pwal, apre sa li byen.;vomissements;siveye;non_alerte;;brouillon
+ct_056;ht;chen;adulte;male;Chen an ap ranse apre l fin kouri nan lakou a, men lè l poze li respire nòmal.;;siveye;piege;Halètement normal du chien : rien à détecter;brouillon
+ct_057;ht;chen;adulte;male;Li pa vomi, li pa gen dyare, li manje byen, m jis vle konnen si l bezwen vaksen.;;siveye;piege;Négations multiples : aucun symptôme;brouillon
+ct_058;ht;chen;adulte;femelle;Li te manje chokola? Non, se pitit mwen ki manje chokola a, chen an pa touche l.;;siveye;piege;Toxique mentionné mais nié : à revoir avec la confirmation par l'utilisateur;brouillon
+ct_059;ht;chat;adulte;male;Chat la te tonbe soti sou tab la men li ateri sou pye l, li byen.;;siveye;piege;« tonbe » ≠ grosse chute · seuil de hauteur à fixer;brouillon
+ct_060;ht;chen;adulte;male;Li bave anpil lè l wè manje.;;siveye;piege;Bave normale : ne pas déclencher signes_rage;brouillon
+ct_061;ht;chen;adulte;male;Pa gen san nan poupou l, se dyare sèlman depi ayè swa.;diarrhee;siveye;negation;« san » = sang ici mais nié;brouillon
+ct_062;ht;chen;adulte;femelle;Li manje san pwoblèm, men li gen yon ti tous.;toux;siveye;negation;« san » = sans : ne pas déclencher sang;brouillon
+ct_063;ht;chat;adulte;male;Chat mwen an pa pipi depi yè, li pa vle manje.;ne_peut_pas_uriner,ne_mange_plus;ijans;alerte;Formulation courte, sans « fòse »;brouillon
+ct_064;ht;chen;adulte;male;Bonjou, m pa konnen sa pou m fè, chen m nan kouche la, l ap tranble, jansiv li ble, li pa ka leve.;tremblements_actifs,gencives_pales_bleues,incapable_se_lever;ijans;alerte;Style oral avec introduction;brouillon
+ct_065;ht;chen;adulte;male;lap vomi san rete depi maten an e vant li gonfle;vomissements_repetes,ventre_gonfle_douloureux;ijans;alerte;Imite une transcription sans accents ni ponctuation;brouillon
+ct_066;ht;chat;adulte;femelle;chat la ap respire bouch louvri li pa vle manje;respiration_bouche_ouverte_chat,ne_mange_plus;ijans;alerte;Transcription imparfaite;brouillon
+ct_067;fr;chien;adulte;male;Mon chien a mangé de la mort-aux-rats il y a une heure, il a l'air normal.;ingestion_toxique;ijans;alerte;;brouillon
+ct_068;fr;chat;adulte;male;Mon chat va à la litière toutes les cinq minutes et rien ne sort, il miaule.;ne_peut_pas_uriner,changement_litiere_chat;ijans;alerte;;brouillon
+ct_069;fr;chien;adulte;femelle;Elle a vomi une fois ce matin mais elle mange et joue normalement.;vomissements;siveye;non_alerte;;brouillon
+ct_070;fr;chien;adulte;male;Il a le ventre gonflé et il essaie de vomir sans y arriver.;ventre_gonfle_douloureux,efforts_vomir_sans_resultat;ijans;alerte;;brouillon
+ct_071;fr;chat;adulte;femelle;Je lui ai donné un Doliprane parce qu'elle avait l'air d'avoir mal.;medicament_humain_donne,signes_douleur;ijans;alerte;;brouillon
+ct_072;fr;chien;adulte;male;Il boite depuis deux jours mais il pose sa patte.;boiterie;konsilte;non_alerte;;brouillon
+ct_073;fr;chien;adulte;male;Il a fait une crise de convulsions qui a duré trois minutes.;convulsions;ijans;alerte;;brouillon
+ct_074;fr;chat;adulte;femelle;Elle se gratte beaucoup et a des puces.;grattage_intense,puces_tiques;siveye;non_alerte;;brouillon
+ct_075;fr;chien;adulte;male;Il a été renversé par une voiture mais il marche.;accident_chute;ijans;alerte;;brouillon

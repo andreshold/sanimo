@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Sanimo",
+    "slug": "sanimo",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "sanimo",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F3F6F7",
+    "android": {
+      "package": "ht.sanimo.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#0F3D5E",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0F3D5E",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 96
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "buildArchs": ["arm64-v8a"]
+          }
+        }
+      ],
+      "llama.rn",
+      "onnxruntime-react-native"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
