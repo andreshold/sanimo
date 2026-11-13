@@ -26,7 +26,7 @@ export default function HomeScreen() {
         >
           <Text style={[typography.button, styles.onDark]}>Ijans kounye a</Text>
         </Pressable>
-        {__DEV__ && (
+        {(__DEV__ || process.env.EXPO_PUBLIC_BENCH === '1') && (
           <Link href="/dev/bench" style={styles.devLink}>
             Banc d’essai IA (dev)
           </Link>
