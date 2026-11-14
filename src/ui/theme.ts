@@ -51,11 +51,31 @@ export const fonts = {
 } as const;
 
 export const typography = {
+  display: { fontFamily: fonts.logo, fontSize: 44, lineHeight: 52, color: colors.primary },
   h1: { fontFamily: fonts.title, fontSize: 28, lineHeight: 34, color: colors.primary },
   h2: { fontFamily: fonts.title, fontSize: 22, lineHeight: 28, color: colors.primary },
   h3: { fontFamily: fonts.titleSemi, fontSize: 18, lineHeight: 24, color: colors.primary },
   body: { fontFamily: fonts.body, fontSize: 17, lineHeight: 25, color: colors.ink },
   bodyStrong: { fontFamily: fonts.bodySemi, fontSize: 17, lineHeight: 25, color: colors.ink },
   small: { fontFamily: fonts.body, fontSize: 15, lineHeight: 21, color: colors.inkMuted },
+  caption: { fontFamily: fonts.bodyMedium, fontSize: 13, lineHeight: 18, color: colors.inkMuted },
   button: { fontFamily: fonts.bodySemi, fontSize: 18, lineHeight: 24 },
+  buttonSmall: { fontFamily: fonts.bodySemi, fontSize: 15, lineHeight: 20 },
 } as const;
+
+export type TextVariant = keyof typeof typography;
+
+/** Ombres (boxShadow, pas les anciennes props elevation) — 2 niveaux suffisent. */
+export const shadows = {
+  card: '0 1px 2px rgba(15, 61, 94, 0.06)',
+  raised: '0 4px 12px rgba(15, 61, 94, 0.12)',
+} as const;
+
+/** Durées d'animation (ms) */
+export const motion = { fast: 150, base: 250, slow: 400 } as const;
+
+/** Icônes : traits fins (charte : « icônes en traits fins ») */
+export const icons = { stroke: 1.75, sm: 18, md: 22, lg: 28, xl: 40 } as const;
+
+/** Opacité d'un élément pressé ou désactivé */
+export const states = { pressed: 0.85, disabled: 0.45 } as const;

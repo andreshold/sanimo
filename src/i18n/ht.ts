@@ -1,0 +1,82 @@
+/**
+ * Textes de l'interface en kreyòl (langue par défaut).
+ * STATUT : brouillon — à relire par un locuteur natif (D3) avant la démo.
+ * Les textes MÉDICAUX (consignes, questions, toxiques, rage) ne sont PAS ici : ils viennent de content/, validés.
+ */
+export const ht = {
+  common: {
+    appName: 'Sanimo',
+    start: 'Kòmanse',
+    next: 'Kontinye',
+    back: 'Retounen',
+    listen: 'Koute',
+    stop: 'Rete',
+    stepOf: 'Etap {{current}} sou {{total}}',
+    ijansNow: 'Ijans kounye a',
+    ijansHint: 'Montre sa pou w fè touswit nan yon ijans',
+    comingSoon: 'Ekran sa a ap vini byento.',
+    disclaimerShort: 'Sanimo pa ranplase yon veterinè.',
+  },
+  level: {
+    ijans: { name: 'Ijans', meaning: 'Ale kay yon veterinè kounye a.' },
+    konsilte: { name: 'Konsilte', meaning: 'Al wè yon veterinè nan 24 a 48 èdtan.' },
+    siveye: { name: 'Siveye', meaning: 'Siveye bèt la lakay ou.' },
+  },
+  onboarding: {
+    languageTitle: 'Chwazi lang ou',
+    languageSubtitle: 'Ou ka chanje l pita nan paramèt yo.',
+    langHt: 'Kreyòl',
+    langFr: 'Franse',
+    disclaimerTitle: 'Anvan nou kòmanse',
+    disclaimerBody:
+      'Sanimo ede w konnen sa pou w fè ak ki lè pou w mennen bèt ou kay veterinè. Li pa bay non maladi, li pa bay medikaman, epi li pa ranplase yon veterinè.',
+    disclaimerEmergency: 'Si bèt ou an danje, peze bouton wouj « Ijans kounye a ».',
+    disclaimerAccept: 'Mwen konprann',
+    aiPackTitle: 'Pake entèlijans atifisyèl',
+    aiPackBody:
+      'Pou Sanimo ka tande w epi pale avè w san entènèt, li bezwen telechaje yon pake yon sèl fwa. Sèvi ak Wi-Fi si w kapab.',
+    aiPackSkip: 'Kontinye san IA',
+  },
+  home: {
+    tagline: 'Asistan veterinè pou bèt ou, menm san entènèt.',
+    rabies: 'Mòde ak raj',
+    toxics: 'Pwazon ak medikaman moun',
+    vets: 'Veterinè',
+    history: 'Istwa',
+    settings: 'Paramèt',
+  },
+  triage: {
+    animalTitle: 'Ki bèt ou genyen?',
+    dog: 'Chen',
+    cat: 'Chat',
+    ageTitle: 'Ki laj li?',
+    ageYoung: 'Jenn',
+    ageYoungHint: 'Ti chen, ti chat',
+    ageAdult: 'Adilt',
+    ageSenior: 'Granmoun',
+    sexTitle: 'Se mal oswa femèl?',
+    male: 'Mal',
+    female: 'Femèl',
+    descriptionTitle: 'Rakonte m sa k ap pase',
+    descriptionHint: 'Pale oswa ekri. Egzanp: « Chen mwen an ap vomi depi ayè, li pa vle manje. »',
+    symptomsTitle: 'Sentòm nou jwenn',
+    symptomsHint: 'Tcheke sa ki vre. Ou ka ajoute lòt.',
+    questionsTitle: 'Kèk kesyon',
+    yes: 'Wi',
+    no: 'Non',
+    dontKnow: 'M pa konnen',
+    resultTitle: 'Rezilta',
+    adviceTitle: 'Sa pou w fè',
+    alertSign: 'Siy ijans',
+  },
+  screens: {
+    ijans: 'Ijans',
+    rabies: 'Mòde ak raj',
+    toxics: 'Pwazon',
+    vets: 'Veterinè yo',
+    vetSheet: 'Fich pou veterinè',
+    history: 'Istwa',
+    settings: 'Paramèt',
+    catalogue: 'Katalòg eleman yo',
+  },
+} as const;

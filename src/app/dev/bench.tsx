@@ -179,7 +179,7 @@ function Btn(props: { label: string; onPress: () => void; disabled?: boolean }) 
       disabled={props.disabled}
       style={({ pressed }) => [styles.btn, (pressed || props.disabled) && styles.btnDim]}
     >
-      <Text style={[typography.button, styles.btnText]}>{props.label}</Text>
+      <Text style={[typography.buttonSmall, styles.btnText]}>{props.label}</Text>
     </Pressable>
   );
 }
@@ -205,7 +205,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   btnDim: { opacity: 0.6 },
-  btnText: { color: colors.white, fontSize: 15 },
+  btnText: { color: colors.white },
   log: { backgroundColor: colors.white, borderRadius: radius.md, padding: spacing.md, gap: spacing.xs },
   logLine: { ...typography.small, color: colors.ink },
 });
