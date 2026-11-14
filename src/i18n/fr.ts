@@ -42,6 +42,12 @@ export const fr: Translation = {
     vets: 'Vétérinaires',
     history: 'Historique',
     settings: 'Réglages',
+    resumeTitle: 'Vous avez une évaluation non terminée',
+    resumeBody: 'Vous l’avez commencée {{when}}. Voulez-vous reprendre là où vous étiez ?',
+    resume: 'Reprendre',
+    restart: 'Recommencer',
+    minutesAgo: 'il y a {{count}} min',
+    hoursAgo: 'il y a {{count}} h',
   },
   triage: {
     animalTitle: 'Quel est votre animal ?',

@@ -1,31 +1,59 @@
-import { Link, router, type Href } from 'expo-router';
+import { Link, router, useFocusEffect, type Href } from 'expo-router';
+import type { TFunction } from 'i18next';
 import {
   Bug,
   ChevronRight,
   History,
   PawPrint,
   Pill,
+  RotateCcw,
   Settings,
   Stethoscope,
   type LucideIcon,
 } from 'lucide-react-native';
+import { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Pressable, StyleSheet, View } from 'react-native';
 
-import { AppText, Button, IjansButton, Screen, colors, icons, radius, spacing, states, touch } from '@/ui';
+import { getAssessmentSession, resumeRoute } from '@/session';
+import type { Assessment } from '@/storage/assessments';
+import { AppText, Button, Card, IjansButton, Screen, colors, icons, radius, spacing, states, touch } from '@/ui';
+
+function timeAgo(t: TFunction, ts: number): string {
+  const minutes = Math.max(1, Math.round((Date.now() - ts) / 60000));
+  return minutes < 60 ? t('home.minutesAgo', { count: minutes }) : t('home.hoursAgo', { count: Math.round(minutes / 60) });
+}
 
 const showDevScreens = __DEV__ || process.env.EXPO_PUBLIC_BENCH === '1';
 
-/** E10 — Accueil : un gros bouton « Kòmanse », le bouton rouge Ijans, et les accès rapides. */
+/** E10 — Accueil : un gros bouton « Kòmanse », le bouton rouge Ijans, la reprise et les accès rapides. */
 export default function HomeScreen() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const [resumable, setResumable] = useState<Assessment | null>(null);
+
+  // Relu à chaque retour sur l'accueil : une évaluation peut avoir été interrompue entre-temps
+  useFocusEffect(
+    useCallback(() => {
+      setResumable(getAssessmentSession().findResumable());
+    }, []),
+  );
+
+  const startNew = () => {
+    getAssessmentSession().start(i18n.language === 'fr' ? 'fr' : 'ht');
+    router.push('/animal');
+  };
+
+  const resume = (a: Assessment) => {
+    const resumed = getAssessmentSession().resume(a.id);
+    if (resumed) router.push(resumeRoute(resumed));
+  };
 
   return (
     <Screen
       withHeader={false}
       footer={
         <>
-          <Button title={t('common.start')} icon={PawPrint} onPress={() => router.push('/animal')} />
+          <Button title={t('common.start')} icon={PawPrint} onPress={startNew} />
           <IjansButton />
         </>
       }
@@ -34,6 +62,17 @@ export default function HomeScreen() {
         <AppText variant="display">{t('common.appName')}</AppText>
         <AppText>{t('home.tagline')}</AppText>
       </View>
+
+      {resumable && (
+        <Card>
+          <AppText variant="h3">{t('home.resumeTitle')}</AppText>
+          <AppText variant="small">{t('home.resumeBody', { when: timeAgo(t, resumable.updatedAt) })}</AppText>
+          <View style={styles.resumeActions}>
+            <Button title={t('home.resume')} variant="confirm" size="md" icon={RotateCcw} onPress={() => resume(resumable)} />
+            <Button title={t('home.restart')} variant="secondary" size="md" onPress={startNew} />
+          </View>
+        </Card>
+      )}
 
       <View style={styles.list}>
         <QuickLink href="/rage" icon={Bug} label={t('home.rabies')} />
@@ -77,6 +116,7 @@ function QuickLink({ href, icon: Icon, label }: { href: Href; icon: LucideIcon; 
 
 const styles = StyleSheet.create({
   hero: { gap: spacing.sm, paddingTop: spacing.xl },
+  resumeActions: { gap: spacing.sm, paddingTop: spacing.sm },
   list: {
     backgroundColor: colors.white,
     borderRadius: radius.md,

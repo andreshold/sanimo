@@ -44,6 +44,12 @@ export const ht = {
     vets: 'Veterinè',
     history: 'Istwa',
     settings: 'Paramèt',
+    resumeTitle: 'Ou gen yon evalyasyon ki pa fini',
+    resumeBody: 'Ou te kòmanse l {{when}}. Ou vle kontinye kote w te rive a?',
+    resume: 'Kontinye l',
+    restart: 'Rekòmanse',
+    minutesAgo: 'sa gen {{count}} minit',
+    hoursAgo: 'sa gen {{count}} èdtan',
   },
   triage: {
     animalTitle: 'Ki bèt ou genyen?',
