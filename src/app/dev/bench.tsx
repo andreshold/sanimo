@@ -8,8 +8,7 @@
  * Mesure : temps de chargement, vitesse de génération, transcription audio (Oswald), chargement ONNX (Fatiman).
  */
 import * as Device from 'expo-device';
-import { initLlama, type LlamaContext } from 'llama.rn';
-import { InferenceSession } from 'onnxruntime-react-native';
+import type { LlamaContext } from 'llama.rn';
 import { useRef, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 
@@ -18,6 +17,11 @@ import { colors, radius, spacing, touch, typography } from '@/ui/theme';
 const DIR = '/sdcard/Android/data/ht.sanimo.app/files/models';
 
 const now = () => Date.now();
+
+// Chargement à la demande : si un module natif est absent ou cassé, l'erreur s'affiche dans le journal
+// au lieu de faire planter l'écran entier.
+const loadLlama = () => import('llama.rn');
+const loadOnnx = () => import('onnxruntime-react-native');
 
 export default function BenchScreen() {
   const [modelPath, setModelPath] = useState(`${DIR}/makandal.gguf`);
@@ -48,9 +52,24 @@ export default function BenchScreen() {
     }
   };
 
+  /** Vérifie que les deux moteurs natifs se chargent, sans avoir besoin d'un modèle. */
+  const checkNative = () =>
+    run('Modules natifs', async () => {
+      const llama = await loadLlama();
+      const devices = await llama.getBackendDevicesInfo();
+      write(
+        `✔ llama.rn ${llama.BuildInfo.number} · ${devices.length} périphérique(s) : ${devices
+          .map((d) => `${d.type}:${d.deviceName}`)
+          .join(', ')}`,
+      );
+      await loadOnnx();
+      write(`✔ onnxruntime chargé (OrtApi ${'OrtApi' in globalThis ? 'présent' : 'absent'})`);
+    });
+
   const loadLlm = () =>
     run('Charger le GGUF', async () => {
       await ctx.current?.release();
+      const { initLlama } = await loadLlama();
       const t = now();
       ctx.current = await initLlama({ model: modelPath, n_ctx: 2048, n_gpu_layers: 0, ctx_shift: false });
       write(`✔ chargé en ${now() - t} ms`);
@@ -94,6 +113,7 @@ export default function BenchScreen() {
 
   const onnxTest = () =>
     run('Charger ONNX', async () => {
+      const { InferenceSession } = await loadOnnx();
       const t = now();
       const s = await InferenceSession.create(onnxPath);
       write(`✔ ONNX chargé en ${now() - t} ms · entrées ${s.inputNames.join(', ')} · sorties ${s.outputNames.join(', ')}`);
@@ -116,6 +136,7 @@ export default function BenchScreen() {
       <Field label="Modèle ONNX (Fatiman)" value={onnxPath} onChange={setOnnxPath} />
 
       <View style={styles.row}>
+        <Btn label="Modules natifs" onPress={checkNative} disabled={busy} />
         <Btn label="Charger GGUF" onPress={loadLlm} disabled={busy} />
         <Btn label="Test texte" onPress={textTest} disabled={busy} />
         <Btn label="Test audio" onPress={audioTest} disabled={busy} />
