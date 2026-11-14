@@ -57,21 +57,21 @@ export default function HomeScreen() {
   );
 }
 
+/** Ligne de navigation. Pressable + router.push : `Link asChild` ne transmet pas le style-fonction du Pressable. */
 function QuickLink({ href, icon: Icon, label }: { href: Href; icon: LucideIcon; label: string }) {
   return (
-    <Link href={href} asChild>
-      <Pressable
-        accessibilityRole="link"
-        accessibilityLabel={label}
-        style={({ pressed }) => [styles.row, pressed && { opacity: states.pressed }]}
-      >
-        <Icon color={colors.primary} size={icons.md} strokeWidth={icons.stroke} />
-        <AppText variant="bodyStrong" style={styles.rowLabel}>
-          {label}
-        </AppText>
-        <ChevronRight color={colors.inkMuted} size={icons.md} strokeWidth={icons.stroke} />
-      </Pressable>
-    </Link>
+    <Pressable
+      accessibilityRole="link"
+      accessibilityLabel={label}
+      onPress={() => router.push(href)}
+      style={({ pressed }) => [styles.row, pressed && { opacity: states.pressed }]}
+    >
+      <Icon color={colors.primary} size={icons.md} strokeWidth={icons.stroke} />
+      <AppText variant="bodyStrong" style={styles.rowLabel}>
+        {label}
+      </AppText>
+      <ChevronRight color={colors.inkMuted} size={icons.md} strokeWidth={icons.stroke} />
+    </Pressable>
   );
 }
 

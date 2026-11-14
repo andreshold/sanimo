@@ -64,7 +64,7 @@ export default function RootLayout() {
           <Stack.Screen name="ijans" options={{ title: t('screens.ijans'), presentation: 'modal' }} />
 
           {/* Parcours d'évaluation (E20 → E31) */}
-          <Stack.Screen name="(triage)/animal" options={{ title: t('triage.animalTitle') }} />
+          <Stack.Screen name="(triage)/animal" options={{ title: '' }} />
           <Stack.Screen name="(triage)/description" options={{ title: '' }} />
           <Stack.Screen name="(triage)/symptomes" options={{ title: '' }} />
           <Stack.Screen name="(triage)/questions" options={{ title: '' }} />

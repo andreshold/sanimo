@@ -2,6 +2,7 @@
  * Catalogue des composants (écran caché, mode dev) : référence visuelle de la charte pour l'équipe.
  * Toute nouvelle variante de composant doit apparaître ici.
  */
+import { router } from 'expo-router';
 import { Cat, Dog } from 'lucide-react-native';
 import { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
@@ -114,7 +115,15 @@ export default function CatalogueScreen() {
       </Section>
 
       <Section title="Outils de test">
-        <Button title="Rejouer la première ouverture" variant="secondary" size="md" onPress={resetSettings} />
+        <Button
+          title="Rejouer la première ouverture"
+          variant="secondary"
+          size="md"
+          onPress={() => {
+            resetSettings();
+            router.replace('/langue');
+          }}
+        />
       </Section>
     </Screen>
   );
