@@ -3,6 +3,7 @@ import type { TFunction } from 'i18next';
 import {
   Bug,
   ChevronRight,
+  Download,
   History,
   PawPrint,
   Pill,
@@ -16,8 +17,10 @@ import { useTranslation } from 'react-i18next';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 import { getAssessmentSession, resumeRoute } from '@/session';
+import { getDb } from '@/storage/app-db';
 import type { Assessment } from '@/storage/assessments';
-import { AppText, Button, Card, IjansButton, Screen, colors, icons, radius, spacing, states, touch } from '@/ui';
+import { isAiPackReady } from '@/storage/models';
+import { AppText, Banner, Button, Card, IjansButton, Screen, colors, icons, radius, spacing, states, touch } from '@/ui';
 
 function timeAgo(t: TFunction, ts: number): string {
   const minutes = Math.max(1, Math.round((Date.now() - ts) / 60000));
@@ -30,11 +33,13 @@ const showDevScreens = __DEV__ || process.env.EXPO_PUBLIC_BENCH === '1';
 export default function HomeScreen() {
   const { t, i18n } = useTranslation();
   const [resumable, setResumable] = useState<Assessment | null>(null);
+  const [aiReady, setAiReady] = useState(true);
 
-  // Relu à chaque retour sur l'accueil : une évaluation peut avoir été interrompue entre-temps
+  // Relu à chaque retour sur l'accueil : une évaluation peut avoir été interrompue, le pack téléchargé…
   useFocusEffect(
     useCallback(() => {
       setResumable(getAssessmentSession().findResumable());
+      setAiReady(isAiPackReady(getDb()));
     }, []),
   );
 
@@ -62,6 +67,13 @@ export default function HomeScreen() {
         <AppText variant="display">{t('common.appName')}</AppText>
         <AppText>{t('home.tagline')}</AppText>
       </View>
+
+      {!aiReady && (
+        <View style={styles.aiPack}>
+          <Banner tone="offline">{t('home.aiPackMissing')}</Banner>
+          <Button title={t('home.aiPackAction')} variant="secondary" size="md" icon={Download} onPress={() => router.push('/pack-ia')} />
+        </View>
+      )}
 
       {resumable && (
         <Card>
@@ -117,6 +129,7 @@ function QuickLink({ href, icon: Icon, label }: { href: Href; icon: LucideIcon; 
 const styles = StyleSheet.create({
   hero: { gap: spacing.sm, paddingTop: spacing.xl },
   resumeActions: { gap: spacing.sm, paddingTop: spacing.sm },
+  aiPack: { gap: spacing.sm },
   list: {
     backgroundColor: colors.white,
     borderRadius: radius.md,

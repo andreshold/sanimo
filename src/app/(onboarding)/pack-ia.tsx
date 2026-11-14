@@ -1,17 +1,28 @@
+import { router } from 'expo-router';
 import { Download } from 'lucide-react-native';
 import { useTranslation } from 'react-i18next';
 import { StyleSheet, View } from 'react-native';
 
-import { updateSettings } from '@/storage/settings';
+import { getSettings, updateSettings } from '@/storage/settings';
 import { AppText, Banner, Button, Card, Screen, colors, icons, spacing } from '@/ui';
 
 /**
  * E03 — Pack IA. Le téléchargement réel arrive à l'étape 11.
- * « Kontinye san IA » termine l'onboarding : la garde de navigation renvoie alors vers l'accueil.
+ * Première ouverture : « Kontinye san IA » termine l'onboarding et ouvre l'accueil.
+ * Ensuite (depuis le bandeau de l'accueil) : simple retour.
  */
 export default function AiPackScreen() {
   const { t } = useTranslation();
-  const finish = () => updateSettings({ aiPackPromptSeen: true });
+  const finish = () => {
+    if (!getSettings().aiPackPromptSeen) {
+      updateSettings({ aiPackPromptSeen: true });
+      router.replace('/');
+    } else if (router.canGoBack()) {
+      router.back();
+    } else {
+      router.replace('/');
+    }
+  };
 
   return (
     <Screen

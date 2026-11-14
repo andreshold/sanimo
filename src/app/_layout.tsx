@@ -56,8 +56,10 @@ export default function RootLayout() {
         <Stack.Protected guard={!onboarded}>
           <Stack.Screen name="(onboarding)/langue" options={{ headerShown: false }} />
           <Stack.Screen name="(onboarding)/avertissement" options={{ title: '' }} />
-          <Stack.Screen name="(onboarding)/pack-ia" options={{ title: '' }} />
         </Stack.Protected>
+
+        {/* Pack IA : à la première ouverture, puis depuis le bandeau de l'accueil ou les réglages */}
+        <Stack.Screen name="(onboarding)/pack-ia" options={{ title: '' }} />
 
         <Stack.Protected guard={onboarded}>
           <Stack.Screen name="index" options={{ headerShown: false }} />
