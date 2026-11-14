@@ -39,6 +39,7 @@
         }
       ],
       "llama.rn",
+      "./plugins/with-rnllama-variants",
       "onnxruntime-react-native"
     ],
     "experiments": {
