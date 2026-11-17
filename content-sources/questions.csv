@@ -1,0 +1,56 @@
+﻿id;type;symptome_id;especes;sexe;age;declenchee_par;toujours;priorite;niveau_si_mpakonnen;question_ht;source;statut;note
+q_difficulte_respirer;alerte;difficulte_respirer;chien,chat;;;;oui;10;konsilte;Èske li gen pwoblèm pou l respire ?;VetClaw:emergency-triage;brouillon;
+q_respiration_bouche_ouverte_chat;alerte;respiration_bouche_ouverte_chat;chat;;;toux,ecoulement_yeux_nez;non;101;konsilte;Èske chat la ap respire ak bouch li louvri ?;VetClaw:feline-medicine,emergency-triage;brouillon;
+q_gencives_pales_bleues;alerte;gencives_pales_bleues;chien,chat;;;abattu_se_cache,ne_mange_plus;non;102;konsilte;Èske jansiv li blan, ble oswa vyolèt ?;VetClaw:emergency-triage,veterinary-physical-exam;brouillon;
+q_effondrement_inconscient;alerte;effondrement_inconscient;chien,chat;;;;oui;20;konsilte;Èske li tonbe epi li pa ka leve oswa li pa reponn ankò ?;VetClaw:emergency-triage;brouillon;
+q_incapable_se_lever;alerte;incapable_se_lever;chien,chat;;;;non;204;konsilte;Èske li pa ka kanpe oswa li pa ka sèvi ak pye l ?;VetClaw:emergency-triage,orthopedic-exam;brouillon;À poser seulement si le symptôme est cité
+q_convulsions;alerte;convulsions;chien,chat;;;;non;205;konsilte;Èske li fè kriz (kò l sakade, li pa konnen sa k ap pase) ?;VetClaw:emergency-triage;brouillon;À poser seulement si le symptôme est cité
+q_tremblements_actifs;alerte;tremblements_actifs;chien,chat;;;;non;206;konsilte;Èske l ap tranble fò san l pa rete ?;VetClaw:feline-medicine (perméthrine);brouillon;À poser seulement si le symptôme est cité
+q_ne_peut_pas_uriner;alerte;ne_peut_pas_uriner;chien,chat;;;changement_litiere_chat;non;107;konsilte;Èske l ap fòse pou l pipi epi anyen pa soti ?;VetClaw:emergency-triage (urethral obstruction),feline-medicine;brouillon;
+q_efforts_vomir_sans_resultat;alerte;efforts_vomir_sans_resultat;chien,chat;;;vomissements,signes_douleur;non;108;konsilte;Èske l ap eseye vomi men anyen pa soti ?;VetClaw:emergency-triage (GDV),canine-medicine;brouillon;
+q_ventre_gonfle_douloureux;alerte;ventre_gonfle_douloureux;chien,chat;;;signes_douleur,abattu_se_cache;non;109;konsilte;Èske vant li gonfle, li di oswa li fè l mal lè w manyen l ?;VetClaw:emergency-triage,canine-medicine;brouillon;
+q_vomit_sang;alerte;vomit_sang;chien,chat;;;vomissements;non;110;konsilte;Èske li vomi san ?;VetClaw:nsaid-safety (hematemesis);brouillon;
+q_diarrhee_sang;alerte;diarrhee_sang;chien,chat;;;diarrhee;non;111;konsilte;Èske gen san nan dyare a, wouj oswa nwa ?;VetClaw:nsaid-safety (melena);brouillon;
+q_vomissements_repetes;alerte;vomissements_repetes;chien,chat;;;vomissements;non;112;konsilte;Èske l ap vomi plizyè fwa youn dèyè lòt ?;VetClaw:pain-assessment (vomiting/retching);brouillon;
+q_saignement_important;alerte;saignement_important;chien,chat;;;plaie_petite,plaie_infectee,morsure_par_animal,boiterie_sans_appui;non;113;konsilte;Èske l ap senyen anpil ?;VetClaw:emergency-triage (active hemorrhage);brouillon;
+q_plaie_profonde_os;alerte;plaie_profonde_os;chien,chat;;;plaie_petite,plaie_infectee,morsure_par_animal;non;114;konsilte;Èske ou wè yon blese fon oswa zo a ?;VetClaw:wound-management,orthopedic-exam (fractures);brouillon;
+q_accident_chute;alerte;accident_chute;chien,chat;;;boiterie,boiterie_sans_appui,signes_douleur;non;115;konsilte;Èske yon machin oswa moto frape l, oswa li tonbe soti byen wo ?;VetClaw:emergency-triage (HBC);brouillon;
+q_brulure_grave;alerte;brulure_grave;chien,chat;;;;non;216;konsilte;Èske li boule grav ?;Synthèse §2.3;brouillon;À poser seulement si le symptôme est cité
+q_coup_chaleur;alerte;coup_chaleur;chien,chat;;;;non;217;konsilte;Apre solèy oswa apre l fin kouri, èske li cho anpil, l ap souf fò epi li fèb ?;VetClaw:canine-medicine,breed-predisposition (brachycéphales);brouillon;À poser seulement si le symptôme est cité
+q_mise_bas_difficile;alerte;mise_bas_difficile;chien,chat;;;;non;218;konsilte;Èske l ap pouse pou l fè pitit men okenn pa soti ?;VetClaw:emergency-triage (dystocia);brouillon;À poser seulement si le symptôme est cité
+q_organe_sorti;alerte;organe_sorti;chien,chat;;;;non;219;konsilte;Èske ou wè yon bagay anndan kò l ki soti deyò ?;Synthèse §2.3;brouillon;À poser seulement si le symptôme est cité
+q_etouffement;alerte;etouffement;chien,chat;;;toux;non;120;konsilte;Èske l ap toufe oswa gen yon bagay ki kole nan gòj li ?;VetClaw:emergency-triage (airway);brouillon;
+q_gonflement_visage_piqure;alerte;gonflement_visage_piqure;chien,chat;;;grattage_intense;non;121;konsilte;Èske figi l oswa gòj li gonfle apre yon bèt pike l ?;VetClaw:emergency-triage (anaphylaxis);brouillon;
+q_oeil_sorti;alerte;oeil_sorti;chien,chat;;;oeil_douloureux_ferme;non;122;konsilte;Èske je l soti nan twou l ?;Synthèse §2.3 (trauma);brouillon;
+q_ingestion_toxique;alerte;ingestion_toxique;chien,chat;;;;oui;30;konsilte;Èske li manje, li vale oswa li niche yon bagay ki nan lis pwazon yo ?;VetClaw:toxicology-calculator,lethal-variance-detection;brouillon;
+q_medicament_humain_donne;alerte;medicament_humain_donne;chien,chat;;;tremblements_actifs;non;124;konsilte;Èske yo ba l oswa li vale yon medikaman pou moun ?;VetClaw:lethal-variance-detection,nsaid-safety;brouillon;
+q_signes_rage;alerte;signes_rage;chien,chat;;;;non;225;konsilte;Èske li chanje konpòtman sanzatann, l ap bave anpil oswa li pa ka vale ?;Synthèse §3.3 (Merck, OMS);brouillon;À poser seulement si le symptôme est cité
+q_chiot_vomit_diarrhee;alerte;chiot_vomit_diarrhee;chien;;;;non;226;konsilte;Èske se yon ti chen k ap vomi epi ki gen dyare ?;Aucune (risque parvovirose);brouillon;À poser seulement si le symptôme est cité
+q_oeil_douloureux_ferme;contexte;oeil_douloureux_ferme;chien,chat;;;;non;427;siveye;Èske li kenbe yon je fèmen, oswa je a wouj epi li fè l mal ?;VetClaw:ophthalmology-exam (glaucome, ulcère);brouillon;À poser seulement si le symptôme est cité
+q_boiterie_sans_appui;contexte;boiterie_sans_appui;chien,chat;;;;non;428;siveye;Èske li pa vle poze youn nan pye l atè ditou ?;VetClaw:orthopedic-exam (grade 4);brouillon;À poser seulement si le symptôme est cité
+q_boiterie;contexte;boiterie;chien,chat;;;;non;429;siveye;Èske l ap bwete ?;VetClaw:orthopedic-exam (grades 1–3);brouillon;À poser seulement si le symptôme est cité
+q_ne_mange_plus;contexte;ne_mange_plus;chien,chat;;;;non;430;siveye;Èske li refize manje ?;VetClaw:pain-assessment,feline-medicine;brouillon;À poser seulement si le symptôme est cité
+q_vomissements;contexte;vomissements;chien,chat;;jenn;diarrhee;non;300;siveye;Èske li vomi ?;VetClaw:pain-assessment;brouillon;Jeune animal qui a la diarrhée : demander les vomissements (règle r_chiot_vomit_et_diarrhee)
+q_diarrhee;contexte;diarrhee;chien,chat;;jenn;vomissements;non;300;siveye;Èske li gen dyare ?;Aucune;brouillon;Jeune animal qui vomit : demander la diarrhée (règle r_chiot_vomit_et_diarrhee)
+q_abattu_se_cache;contexte;abattu_se_cache;chien,chat;;;ne_mange_plus;non;333;siveye;Èske li fatige anpil oswa l ap kache plis pase dabitid ?;VetClaw:feline-medicine,pain-assessment;brouillon;
+q_signes_douleur;contexte;signes_douleur;chien,chat;;;probleme_oreille,boiterie;non;334;siveye;Èske l ap plenn, do l bosi oswa li pa vle bouje ?;VetClaw:pain-assessment;brouillon;
+q_changement_litiere_chat;contexte;changement_litiere_chat;chat;;;;non;435;siveye;Èske l ale fè bezwen l souvan, ti kras chak fwa, oswa lòt kote pase abitid ?;VetClaw:feline-medicine (FLUTD);brouillon;À poser seulement si le symptôme est cité
+q_boit_urine_beaucoup;contexte;boit_urine_beaucoup;chien,chat;;;;non;436;siveye;Èske l ap bwè dlo epi pipi plis pase abitid ?;VetClaw:feline-medicine,nsaid-safety;brouillon;À poser seulement si le symptôme est cité
+q_perte_poids;contexte;perte_poids;chien,chat;;;;non;437;siveye;Èske li megri dènye semèn sa yo ?;VetClaw:feline-medicine;brouillon;À poser seulement si le symptôme est cité
+q_toux;contexte;toux;chien,chat;;;;non;438;siveye;Èske l ap touse ?;Aucune;brouillon;À poser seulement si le symptôme est cité
+q_ecoulement_yeux_nez;contexte;ecoulement_yeux_nez;chien,chat;;;;non;439;siveye;Èske je l oswa nen l ap koule ?;VetClaw:ophthalmology-exam (FHV-1 chat);brouillon;À poser seulement si le symptôme est cité
+q_plaie_petite;contexte;plaie_petite;chien,chat;;;;non;440;siveye;Èske li gen yon ti blese ?;VetClaw:wound-management;brouillon;À poser seulement si le symptôme est cité
+q_plaie_infectee;contexte;plaie_infectee;chien,chat;;;plaie_petite,morsure_par_animal;non;341;siveye;Èske blese a anfle, li cho oswa l ap koule ?;VetClaw:wound-management (infection);brouillon;
+q_morsure_par_animal;contexte;morsure_par_animal;chien,chat;;;;non;442;siveye;Èske yon lòt bèt mòde l ?;VetClaw:wound-management (bite wound);brouillon;À poser seulement si le symptôme est cité
+q_grattage_intense;contexte;grattage_intense;chien,chat;;;;non;443;siveye;Èske l ap grate anpil oswa pwal li ap tonbe ?;VetClaw:dermatology-workup;brouillon;À poser seulement si le symptôme est cité
+q_puces_tiques;contexte;puces_tiques;chien,chat;;;;non;444;siveye;Èske ou wè pis oswa karapat sou li ?;VetClaw:dermatology-workup;brouillon;À poser seulement si le symptôme est cité
+q_probleme_oreille;contexte;probleme_oreille;chien,chat;;;;non;445;siveye;Èske l ap souke tèt li souvan oswa zòrèy li santi move ?;VetClaw:dermatology-workup (otite);brouillon;À poser seulement si le symptôme est cité
+q_chat_male_uriner;alerte;ne_peut_pas_uriner;chat;male;;;oui;5;ijans;Èske chat la ap fòse pou l pipi epi anyen pa soti ?;VetClaw:feline-medicine;brouillon;Chat mâle : le doute suffit → 🔴 (à valider)
+q_vomit_plus_24h;duree;;;;;vomissements;non;310;siveye;Èske sa fè plis pase 24 èdtan l ap vomi ?;Aucune (seuil proposé);brouillon;Seuil 24 h à valider avec le vétérinaire (feuille de route D3 §7.4)
+q_ne_boit_plus;evolution;;;;;vomissements,diarrhee;non;300;konsilte;Èske li pa bwè dlo ankò, oswa li vomi dlo li bwè a ?;Merck (synthèse §2.3);brouillon;"Risque de déshydratation ; « m pa konnen » → 🟠"
+q_diarrhee_plus_48h;duree;;;;;diarrhee;non;311;siveye;Èske sa fè plis pase 2 jou li gen dyare ?;Aucune (seuil proposé);brouillon;Seuil 48 h à valider avec le vétérinaire (feuille de route D3 §7.4)
+q_chat_jeun_24h;duree;;chat;;;ne_mange_plus;non;312;konsilte;Èske sa fè plis pase 24 èdtan chat la pa manje anyen ?;Aucune (seuil proposé);brouillon;Chat : le jeûne est dangereux plus vite que chez le chien. Seuil à valider avec le vétérinaire (feuille de route D3 §7.4)
+q_chien_jeun_48h;duree;;chien;;;ne_mange_plus;non;313;siveye;Èske sa fè plis pase 2 jou chen an pa manje anyen ?;Aucune (seuil proposé);brouillon;Seuil 48 h à valider avec le vétérinaire (feuille de route D3 §7.4)
+q_boiterie_plus_24h;duree;;;;;boiterie;non;314;siveye;Èske sa fè plis pase 24 èdtan l ap bwete ?;Aucune (seuil proposé);brouillon;Seuil à valider avec le vétérinaire (feuille de route D3 §7.4)
+q_respi_plus_semaine;duree;;;;;toux,ecoulement_yeux_nez;non;315;siveye;Èske sa fè plis pase yon semèn ?;Aucune;brouillon;Seuil à valider avec le vétérinaire (feuille de route D3 §7.4)
+q_aggravation;evolution;;;;;boiterie,ne_mange_plus,vomissements,diarrhee,toux,ecoulement_yeux_nez,plaie_petite,grattage_intense,puces_tiques,probleme_oreille;non;320;siveye;Èske l ap vin pi mal ?;TRD §6.2 (évolution);brouillon;Toute aggravation → 🟠

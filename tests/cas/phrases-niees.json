@@ -1,0 +1,92 @@
+[
+  {
+    "id": "bp_0026",
+    "symptomId": "difficulte_respirer",
+    "text": "li respire byen"
+  },
+  {
+    "id": "bp_0027",
+    "symptomId": "difficulte_respirer",
+    "text": "li pa gen pwoblèm pou l respire"
+  },
+  {
+    "id": "bp_0044",
+    "symptomId": "respiration_bouche_ouverte_chat",
+    "text": "chat la ap dòmi bouch li fèmen"
+  },
+  {
+    "id": "bp_0056",
+    "symptomId": "gencives_pales_bleues",
+    "text": "jansiv li wouj nòmal"
+  },
+  {
+    "id": "bp_0081",
+    "symptomId": "effondrement_inconscient",
+    "text": "chen m nan leve kanpe apre l fin tonbe"
+  },
+  {
+    "id": "bp_0104",
+    "symptomId": "incapable_se_lever",
+    "text": "chat la kanpe epi l ap mache nòmal"
+  },
+  {
+    "id": "bp_0130",
+    "symptomId": "convulsions",
+    "text": "chat mwen an pa janm fè kriz"
+  },
+  {
+    "id": "bp_0149",
+    "symptomId": "tremblements_actifs",
+    "text": "chen an pa tranble"
+  },
+  {
+    "id": "bp_0172",
+    "symptomId": "ne_peut_pas_uriner",
+    "text": "chat la pipi nòmal"
+  },
+  {
+    "id": "bp_0207",
+    "symptomId": "ventre_gonfle_douloureux",
+    "text": "vant li mou nòmal"
+  },
+  {
+    "id": "bp_0224",
+    "symptomId": "vomit_sang",
+    "text": "pa gen san nan vomisman an"
+  },
+  {
+    "id": "bp_0242",
+    "symptomId": "diarrhee_sang",
+    "text": "pa gen san nan dyare a"
+  },
+  {
+    "id": "bp_0272",
+    "symptomId": "saignement_important",
+    "text": "li pa senyen"
+  },
+  {
+    "id": "bp_0522",
+    "symptomId": "boiterie",
+    "text": "bèt la pa bwete"
+  },
+  {
+    "id": "bp_0543",
+    "symptomId": "ne_mange_plus",
+    "text": "chen an manje byen"
+  },
+  {
+    "id": "bp_0560",
+    "symptomId": "vomissements",
+    "text": "chat la pa vomi"
+  },
+  {
+    "id": "bp_0579",
+    "symptomId": "diarrhee",
+    "text": "chat la pa gen dyare"
+  },
+  {
+    "id": "bp_0689",
+    "symptomId": "toux",
+    "text": "chen an pa touse"
+  }
+]

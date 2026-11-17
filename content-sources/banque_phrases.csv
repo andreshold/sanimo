@@ -1,789 +1,684 @@
-﻿id;symptome_id;langue;phrase;type;polarite;origine;statut
-bp_0001;difficulte_respirer;ht;chat la gen difikilte pou l respire;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0002;difficulte_respirer;ht;chen an gen difikilte pou l respire;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0003;difficulte_respirer;ht;bèt la pa respire byen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0004;difficulte_respirer;ht;li pa respire byen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0005;difficulte_respirer;ht;l ap respire vit vit;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0006;difficulte_respirer;ht;chen m nan ap respire vit vit;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0007;difficulte_respirer;ht;souf li kout;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0008;difficulte_respirer;ht;l ap souf fò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0009;difficulte_respirer;ht;chat la ap souf fò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0010;difficulte_respirer;ht;chen m nan ap trangle pou l respire;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0011;difficulte_respirer;ht;l ap trangle pou l respire;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0012;difficulte_respirer;ht;vant li ap monte desann vit;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0013;difficulte_respirer;ht;li pa ka pran souf li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0014;difficulte_respirer;ht;chen m nan ap fè bri lè l ap respire;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0015;difficulte_respirer;ht;chen an ap fè bri lè l ap respire;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0016;difficulte_respirer;ht;li gen difikilte pou l respire depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0017;difficulte_respirer;ht;li pa respire byen depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0018;difficulte_respirer;ht;souf li kout depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0019;difficulte_respirer;ht;vant li ap monte desann vit depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0020;difficulte_respirer;ht;bet la gen difikilte pou l respire;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0021;difficulte_respirer;ht;lap souf fo;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0022;difficulte_respirer;fr;il respire mal;base;pos;IA;brouillon
-bp_0023;difficulte_respirer;fr;il a du mal à respirer;base;pos;IA;brouillon
-bp_0024;difficulte_respirer;fr;il est essoufflé;base;pos;IA;brouillon
-bp_0025;difficulte_respirer;fr;il respire très vite;base;pos;IA;brouillon
-bp_0026;difficulte_respirer;ht;li respire byen;negation;neg;IA;brouillon
-bp_0027;difficulte_respirer;ht;li pa gen pwoblèm pou l respire;negation;neg;IA;brouillon
-bp_0028;respiration_bouche_ouverte_chat;ht;chat mwen an ap respire ak bouch li louvri;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0029;respiration_bouche_ouverte_chat;ht;bèt la ap respire ak bouch li louvri;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0030;respiration_bouche_ouverte_chat;ht;bèt la ap louvri bouch li pou l respire;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0031;respiration_bouche_ouverte_chat;ht;chat la ap louvri bouch li pou l respire;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0032;respiration_bouche_ouverte_chat;ht;chat la ap souf ak lang li deyò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0033;respiration_bouche_ouverte_chat;ht;chat la ap ranse tankou yon chen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0034;respiration_bouche_ouverte_chat;ht;ti chat la ap ranse tankou yon chen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0035;respiration_bouche_ouverte_chat;ht;bouch li rete louvri l ap respire;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0036;respiration_bouche_ouverte_chat;ht;chat la ap souf ak lang li deyò depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0037;respiration_bouche_ouverte_chat;ht;chat la ap louvri bouch li pou l respire depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0038;respiration_bouche_ouverte_chat;ht;chat mwen an ap respire ak bouch li louvri toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0039;respiration_bouche_ouverte_chat;ht;bouch li rete louvri l ap respire kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0040;respiration_bouche_ouverte_chat;ht;ti chat la ap ranse tankou yon chyen;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0041;respiration_bouche_ouverte_chat;ht;bouch li rete louvri lap respire;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0042;respiration_bouche_ouverte_chat;fr;le chat respire la bouche ouverte;base;pos;IA;brouillon
-bp_0043;respiration_bouche_ouverte_chat;fr;mon chat halète comme un chien;base;pos;IA;brouillon
-bp_0044;respiration_bouche_ouverte_chat;ht;chat la ap dòmi bouch li fèmen;negation;neg;IA;brouillon
-bp_0045;gencives_pales_bleues;ht;jansiv li blan;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0046;gencives_pales_bleues;ht;jansiv li ble;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0047;gencives_pales_bleues;ht;jansiv li vyolèt;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0048;gencives_pales_bleues;ht;jansiv li vin pal;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0049;gencives_pales_bleues;ht;anndan bouch li blan;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0050;gencives_pales_bleues;ht;lang li ble;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0051;gencives_pales_bleues;ht;jansiv li pa wouj ankò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0052;gencives_pales_bleues;ht;jansiv li vyolet;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0053;gencives_pales_bleues;fr;ses gencives sont blanches;base;pos;IA;brouillon
-bp_0054;gencives_pales_bleues;fr;ses gencives sont bleues;base;pos;IA;brouillon
-bp_0055;gencives_pales_bleues;fr;sa langue est violette;base;pos;IA;brouillon
-bp_0056;gencives_pales_bleues;ht;jansiv li wouj nòmal;negation;neg;IA;brouillon
-bp_0057;effondrement_inconscient;ht;bèt la tonbe atè;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0058;effondrement_inconscient;ht;chat la tonbe atè;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0059;effondrement_inconscient;ht;chen m nan endispoze;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0060;effondrement_inconscient;ht;li endispoze;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0061;effondrement_inconscient;ht;li pa reponn lè m rele l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0062;effondrement_inconscient;ht;chen m nan pa reponn lè m rele l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0063;effondrement_inconscient;ht;bèt la tonbe san konesans;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0064;effondrement_inconscient;ht;chen an tonbe san konesans;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0065;effondrement_inconscient;ht;chat la pèdi konesans;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0066;effondrement_inconscient;ht;chen an pèdi konesans;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0067;effondrement_inconscient;ht;bèt la kouche la li pa bouje;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0068;effondrement_inconscient;ht;chat mwen an kouche la li pa bouje;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0069;effondrement_inconscient;ht;li sanble l mouri;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0070;effondrement_inconscient;ht;chat mwen an sanble l mouri;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0071;effondrement_inconscient;ht;chen m nan tonbe li pa leve;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0072;effondrement_inconscient;ht;chat mwen an tonbe li pa leve;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0073;effondrement_inconscient;ht;chen m nan kouche la li pa bouje toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0074;effondrement_inconscient;ht;chen m nan pa reponn lè m rele l toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0075;effondrement_inconscient;ht;li tonbe li pa leve depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0076;effondrement_inconscient;ht;chat la sanble l mouri toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0077;effondrement_inconscient;ht;chat la tonbe ate;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0078;effondrement_inconscient;fr;il s'est effondré;base;pos;IA;brouillon
-bp_0079;effondrement_inconscient;fr;il ne répond plus;base;pos;IA;brouillon
-bp_0080;effondrement_inconscient;fr;il a perdu connaissance;base;pos;IA;brouillon
-bp_0081;effondrement_inconscient;ht;chen m nan leve kanpe apre l fin tonbe;negation;neg;IA;brouillon
-bp_0082;incapable_se_lever;ht;chat mwen an pa ka kanpe;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0083;incapable_se_lever;ht;bèt la pa ka kanpe;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0084;incapable_se_lever;ht;chat la pa ka leve;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0085;incapable_se_lever;ht;bèt la pa ka leve;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0086;incapable_se_lever;ht;pye dèyè l pa mache;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0087;incapable_se_lever;ht;chat mwen an ap trennen pye l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0088;incapable_se_lever;ht;chat la ap trennen pye l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0089;incapable_se_lever;ht;pye l mouri;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0090;incapable_se_lever;ht;li pa ka mache ankò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0091;incapable_se_lever;ht;bèt la pa ka mache ankò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0092;incapable_se_lever;ht;li paralize;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0093;incapable_se_lever;ht;kò l mou, li pa ka kanpe;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0094;incapable_se_lever;ht;bèt la pa ka mache ankò depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0095;incapable_se_lever;ht;chen an pa ka leve sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0096;incapable_se_lever;ht;pye l mouri depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0097;incapable_se_lever;ht;bèt la pa ka kanpe jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0098;incapable_se_lever;ht;ko l mou, li pa ka kanpe;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0099;incapable_se_lever;ht;bet la pa ka kanpe;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0100;incapable_se_lever;ht;chyen mnan pa ka leve;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0101;incapable_se_lever;fr;il n'arrive plus à se lever;base;pos;IA;brouillon
-bp_0102;incapable_se_lever;fr;ses pattes arrière ne marchent plus;base;pos;IA;brouillon
-bp_0103;incapable_se_lever;fr;il est paralysé;base;pos;IA;brouillon
-bp_0104;incapable_se_lever;ht;chat la kanpe epi l ap mache nòmal;negation;neg;IA;brouillon
-bp_0105;convulsions;ht;chen an fè kriz;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0106;convulsions;ht;bèt la fè kriz;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0107;convulsions;ht;chen m nan pran kriz;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0108;convulsions;ht;chat la pran kriz;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0109;convulsions;ht;chat mwen an fè malkadi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0110;convulsions;ht;bèt la fè malkadi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0111;convulsions;ht;kò l ap sakade;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0112;convulsions;ht;kò l ap tòde;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0113;convulsions;ht;chat la tonbe l ap souke kò l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0114;convulsions;ht;bèt la tonbe l ap souke kò l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0115;convulsions;ht;chen an ap kimen nan bouch;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0116;convulsions;ht;chat mwen an ap kimen nan bouch;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0117;convulsions;ht;pye l ap pedale san kontwòl;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0118;convulsions;ht;li rèd epi l ap tranble;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0119;convulsions;ht;chen an rèd epi l ap tranble;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0120;convulsions;ht;li fè malkadi toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0121;convulsions;ht;kò l ap sakade depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0122;convulsions;ht;chat la tonbe l ap souke kò l sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0123;convulsions;ht;li pran kriz depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0124;convulsions;ht;chyen mnan ap kimen nan bouch;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0125;convulsions;ht;chat la tonbe lap souke ko l;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0126;convulsions;ht;ko lap tode;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0127;convulsions;fr;il fait des convulsions;base;pos;IA;brouillon
-bp_0128;convulsions;fr;il a fait une crise;base;pos;IA;brouillon
-bp_0129;convulsions;fr;il est tombé et il tremble de partout;base;pos;IA;brouillon
-bp_0130;convulsions;ht;chat mwen an pa janm fè kriz;negation;neg;IA;brouillon
-bp_0131;tremblements_actifs;ht;chen m nan ap tranble;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0132;tremblements_actifs;ht;chat mwen an ap tranble;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0133;tremblements_actifs;ht;kò l ap tranble san rete;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0134;tremblements_actifs;ht;chat mwen an gen tranbleman;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0135;tremblements_actifs;ht;li gen tranbleman;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0136;tremblements_actifs;ht;bèt la ap tranble fò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0137;tremblements_actifs;ht;chen m nan ap tranble fò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0138;tremblements_actifs;ht;tèt li ap tranble;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0139;tremblements_actifs;ht;bèt la ap tranble tankou l frèt;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0140;tremblements_actifs;ht;chat mwen an ap tranble tankou l frèt;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0141;tremblements_actifs;ht;chat mwen an ap tranble fò jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0142;tremblements_actifs;ht;l ap tranble tankou l frèt depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0143;tremblements_actifs;ht;l ap tranble depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0144;tremblements_actifs;ht;kò l ap tranble san rete depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0145;tremblements_actifs;ht;lap tranble;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0146;tremblements_actifs;ht;chyen mnan ap tranble tankou l fret;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0147;tremblements_actifs;fr;il tremble sans arrêt;base;pos;IA;brouillon
-bp_0148;tremblements_actifs;fr;il a des tremblements;base;pos;IA;brouillon
-bp_0149;tremblements_actifs;ht;chen an pa tranble;negation;neg;IA;brouillon
-bp_0150;ne_peut_pas_uriner;ht;chen m nan pa ka pipi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0151;ne_peut_pas_uriner;ht;li pa ka pipi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0152;ne_peut_pas_uriner;ht;chat la ap fòse pou l pipi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0153;ne_peut_pas_uriner;ht;chen m nan ap fòse pou l pipi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0154;ne_peut_pas_uriner;ht;pipi a pa soti;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0155;ne_peut_pas_uriner;ht;l ap pouse men anyen pa soti;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0156;ne_peut_pas_uriner;ht;chat mwen an ap pouse men anyen pa soti;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0157;ne_peut_pas_uriner;ht;chen an ale nan sab la men li pa fè anyen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0158;ne_peut_pas_uriner;ht;chen m nan ale nan sab la men li pa fè anyen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0159;ne_peut_pas_uriner;ht;se kèk gout pipi sèlman ki soti;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0160;ne_peut_pas_uriner;ht;bèt la ap kriye lè l ap eseye pipi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0161;ne_peut_pas_uriner;ht;chen an ap kriye lè l ap eseye pipi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0162;ne_peut_pas_uriner;ht;li pa pipi depi ayè;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0163;ne_peut_pas_uriner;ht;bèt la ale nan sab la men li pa fè anyen depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0164;ne_peut_pas_uriner;ht;pipi a pa soti toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0165;ne_peut_pas_uriner;ht;li pa pipi depi ayè toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0166;ne_peut_pas_uriner;ht;bèt la ap kriye lè l ap eseye pipi sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0167;ne_peut_pas_uriner;ht;chat mwen an ap fose pou l pipi;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0168;ne_peut_pas_uriner;ht;li pa pipi depi aye;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0169;ne_peut_pas_uriner;fr;il n'arrive pas à uriner;base;pos;IA;brouillon
-bp_0170;ne_peut_pas_uriner;fr;il pousse mais rien ne sort;base;pos;IA;brouillon
-bp_0171;ne_peut_pas_uriner;fr;mon chat ne fait plus pipi;base;pos;IA;brouillon
-bp_0172;ne_peut_pas_uriner;ht;chat la pipi nòmal;negation;neg;IA;brouillon
-bp_0173;efforts_vomir_sans_resultat;ht;bèt la ap eseye vomi men anyen pa soti;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0174;efforts_vomir_sans_resultat;ht;chen an ap eseye vomi men anyen pa soti;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0175;efforts_vomir_sans_resultat;ht;chen m nan ap fè efò pou l vomi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0176;efforts_vomir_sans_resultat;ht;l ap fè efò pou l vomi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0177;efforts_vomir_sans_resultat;ht;chen an ap vomi vid;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0178;efforts_vomir_sans_resultat;ht;chen m nan ap vomi vid;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0179;efforts_vomir_sans_resultat;ht;se kim sèlman ki soti;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0180;efforts_vomir_sans_resultat;ht;chat la ap ranje pou l vomi men li pa vomi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0181;efforts_vomir_sans_resultat;ht;chen an ap ranje pou l vomi men li pa vomi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0182;efforts_vomir_sans_resultat;ht;chat mwen an ap rale tankou l pral vomi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0183;efforts_vomir_sans_resultat;ht;chen m nan ap rale tankou l pral vomi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0184;efforts_vomir_sans_resultat;ht;l ap eseye vomi men anyen pa soti sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0185;efforts_vomir_sans_resultat;ht;chen m nan ap ranje pou l vomi men li pa vomi kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0186;efforts_vomir_sans_resultat;ht;chen an ap vomi vid kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0187;efforts_vomir_sans_resultat;ht;se kim sèlman ki soti depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0188;efforts_vomir_sans_resultat;ht;chyen an ap rale tankou l pral vomi;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0189;efforts_vomir_sans_resultat;ht;chyen mnan ap vomi vid;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0190;efforts_vomir_sans_resultat;fr;il essaie de vomir mais rien ne sort;base;pos;IA;brouillon
-bp_0191;efforts_vomir_sans_resultat;fr;il a des haut-le-cœur;base;pos;IA;brouillon
-bp_0192;ventre_gonfle_douloureux;ht;vant li gonfle;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0193;ventre_gonfle_douloureux;ht;vant li di;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0194;ventre_gonfle_douloureux;ht;vant li anfle;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0195;ventre_gonfle_douloureux;ht;vant li fè l mal lè m manyen l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0196;ventre_gonfle_douloureux;ht;vant li vin gwo toudenkou;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0197;ventre_gonfle_douloureux;ht;vant li sere tankou tanbou;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0198;ventre_gonfle_douloureux;ht;chen an pa vle m touche vant li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0199;ventre_gonfle_douloureux;ht;chat mwen an pa vle m touche vant li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0200;ventre_gonfle_douloureux;ht;chen m nan pa vle m touche vant li toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0201;ventre_gonfle_douloureux;ht;vant li fè l mal lè m manyen l depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0202;ventre_gonfle_douloureux;ht;vant li di sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0203;ventre_gonfle_douloureux;ht;vant li vin gwo toudenkou sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0204;ventre_gonfle_douloureux;fr;son ventre est gonflé;base;pos;IA;brouillon
-bp_0205;ventre_gonfle_douloureux;fr;il a le ventre dur;base;pos;IA;brouillon
-bp_0206;ventre_gonfle_douloureux;fr;il a mal au ventre;base;pos;IA;brouillon
-bp_0207;ventre_gonfle_douloureux;ht;vant li mou nòmal;negation;neg;IA;brouillon
-bp_0208;vomit_sang;ht;chat la vomi san;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0209;vomit_sang;ht;li vomi san;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0210;vomit_sang;ht;gen san nan vomisman an;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0211;vomit_sang;ht;chen an vomi yon bagay wouj;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0212;vomit_sang;ht;li vomi yon bagay wouj;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0213;vomit_sang;ht;chen an vomi bagay nwa tankou kafe;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0214;vomit_sang;ht;bèt la vomi bagay nwa tankou kafe;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0215;vomit_sang;ht;gen san nan vomisman an depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0216;vomit_sang;ht;bèt la vomi bagay nwa tankou kafe kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0217;vomit_sang;ht;chat mwen an vomi san depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0218;vomit_sang;ht;chat mwen an vomi yon bagay wouj depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0219;vomit_sang;ht;bet la vomi bagay nwa tankou kafe;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0220;vomit_sang;ht;chyen an vomi yon bagay wouj;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0221;vomit_sang;ht;bet la vomi san;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0222;vomit_sang;fr;il vomit du sang;base;pos;IA;brouillon
-bp_0223;vomit_sang;fr;il a vomi quelque chose de rouge;base;pos;IA;brouillon
-bp_0224;vomit_sang;ht;pa gen san nan vomisman an;negation;neg;IA;brouillon
-bp_0225;diarrhee_sang;ht;chat la gen dyare ak san;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0226;diarrhee_sang;ht;li gen dyare ak san;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0227;diarrhee_sang;ht;gen san nan poupou l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0228;diarrhee_sang;ht;poupou l wouj;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0229;diarrhee_sang;ht;poupou l nwa tankou goudwon;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0230;diarrhee_sang;ht;chat mwen an ap fè san;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0231;diarrhee_sang;ht;bèt la ap fè san;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0232;diarrhee_sang;ht;vantmennen ak san;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0233;diarrhee_sang;ht;tata l gen san;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0234;diarrhee_sang;ht;poupou l nwa tankou goudwon depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0235;diarrhee_sang;ht;tata l gen san depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0236;diarrhee_sang;ht;chen m nan gen dyare ak san toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0237;diarrhee_sang;ht;gen san nan poupou l depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0238;diarrhee_sang;ht;chat mwen an ap fe san;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0239;diarrhee_sang;fr;il a de la diarrhée avec du sang;base;pos;IA;brouillon
-bp_0240;diarrhee_sang;fr;ses selles sont noires;base;pos;IA;brouillon
-bp_0241;diarrhee_sang;fr;il y a du sang dans ses selles;base;pos;IA;brouillon
-bp_0242;diarrhee_sang;ht;pa gen san nan dyare a;negation;neg;IA;brouillon
-bp_0243;vomissements_repetes;ht;chen m nan ap vomi san rete;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0244;vomissements_repetes;ht;chen an ap vomi san rete;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0245;vomissements_repetes;ht;li vomi plizyè fwa;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0246;vomissements_repetes;ht;chat mwen an vomi plizyè fwa;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0247;vomissements_repetes;ht;chat mwen an vomi tout sa l manje;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0248;vomissements_repetes;ht;li vomi tout sa l manje;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0249;vomissements_repetes;ht;chen m nan pa kenbe anyen nan vant li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0250;vomissements_repetes;ht;chen an pa kenbe anyen nan vant li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0251;vomissements_repetes;ht;chak fwa l bwè dlo li vomi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0252;vomissements_repetes;ht;bèt la vomi senk fwa jodi a;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0253;vomissements_repetes;ht;chen an vomi senk fwa jodi a;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0254;vomissements_repetes;ht;chat la vomi plizyè fwa depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0255;vomissements_repetes;ht;chen an ap vomi san rete kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0256;vomissements_repetes;ht;chat la vomi tout sa l manje depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0257;vomissements_repetes;ht;chak fwa l bwè dlo li vomi depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0258;vomissements_repetes;ht;chyen mnan vomi tout sa l manje;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0259;vomissements_repetes;ht;chyen mnan pa kenbe anyen nan vant li;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0260;vomissements_repetes;fr;il vomit sans arrêt;base;pos;IA;brouillon
-bp_0261;vomissements_repetes;fr;il ne garde rien;base;pos;IA;brouillon
-bp_0262;vomissements_repetes;fr;il a vomi plusieurs fois;base;pos;IA;brouillon
-bp_0263;saignement_important;ht;bèt la ap senyen anpil;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0264;saignement_important;ht;chen m nan ap senyen anpil;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0265;saignement_important;ht;san an pa vle rete;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0266;saignement_important;ht;san ap koule anpil;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0267;saignement_important;ht;chen an pèdi anpil san;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0268;saignement_important;ht;chen m nan pèdi anpil san;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0269;saignement_important;ht;chyen mnan ap senyen anpil;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0270;saignement_important;fr;il saigne beaucoup;base;pos;IA;brouillon
-bp_0271;saignement_important;fr;le sang ne s'arrête pas;base;pos;IA;brouillon
-bp_0272;saignement_important;ht;li pa senyen;negation;neg;IA;brouillon
-bp_0273;plaie_profonde_os;ht;li gen yon gwo blesi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0274;plaie_profonde_os;ht;m wè zo a;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0275;plaie_profonde_os;ht;zo a soti deyò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0276;plaie_profonde_os;ht;blese a fon anpil;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0277;plaie_profonde_os;ht;pye l kase m wè zo a;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0278;plaie_profonde_os;ht;m we zo a;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0279;plaie_profonde_os;ht;pye l kase m we zo a;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0280;plaie_profonde_os;fr;il a une plaie profonde;base;pos;IA;brouillon
-bp_0281;plaie_profonde_os;fr;on voit l'os;base;pos;IA;brouillon
-bp_0282;accident_chute;ht;yon machin frape li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0283;accident_chute;ht;yon machin frape chen m nan;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0284;accident_chute;ht;yon moto frape li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0285;accident_chute;ht;yon moto frape chat la;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0286;accident_chute;ht;chat mwen an tonbe soti sou do kay la;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0287;accident_chute;ht;chen m nan tonbe soti sou do kay la;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0288;accident_chute;ht;chen m nan fè aksidan;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0289;accident_chute;ht;chat mwen an fè aksidan;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0290;accident_chute;ht;yon kamyon pase sou li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0291;accident_chute;ht;bèt la tonbe soti wo;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0292;accident_chute;ht;li tonbe soti wo;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0293;accident_chute;ht;yon kamyon pase sou li depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0294;accident_chute;ht;yon machin frape li depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0295;accident_chute;ht;yon moto frape bèt la depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0296;accident_chute;ht;li tonbe soti wo depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0297;accident_chute;ht;chat mwen an fe aksidan;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0298;accident_chute;ht;yon moto frape bet la;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0299;accident_chute;fr;il a été renversé par une voiture;base;pos;IA;brouillon
-bp_0300;accident_chute;fr;une moto l'a heurté;base;pos;IA;brouillon
-bp_0301;accident_chute;fr;il est tombé du toit;base;pos;IA;brouillon
-bp_0302;brulure_grave;ht;chen m nan boule;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0303;brulure_grave;ht;chat mwen an boule;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0304;brulure_grave;ht;dlo cho tonbe sou li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0305;brulure_grave;ht;dife boule l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0306;brulure_grave;ht;bèt la chode;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0307;brulure_grave;ht;chen m nan chode;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0308;brulure_grave;ht;po l boule;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0309;brulure_grave;ht;dlo cho tonbe sou li depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0310;brulure_grave;ht;dife boule l depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0311;brulure_grave;ht;bèt la chode toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0312;brulure_grave;ht;chat la boule depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0313;brulure_grave;fr;il s'est brûlé;base;pos;IA;brouillon
-bp_0314;brulure_grave;fr;de l'eau bouillante est tombée sur lui;base;pos;IA;brouillon
-bp_0315;coup_chaleur;ht;li cho anpil;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0316;coup_chaleur;ht;chen an cho anpil;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0317;coup_chaleur;ht;chat mwen an ap souf fò apre l te nan solèy la;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0318;coup_chaleur;ht;chat la ap souf fò apre l te nan solèy la;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0319;coup_chaleur;ht;chen an fèb, li te rete nan chalè a;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0320;coup_chaleur;ht;chat la fèb, li te rete nan chalè a;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0321;coup_chaleur;ht;chen an pa ka kanpe apre l fin kouri nan solèy;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0322;coup_chaleur;ht;bèt la pa ka kanpe apre l fin kouri nan solèy;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0323;coup_chaleur;ht;lang li pandye l ap ranse anpil;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0324;coup_chaleur;ht;kò l cho tankou dife;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0325;coup_chaleur;ht;chen an ap souf fò apre l te nan solèy la depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0326;coup_chaleur;ht;chen an cho anpil jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0327;coup_chaleur;ht;chen m nan pa ka kanpe apre l fin kouri nan solèy jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0328;coup_chaleur;ht;kò l cho tankou dife jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0329;coup_chaleur;ht;lap souf fo apre l te nan soley la;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0330;coup_chaleur;ht;chat mwen an feb, li te rete nan chale a;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0331;coup_chaleur;ht;lang li pandye lap ranse anpil;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0332;coup_chaleur;fr;il a eu un coup de chaleur;base;pos;IA;brouillon
-bp_0333;coup_chaleur;fr;il halète très fort après le soleil;base;pos;IA;brouillon
-bp_0334;mise_bas_difficile;ht;li pa ka mete pitit li deyò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0335;mise_bas_difficile;ht;l ap pouse men ti pitit la pa soti;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0336;mise_bas_difficile;ht;li gen difikilte pou l fè pitit;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0337;mise_bas_difficile;ht;yon ti pitit kole;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0338;mise_bas_difficile;ht;l ap travay depi lontan e okenn pa soti;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0339;mise_bas_difficile;ht;li pa ka mete pitit li deyò depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0340;mise_bas_difficile;ht;li gen difikilte pou l fè pitit kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0341;mise_bas_difficile;ht;yon ti pitit kole sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0342;mise_bas_difficile;ht;l ap pouse men ti pitit la pa soti depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0343;mise_bas_difficile;ht;li pa ka mete pitit li deyo;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0344;mise_bas_difficile;ht;lap pouse men ti pitit la pa soti;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0345;mise_bas_difficile;ht;lap travay depi lontan e okenn pa soti;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0346;mise_bas_difficile;fr;elle n'arrive pas à mettre bas;base;pos;IA;brouillon
-bp_0347;mise_bas_difficile;fr;un petit est coincé;base;pos;IA;brouillon
-bp_0348;organe_sorti;ht;gen yon bagay ki soti nan dèyè l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0349;organe_sorti;ht;trip li soti deyò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0350;organe_sorti;ht;yon bagay wouj ap pandye nan dèyè l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0351;organe_sorti;ht;gen yon bagay ki soti nan deye l;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0352;organe_sorti;ht;yon bagay wouj ap pandye nan deye l;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0353;organe_sorti;ht;trip li soti deyo;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0354;organe_sorti;fr;quelque chose sort de son derrière;base;pos;IA;brouillon
-bp_0355;organe_sorti;fr;un organe sort;base;pos;IA;brouillon
-bp_0356;etouffement;ht;chat la toufe;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0357;etouffement;ht;bèt la toufe;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0358;etouffement;ht;yon zo kole nan gòj li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0359;etouffement;ht;chen an ap toufe;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0360;etouffement;ht;chen m nan ap toufe;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0361;etouffement;ht;chen m nan vale yon bagay ki kole;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0362;etouffement;ht;chat mwen an vale yon bagay ki kole;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0363;etouffement;ht;bèt la ap grate bouch li ak pat li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0364;etouffement;ht;chat la ap grate bouch li ak pat li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0365;etouffement;ht;li pa ka vale;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0366;etouffement;ht;chat la pa ka vale;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0367;etouffement;ht;chat la toufe depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0368;etouffement;ht;yon zo kole nan gòj li depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0369;etouffement;ht;chat la vale yon bagay ki kole depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0370;etouffement;ht;chen m nan pa ka vale depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0371;etouffement;ht;bet la toufe;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0372;etouffement;ht;lap toufe;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0373;etouffement;fr;il s'étouffe;base;pos;IA;brouillon
-bp_0374;etouffement;fr;un os est coincé dans sa gorge;base;pos;IA;brouillon
-bp_0375;gonflement_visage_piqure;ht;figi l gonfle;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0376;gonflement_visage_piqure;ht;chen m nan anfle apre yon gèp pike l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0377;gonflement_visage_piqure;ht;bèt la anfle apre yon gèp pike l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0378;gonflement_visage_piqure;ht;bouch li gonfle;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0379;gonflement_visage_piqure;ht;je l anfle apre yon bèt pike l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0380;gonflement_visage_piqure;ht;gòj li anfle;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0381;gonflement_visage_piqure;ht;bouch li gonfle depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0382;gonflement_visage_piqure;ht;chat la anfle apre yon gèp pike l depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0383;gonflement_visage_piqure;ht;figi l gonfle depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0384;gonflement_visage_piqure;ht;gòj li anfle sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0385;gonflement_visage_piqure;ht;goj li anfle;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0386;gonflement_visage_piqure;ht;chyen mnan anfle apre yon gep pike l;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0387;gonflement_visage_piqure;ht;je l anfle apre yon bet pike l;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0388;gonflement_visage_piqure;fr;son visage a gonflé;base;pos;IA;brouillon
-bp_0389;gonflement_visage_piqure;fr;une guêpe l'a piqué et il gonfle;base;pos;IA;brouillon
-bp_0390;oeil_sorti;ht;je l soti deyò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0391;oeil_sorti;ht;zye l soti nan twou l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0392;oeil_sorti;ht;je l pete soti;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0393;oeil_sorti;ht;je l soti deyo;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0394;oeil_sorti;fr;son œil est sorti;base;pos;IA;brouillon
-bp_0395;ingestion_toxique;ht;li manje pwazon;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0396;ingestion_toxique;ht;chat mwen an manje pwazon;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0397;ingestion_toxique;ht;chat mwen an manje pwazon rat;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0398;ingestion_toxique;ht;chen m nan manje pwazon rat;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0399;ingestion_toxique;ht;chen m nan manje chokola;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0400;ingestion_toxique;ht;chen an manje chokola;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0401;ingestion_toxique;ht;chen m nan vale yon bagay danjere;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0402;ingestion_toxique;ht;bèt la vale yon bagay danjere;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0403;ingestion_toxique;ht;chen an bwè kleren;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0404;ingestion_toxique;ht;bèt la bwè kleren;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0405;ingestion_toxique;ht;li niche antijèl;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0406;ingestion_toxique;ht;bèt la niche antijèl;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0407;ingestion_toxique;ht;chat mwen an manje yon flè lis;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0408;ingestion_toxique;ht;bèt la manje yon flè lis;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0409;ingestion_toxique;ht;chen m nan manje rezen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0410;ingestion_toxique;ht;bèt la manje rezen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0411;ingestion_toxique;ht;chen m nan manje chiklèt;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0412;ingestion_toxique;ht;chat la manje chiklèt;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0413;ingestion_toxique;ht;chat mwen an bwè yon pwodui netwayaj;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0414;ingestion_toxique;ht;chen an bwè yon pwodui netwayaj;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0415;ingestion_toxique;ht;chen an manje rès manje ak zonyon;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0416;ingestion_toxique;ht;chat la manje rès manje ak zonyon;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0417;ingestion_toxique;ht;li vale yon bagay danjere depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0418;ingestion_toxique;ht;li manje chokola depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0419;ingestion_toxique;ht;chat mwen an manje yon flè lis sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0420;ingestion_toxique;ht;bèt la niche antijèl depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0421;ingestion_toxique;ht;chyen mnan manje pwazon;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0422;ingestion_toxique;ht;chat la manje yon fle lis;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0423;ingestion_toxique;fr;il a mangé du chocolat;base;pos;IA;brouillon
-bp_0424;ingestion_toxique;fr;il a avalé de la mort-aux-rats;base;pos;IA;brouillon
-bp_0425;ingestion_toxique;fr;il a bu de l'antigel;base;pos;IA;brouillon
-bp_0426;medicament_humain_donne;ht;m ba l yon grenn tylenòl;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0427;medicament_humain_donne;ht;m ba l parasetamòl;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0428;medicament_humain_donne;ht;m ba l medikaman pa m;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0429;medicament_humain_donne;ht;chen m nan vale grenn medikaman;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0430;medicament_humain_donne;ht;chen an vale grenn medikaman;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0431;medicament_humain_donne;ht;m ba l aspirin;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0432;medicament_humain_donne;ht;m ba l ibipwofèn;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0433;medicament_humain_donne;ht;m mete remèd pis chen an sou chat la;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0434;medicament_humain_donne;ht;m ba l ibipwofèn depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0435;medicament_humain_donne;ht;m ba l medikaman pa m toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0436;medicament_humain_donne;ht;m ba l yon grenn tylenòl sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0437;medicament_humain_donne;ht;chat la vale grenn medikaman kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0438;medicament_humain_donne;ht;m ba l parasetamol;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0439;medicament_humain_donne;fr;je lui ai donné du paracétamol;base;pos;IA;brouillon
-bp_0440;medicament_humain_donne;fr;il a avalé mes médicaments;base;pos;IA;brouillon
-bp_0441;signes_rage;ht;chat la vin mechan toudenkou;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0442;signes_rage;ht;chen an vin mechan toudenkou;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0443;signes_rage;ht;l ap bave anpil;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0444;signes_rage;ht;chat la ap bave anpil;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0445;signes_rage;ht;bèt la ap mòde tout moun;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0446;signes_rage;ht;l ap mòde tout moun;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0447;signes_rage;ht;machwè l pandye;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0448;signes_rage;ht;bèt la pa ka vale dlo;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0449;signes_rage;ht;chat la pa ka vale dlo;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0450;signes_rage;ht;chen m nan ap mache tankou l sou;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0451;signes_rage;ht;chen an ap mache tankou l sou;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0452;signes_rage;ht;chen an pa pè moun ankò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0453;signes_rage;ht;chen m nan pa pè moun ankò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0454;signes_rage;ht;li pa pè moun ankò depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0455;signes_rage;ht;bèt la vin mechan toudenkou depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0456;signes_rage;ht;bèt la ap mache tankou l sou depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0457;signes_rage;ht;chat la ap mòde tout moun sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0458;signes_rage;ht;chyen mnan ap mache tankou l sou;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0459;signes_rage;ht;chyen mnan ap bave anpil;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0460;signes_rage;ht;chyen an vin mechan toudenkou;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0461;signes_rage;fr;il est devenu agressif d'un coup;base;pos;IA;brouillon
-bp_0462;signes_rage;fr;il bave beaucoup;base;pos;IA;brouillon
-bp_0463;signes_rage;fr;il n'arrive pas à avaler;base;pos;IA;brouillon
-bp_0464;chiot_vomit_diarrhee;ht;ti chen an ap vomi epi l gen dyare;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0465;chiot_vomit_diarrhee;ht;ti chen an gen vantmennen epi l ap vomi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0466;chiot_vomit_diarrhee;ht;ti chen m nan pa manje, l ap vomi, l gen dyare;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0467;chiot_vomit_diarrhee;ht;pitit chen an ap fè dyare ak vomisman;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0468;chiot_vomit_diarrhee;ht;pitit chen an ap fè dyare ak vomisman depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0469;chiot_vomit_diarrhee;ht;ti chen an gen vantmennen epi l ap vomi depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0470;chiot_vomit_diarrhee;ht;ti chen m nan pa manje, l ap vomi, l gen dyare depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0471;chiot_vomit_diarrhee;ht;ti chen an ap vomi epi l gen dyare depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0472;chiot_vomit_diarrhee;ht;ti chyen an ap vomi epi l gen dyare;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0473;chiot_vomit_diarrhee;ht;ti chyen mnan pa manje, lap vomi, l gen dyare;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0474;chiot_vomit_diarrhee;ht;pitit chyen an ap fe dyare ak vomisman;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0475;chiot_vomit_diarrhee;fr;mon chiot vomit et a la diarrhée;base;pos;IA;brouillon
-bp_0476;oeil_douloureux_ferme;ht;je l wouj;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0477;oeil_douloureux_ferme;ht;chen an kenbe yon je fèmen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0478;oeil_douloureux_ferme;ht;chat la kenbe yon je fèmen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0479;oeil_douloureux_ferme;ht;je l ap koule epi l fè l mal;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0480;oeil_douloureux_ferme;ht;l ap fwote je l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0481;oeil_douloureux_ferme;ht;bèt la ap fwote je l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0482;oeil_douloureux_ferme;ht;je l vin blan;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0483;oeil_douloureux_ferme;ht;zye l anfle;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0484;oeil_douloureux_ferme;ht;l ap fwote je l depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0485;oeil_douloureux_ferme;ht;je l vin blan depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0486;oeil_douloureux_ferme;ht;je l wouj sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0487;oeil_douloureux_ferme;ht;je l ap koule epi l fè l mal toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0488;oeil_douloureux_ferme;fr;il garde un œil fermé;base;pos;IA;brouillon
-bp_0489;oeil_douloureux_ferme;fr;son œil est rouge;base;pos;IA;brouillon
-bp_0490;boiterie_sans_appui;ht;chat mwen an pa poze pye l atè;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0491;boiterie_sans_appui;ht;bèt la pa poze pye l atè;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0492;boiterie_sans_appui;ht;chat la ap mache sou twa pye;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0493;boiterie_sans_appui;ht;l ap mache sou twa pye;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0494;boiterie_sans_appui;ht;chat la leve pye l li pa mete l atè;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0495;boiterie_sans_appui;ht;chen an leve pye l li pa mete l atè;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0496;boiterie_sans_appui;ht;pye l pandye;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0497;boiterie_sans_appui;ht;bèt la ap mache sou twa pye depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0498;boiterie_sans_appui;ht;bèt la pa poze pye l atè sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0499;boiterie_sans_appui;ht;pye l pandye depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0500;boiterie_sans_appui;ht;li leve pye l li pa mete l atè depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0501;boiterie_sans_appui;ht;chyen mnan leve pye l li pa mete l ate;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0502;boiterie_sans_appui;ht;chyen mnan ap mache sou twa pye;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0503;boiterie_sans_appui;fr;il ne pose plus sa patte;base;pos;IA;brouillon
-bp_0504;boiterie_sans_appui;fr;il marche sur trois pattes;base;pos;IA;brouillon
-bp_0505;boiterie;ht;l ap bwete;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0506;boiterie;ht;bèt la ap bwete;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0507;boiterie;ht;l ap mache kòlòkòlò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0508;boiterie;ht;bèt la ap mache kòlòkòlò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0509;boiterie;ht;pye l fè l mal;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0510;boiterie;ht;chat la gen pwoblèm pou l mache;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0511;boiterie;ht;li gen pwoblèm pou l mache;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0512;boiterie;ht;li pa mache byen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0513;boiterie;ht;bèt la ap mache kòlòkòlò toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0514;boiterie;ht;bèt la gen pwoblèm pou l mache depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0515;boiterie;ht;li pa mache byen depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0516;boiterie;ht;pye l fè l mal depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0517;boiterie;ht;bet la gen pwoblem pou l mache;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0518;boiterie;ht;lap bwete;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0519;boiterie;ht;chyen mnan ap mache kolokolo;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0520;boiterie;fr;il boite;base;pos;IA;brouillon
-bp_0521;boiterie;fr;il a mal à la patte;base;pos;IA;brouillon
-bp_0522;boiterie;ht;bèt la pa bwete;negation;neg;IA;brouillon
-bp_0523;ne_mange_plus;ht;chat la pa manje;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0524;ne_mange_plus;ht;bèt la pa manje;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0525;ne_mange_plus;ht;chen an pa vle manje;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0526;ne_mange_plus;ht;chat mwen an pa vle manje;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0527;ne_mange_plus;ht;li pa gen apeti;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0528;ne_mange_plus;ht;chen m nan pa gen apeti;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0529;ne_mange_plus;ht;li refize manje;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0530;ne_mange_plus;ht;chen an refize manje;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0531;ne_mange_plus;ht;chat mwen an pa touche manje l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0532;ne_mange_plus;ht;chen m nan pa touche manje l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0533;ne_mange_plus;ht;li pa anvi manje;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0534;ne_mange_plus;ht;chat la sispann manje;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0535;ne_mange_plus;ht;chat mwen an sispann manje;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0536;ne_mange_plus;ht;li pa vle manje kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0537;ne_mange_plus;ht;chen an pa touche manje l toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0538;ne_mange_plus;ht;li pa anvi manje jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0539;ne_mange_plus;ht;li pa gen apeti depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0540;ne_mange_plus;ht;bet la pa manje;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0541;ne_mange_plus;fr;il ne mange plus;base;pos;IA;brouillon
-bp_0542;ne_mange_plus;fr;il n'a pas d'appétit;base;pos;IA;brouillon
-bp_0543;ne_mange_plus;ht;chen an manje byen;negation;neg;IA;brouillon
-bp_0544;vomissements;ht;bèt la vomi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0545;vomissements;ht;chat la vomi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0546;vomissements;ht;bèt la vomi yon fwa;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0547;vomissements;ht;chat la vomi yon fwa;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0548;vomissements;ht;li vomi de fwa;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0549;vomissements;ht;chat la vomi de fwa;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0550;vomissements;ht;li gen kè plen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0551;vomissements;ht;li rann manje l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0552;vomissements;ht;chat la rann manje l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0553;vomissements;ht;chat mwen an vomi de fwa depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0554;vomissements;ht;li gen kè plen sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0555;vomissements;ht;chat la vomi kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0556;vomissements;ht;li rann manje l jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0557;vomissements;ht;li gen ke plen;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0558;vomissements;fr;il a vomi;base;pos;IA;brouillon
-bp_0559;vomissements;fr;il a vomi deux fois;base;pos;IA;brouillon
-bp_0560;vomissements;ht;chat la pa vomi;negation;neg;IA;brouillon
-bp_0561;diarrhee;ht;li gen dyare;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0562;diarrhee;ht;chat mwen an gen dyare;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0563;diarrhee;ht;chat mwen an gen vantmennen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0564;diarrhee;ht;chat la gen vantmennen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0565;diarrhee;ht;chat mwen an gen vant pase;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0566;diarrhee;ht;chen an gen vant pase;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0567;diarrhee;ht;poupou l likid;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0568;diarrhee;ht;chen an ap fè tata dlo;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0569;diarrhee;ht;chat la ap fè tata dlo;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0570;diarrhee;ht;vant li ap kouri;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0571;diarrhee;ht;poupou l likid jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0572;diarrhee;ht;l ap fè tata dlo jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0573;diarrhee;ht;chen m nan gen vant pase depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0574;diarrhee;ht;chen an gen dyare depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0575;diarrhee;ht;chyen mnan gen dyare;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0576;diarrhee;ht;chat mwen an ap fe tata dlo;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0577;diarrhee;fr;il a la diarrhée;base;pos;IA;brouillon
-bp_0578;diarrhee;fr;ses selles sont liquides;base;pos;IA;brouillon
-bp_0579;diarrhee;ht;chat la pa gen dyare;negation;neg;IA;brouillon
-bp_0580;abattu_se_cache;ht;bèt la fatige anpil;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0581;abattu_se_cache;ht;li fatige anpil;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0582;abattu_se_cache;ht;chen m nan pa jwe ankò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0583;abattu_se_cache;ht;chen an pa jwe ankò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0584;abattu_se_cache;ht;chen an ap kache;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0585;abattu_se_cache;ht;bèt la ap kache;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0586;abattu_se_cache;ht;bèt la kouche tout jounen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0587;abattu_se_cache;ht;chat la kouche tout jounen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0588;abattu_se_cache;ht;chat la san fòs;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0589;abattu_se_cache;ht;chat mwen an san fòs;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0590;abattu_se_cache;ht;chat la tris;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0591;abattu_se_cache;ht;chat mwen an tris;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0592;abattu_se_cache;ht;bèt la kache anba kabann nan;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0593;abattu_se_cache;ht;chen an kache anba kabann nan;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0594;abattu_se_cache;ht;l ap kache depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0595;abattu_se_cache;ht;chat mwen an kouche tout jounen depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0596;abattu_se_cache;ht;li san fòs depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0597;abattu_se_cache;ht;chen m nan tris toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0598;abattu_se_cache;ht;chat la san fos;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0599;abattu_se_cache;ht;bet la pa jwe anko;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0600;abattu_se_cache;ht;bet la kouche tout jounen;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0601;abattu_se_cache;fr;il est très fatigué;base;pos;IA;brouillon
-bp_0602;abattu_se_cache;fr;il se cache;base;pos;IA;brouillon
-bp_0603;abattu_se_cache;fr;il ne joue plus;base;pos;IA;brouillon
-bp_0604;signes_douleur;ht;chen an ap plenn;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0605;signes_douleur;ht;chen m nan ap plenn;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0606;signes_douleur;ht;chen an ap kriye;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0607;signes_douleur;ht;chat mwen an ap kriye;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0608;signes_douleur;ht;do l bosi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0609;signes_douleur;ht;li pa vle bouje;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0610;signes_douleur;ht;chen an pa vle bouje;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0611;signes_douleur;ht;chat la ap niche menm kote a san rete;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0612;signes_douleur;ht;chen m nan ap niche menm kote a san rete;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0613;signes_douleur;ht;li rele lè m manyen l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0614;signes_douleur;ht;chat la rele lè m manyen l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0615;signes_douleur;ht;chen an gen doulè;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0616;signes_douleur;ht;chat la gen doulè;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0617;signes_douleur;ht;do l bosi jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0618;signes_douleur;ht;bèt la ap niche menm kote a san rete jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0619;signes_douleur;ht;chat mwen an ap kriye depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0620;signes_douleur;ht;chen an ap plenn jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0621;signes_douleur;ht;chat la gen doule;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0622;signes_douleur;ht;chyen mnan ap plenn;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0623;signes_douleur;fr;il gémit;base;pos;IA;brouillon
-bp_0624;signes_douleur;fr;il a mal;base;pos;IA;brouillon
-bp_0625;signes_douleur;fr;il crie quand je le touche;base;pos;IA;brouillon
-bp_0626;changement_litiere_chat;ht;ti chat la ale nan sab la souvan;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0627;changement_litiere_chat;ht;chat la ale nan sab la souvan;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0628;changement_litiere_chat;ht;chat mwen an pipi ti kras chak fwa;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0629;changement_litiere_chat;ht;chat la pipi ti kras chak fwa;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0630;changement_litiere_chat;ht;ti chat la pipi lòt kote;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0631;changement_litiere_chat;ht;chat la pipi lòt kote;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0632;changement_litiere_chat;ht;bèt la pa fè bezwen l nan sab li ankò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0633;changement_litiere_chat;ht;chat mwen an pa fè bezwen l nan sab li ankò;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0634;changement_litiere_chat;ht;pipi l gen san;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0635;changement_litiere_chat;ht;chat mwen an pa fè bezwen l nan sab li ankò depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0636;changement_litiere_chat;ht;pipi l gen san toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0637;changement_litiere_chat;ht;bèt la pipi ti kras chak fwa depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0638;changement_litiere_chat;ht;chat la ale nan sab la souvan jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0639;changement_litiere_chat;ht;chat la pa fe bezwen l nan sab li anko;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0640;changement_litiere_chat;fr;mon chat va souvent à la litière;base;pos;IA;brouillon
-bp_0641;changement_litiere_chat;fr;il urine à côté;base;pos;IA;brouillon
-bp_0642;boit_urine_beaucoup;ht;chen an bwè dlo anpil;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0643;boit_urine_beaucoup;ht;chat mwen an bwè dlo anpil;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0644;boit_urine_beaucoup;ht;chen m nan pipi anpil;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0645;boit_urine_beaucoup;ht;li pipi anpil;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0646;boit_urine_beaucoup;ht;chat mwen an toujou swaf;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0647;boit_urine_beaucoup;ht;bèt la toujou swaf;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0648;boit_urine_beaucoup;ht;li bwè plis pase abitid;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0649;boit_urine_beaucoup;ht;chen m nan bwè plis pase abitid;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0650;boit_urine_beaucoup;ht;chen m nan bwè dlo anpil depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0651;boit_urine_beaucoup;ht;chat mwen an bwè plis pase abitid sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0652;boit_urine_beaucoup;ht;chen an toujou swaf sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0653;boit_urine_beaucoup;ht;chen m nan pipi anpil jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0654;boit_urine_beaucoup;ht;chat la bwe dlo anpil;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0655;boit_urine_beaucoup;ht;chyen mnan bwe plis pase abitid;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0656;boit_urine_beaucoup;ht;chyen mnan toujou swaf;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0657;boit_urine_beaucoup;fr;il boit beaucoup;base;pos;IA;brouillon
-bp_0658;boit_urine_beaucoup;fr;il urine beaucoup;base;pos;IA;brouillon
-bp_0659;perte_poids;ht;chen an ap megri;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0660;perte_poids;ht;bèt la ap megri;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0661;perte_poids;ht;chat la vin mèg;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0662;perte_poids;ht;chen an vin mèg;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0663;perte_poids;ht;m wè zo kòt li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0664;perte_poids;ht;chen m nan pèdi pwa;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0665;perte_poids;ht;li pèdi pwa;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0666;perte_poids;ht;chat la ap megri kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0667;perte_poids;ht;m wè zo kòt li depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0668;perte_poids;ht;bèt la vin mèg depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0669;perte_poids;ht;chen an pèdi pwa depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0670;perte_poids;ht;chat mwen an vin meg;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0671;perte_poids;ht;chat la pedi pwa;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0672;perte_poids;fr;il maigrit;base;pos;IA;brouillon
-bp_0673;perte_poids;fr;il a perdu du poids;base;pos;IA;brouillon
-bp_0674;toux;ht;l ap touse;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0675;toux;ht;chat mwen an ap touse;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0676;toux;ht;chen an gen yon tous;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0677;toux;ht;bèt la gen yon tous;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0678;toux;ht;chat mwen an touse tankou yon bagay kole nan gòj li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0679;toux;ht;bèt la touse tankou yon bagay kole nan gòj li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0680;toux;ht;l ap touse lannwit;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0681;toux;ht;chat la ap touse lannwit;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0682;toux;ht;chen an gen yon tous toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0683;toux;ht;li touse tankou yon bagay kole nan gòj li kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0684;toux;ht;chat mwen an ap touse lannwit jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0685;toux;ht;chat la ap touse jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0686;toux;ht;chyen mnan ap touse;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0687;toux;ht;lap touse lannwit;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0688;toux;fr;il tousse;base;pos;IA;brouillon
-bp_0689;toux;ht;chen an pa touse;negation;neg;IA;brouillon
-bp_0690;ecoulement_yeux_nez;ht;nen l ap koule;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0691;ecoulement_yeux_nez;ht;je l ap koule;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0692;ecoulement_yeux_nez;ht;bèt la ap estènen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0693;ecoulement_yeux_nez;ht;chen an ap estènen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0694;ecoulement_yeux_nez;ht;chat la gen larim nan nen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0695;ecoulement_yeux_nez;ht;chen an gen larim nan nen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0696;ecoulement_yeux_nez;ht;je l plen kaka je;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0697;ecoulement_yeux_nez;ht;je l ap koule depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0698;ecoulement_yeux_nez;ht;chen m nan gen larim nan nen toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0699;ecoulement_yeux_nez;ht;nen l ap koule depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0700;ecoulement_yeux_nez;ht;je l plen kaka je toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0701;ecoulement_yeux_nez;ht;chyen an gen larimnan nen;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0702;ecoulement_yeux_nez;ht;nen lap koule;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0703;ecoulement_yeux_nez;ht;lap estenen;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0704;ecoulement_yeux_nez;fr;son nez coule;base;pos;IA;brouillon
-bp_0705;ecoulement_yeux_nez;fr;il éternue;base;pos;IA;brouillon
-bp_0706;plaie_petite;ht;chen an gen yon ti blese;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0707;plaie_petite;ht;li gen yon ti blese;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0708;plaie_petite;ht;chen m nan grafouye;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0709;plaie_petite;ht;chen an grafouye;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0710;plaie_petite;ht;li gen yon ti koupe;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0711;plaie_petite;ht;bèt la blese pye l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0712;plaie_petite;ht;li blese pye l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0713;plaie_petite;ht;chat mwen an gen yon ti blese kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0714;plaie_petite;ht;chat mwen an blese pye l depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0715;plaie_petite;ht;li grafouye depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0716;plaie_petite;ht;li gen yon ti koupe depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0717;plaie_petite;fr;il a une petite plaie;base;pos;IA;brouillon
-bp_0718;plaie_petite;fr;il s'est égratigné;base;pos;IA;brouillon
-bp_0719;plaie_infectee;ht;blese a anfle;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0720;plaie_infectee;ht;blese a ap koule;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0721;plaie_infectee;ht;blese a santi move;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0722;plaie_infectee;ht;blese a gen pi;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0723;plaie_infectee;ht;chat mwen an gen yon abse;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0724;plaie_infectee;ht;bèt la gen yon abse;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0725;plaie_infectee;ht;blese a santi move depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0726;plaie_infectee;ht;li gen yon abse sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0727;plaie_infectee;ht;blese a ap koule kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0728;plaie_infectee;ht;blese a anfle depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0729;plaie_infectee;fr;sa plaie coule;base;pos;IA;brouillon
-bp_0730;plaie_infectee;fr;sa plaie sent mauvais;base;pos;IA;brouillon
-bp_0731;plaie_infectee;fr;il a un abcès;base;pos;IA;brouillon
-bp_0732;morsure_par_animal;ht;yon chen mòde li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0733;morsure_par_animal;ht;yon chen mòde chat mwen an;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0734;morsure_par_animal;ht;yon chat mòde chat mwen an;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0735;morsure_par_animal;ht;yon chat mòde bèt la;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0736;morsure_par_animal;ht;chen an goumen ak yon lòt chen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0737;morsure_par_animal;ht;chat la goumen ak yon lòt chen;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0738;morsure_par_animal;ht;lòt bèt la mòde l;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0739;morsure_par_animal;ht;lòt bèt la mòde l toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0740;morsure_par_animal;ht;yon chen mòde li jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0741;morsure_par_animal;ht;yon chat mòde chen an jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0742;morsure_par_animal;ht;li goumen ak yon lòt chen jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0743;morsure_par_animal;ht;yon chyen mode li;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0744;morsure_par_animal;ht;yon chat mode chat la;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0745;morsure_par_animal;ht;lot bet la mode l;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0746;morsure_par_animal;fr;un chien l'a mordu;base;pos;IA;brouillon
-bp_0747;morsure_par_animal;fr;il s'est battu;base;pos;IA;brouillon
-bp_0748;grattage_intense;ht;chat mwen an ap grate san rete;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0749;grattage_intense;ht;l ap grate san rete;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0750;grattage_intense;ht;chen m nan gen gratèl;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0751;grattage_intense;ht;chat la gen gratèl;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0752;grattage_intense;ht;pwal li ap tonbe;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0753;grattage_intense;ht;po l vin wouj;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0754;grattage_intense;ht;chat la pèdi pwal;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0755;grattage_intense;ht;chat mwen an pèdi pwal;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0756;grattage_intense;ht;pwal li ap tonbe sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0757;grattage_intense;ht;l ap grate san rete depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0758;grattage_intense;ht;li gen gratèl depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0759;grattage_intense;ht;li pèdi pwal toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0760;grattage_intense;ht;bet la pedi pwal;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0761;grattage_intense;ht;chyen an gen gratel;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0762;grattage_intense;fr;il se gratte sans arrêt;base;pos;IA;brouillon
-bp_0763;grattage_intense;fr;il perd ses poils;base;pos;IA;brouillon
-bp_0764;puces_tiques;ht;bèt la gen pis;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0765;puces_tiques;ht;chen an gen pis;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0766;puces_tiques;ht;li gen karapat;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0767;puces_tiques;ht;chat la gen karapat;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0768;puces_tiques;ht;m wè pis sou li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0769;puces_tiques;ht;karapat plen sou li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0770;puces_tiques;ht;m we pis sou li;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0771;puces_tiques;ht;bet la gen pis;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0772;puces_tiques;fr;il a des puces;base;pos;IA;brouillon
-bp_0773;puces_tiques;fr;il a des tiques;base;pos;IA;brouillon
-bp_0774;probleme_oreille;ht;chat la ap souke tèt li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0775;probleme_oreille;ht;chen m nan ap souke tèt li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0776;probleme_oreille;ht;zòrèy li santi move;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0777;probleme_oreille;ht;l ap grate zòrèy li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0778;probleme_oreille;ht;chen m nan ap grate zòrèy li;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0779;probleme_oreille;ht;zòrèy li sal anpil;base;pos;IA (glossaire et tournures CMU);brouillon
-bp_0780;probleme_oreille;ht;zòrèy li santi move depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0781;probleme_oreille;ht;zòrèy li sal anpil depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0782;probleme_oreille;ht;bèt la ap souke tèt li depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0783;probleme_oreille;ht;chen m nan ap grate zòrèy li kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
-bp_0784;probleme_oreille;ht;zorey li santi move;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0785;probleme_oreille;ht;zorey li sal anpil;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0786;probleme_oreille;ht;chyen mnan ap souke tet li;variante_ortho;pos;dérivée automatiquement;brouillon
-bp_0787;probleme_oreille;fr;il secoue la tête;base;pos;IA;brouillon
-bp_0788;probleme_oreille;fr;son oreille sent mauvais;base;pos;IA;brouillon
+﻿id;symptome_id;phrase;type;polarite;origine;statut
+bp_0001;difficulte_respirer;chat la gen difikilte pou l respire;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0002;difficulte_respirer;chen an gen difikilte pou l respire;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0003;difficulte_respirer;bèt la pa respire byen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0004;difficulte_respirer;li pa respire byen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0005;difficulte_respirer;l ap respire vit vit;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0006;difficulte_respirer;chen m nan ap respire vit vit;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0007;difficulte_respirer;souf li kout;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0008;difficulte_respirer;l ap souf fò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0009;difficulte_respirer;chat la ap souf fò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0010;difficulte_respirer;chen m nan ap trangle pou l respire;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0011;difficulte_respirer;l ap trangle pou l respire;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0012;difficulte_respirer;vant li ap monte desann vit;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0013;difficulte_respirer;li pa ka pran souf li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0014;difficulte_respirer;chen m nan ap fè bri lè l ap respire;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0015;difficulte_respirer;chen an ap fè bri lè l ap respire;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0016;difficulte_respirer;li gen difikilte pou l respire depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0017;difficulte_respirer;li pa respire byen depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0018;difficulte_respirer;souf li kout depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0019;difficulte_respirer;vant li ap monte desann vit depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0020;difficulte_respirer;bet la gen difikilte pou l respire;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0021;difficulte_respirer;lap souf fo;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0026;difficulte_respirer;li respire byen;negation;neg;IA;brouillon
+bp_0027;difficulte_respirer;li pa gen pwoblèm pou l respire;negation;neg;IA;brouillon
+bp_0028;respiration_bouche_ouverte_chat;chat mwen an ap respire ak bouch li louvri;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0029;respiration_bouche_ouverte_chat;bèt la ap respire ak bouch li louvri;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0030;respiration_bouche_ouverte_chat;bèt la ap louvri bouch li pou l respire;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0031;respiration_bouche_ouverte_chat;chat la ap louvri bouch li pou l respire;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0032;respiration_bouche_ouverte_chat;chat la ap souf ak lang li deyò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0033;respiration_bouche_ouverte_chat;chat la ap ranse tankou yon chen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0034;respiration_bouche_ouverte_chat;ti chat la ap ranse tankou yon chen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0035;respiration_bouche_ouverte_chat;bouch li rete louvri l ap respire;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0036;respiration_bouche_ouverte_chat;chat la ap souf ak lang li deyò depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0037;respiration_bouche_ouverte_chat;chat la ap louvri bouch li pou l respire depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0038;respiration_bouche_ouverte_chat;chat mwen an ap respire ak bouch li louvri toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0039;respiration_bouche_ouverte_chat;bouch li rete louvri l ap respire kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0040;respiration_bouche_ouverte_chat;ti chat la ap ranse tankou yon chyen;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0041;respiration_bouche_ouverte_chat;bouch li rete louvri lap respire;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0044;respiration_bouche_ouverte_chat;chat la ap dòmi bouch li fèmen;negation;neg;IA;brouillon
+bp_0045;gencives_pales_bleues;jansiv li blan;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0046;gencives_pales_bleues;jansiv li ble;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0047;gencives_pales_bleues;jansiv li vyolèt;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0048;gencives_pales_bleues;jansiv li vin pal;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0049;gencives_pales_bleues;anndan bouch li blan;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0050;gencives_pales_bleues;lang li ble;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0051;gencives_pales_bleues;jansiv li pa wouj ankò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0052;gencives_pales_bleues;jansiv li vyolet;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0056;gencives_pales_bleues;jansiv li wouj nòmal;negation;neg;IA;brouillon
+bp_0057;effondrement_inconscient;bèt la tonbe atè;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0058;effondrement_inconscient;chat la tonbe atè;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0059;effondrement_inconscient;chen m nan endispoze;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0060;effondrement_inconscient;li endispoze;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0061;effondrement_inconscient;li pa reponn lè m rele l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0062;effondrement_inconscient;chen m nan pa reponn lè m rele l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0063;effondrement_inconscient;bèt la tonbe san konesans;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0064;effondrement_inconscient;chen an tonbe san konesans;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0065;effondrement_inconscient;chat la pèdi konesans;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0066;effondrement_inconscient;chen an pèdi konesans;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0067;effondrement_inconscient;bèt la kouche la li pa bouje;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0068;effondrement_inconscient;chat mwen an kouche la li pa bouje;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0069;effondrement_inconscient;li sanble l mouri;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0070;effondrement_inconscient;chat mwen an sanble l mouri;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0071;effondrement_inconscient;chen m nan tonbe li pa leve;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0072;effondrement_inconscient;chat mwen an tonbe li pa leve;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0073;effondrement_inconscient;chen m nan kouche la li pa bouje toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0074;effondrement_inconscient;chen m nan pa reponn lè m rele l toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0075;effondrement_inconscient;li tonbe li pa leve depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0076;effondrement_inconscient;chat la sanble l mouri toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0077;effondrement_inconscient;chat la tonbe ate;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0081;effondrement_inconscient;chen m nan leve kanpe apre l fin tonbe;negation;neg;IA;brouillon
+bp_0082;incapable_se_lever;chat mwen an pa ka kanpe;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0083;incapable_se_lever;bèt la pa ka kanpe;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0084;incapable_se_lever;chat la pa ka leve;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0085;incapable_se_lever;bèt la pa ka leve;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0086;incapable_se_lever;pye dèyè l pa mache;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0087;incapable_se_lever;chat mwen an ap trennen pye l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0088;incapable_se_lever;chat la ap trennen pye l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0089;incapable_se_lever;pye l mouri;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0090;incapable_se_lever;li pa ka mache ankò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0091;incapable_se_lever;bèt la pa ka mache ankò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0092;incapable_se_lever;li paralize;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0093;incapable_se_lever;kò l mou, li pa ka kanpe;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0094;incapable_se_lever;bèt la pa ka mache ankò depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0095;incapable_se_lever;chen an pa ka leve sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0096;incapable_se_lever;pye l mouri depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0097;incapable_se_lever;bèt la pa ka kanpe jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0098;incapable_se_lever;ko l mou, li pa ka kanpe;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0099;incapable_se_lever;bet la pa ka kanpe;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0100;incapable_se_lever;chyen mnan pa ka leve;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0104;incapable_se_lever;chat la kanpe epi l ap mache nòmal;negation;neg;IA;brouillon
+bp_0105;convulsions;chen an fè kriz;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0106;convulsions;bèt la fè kriz;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0107;convulsions;chen m nan pran kriz;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0108;convulsions;chat la pran kriz;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0109;convulsions;chat mwen an fè malkadi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0110;convulsions;bèt la fè malkadi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0111;convulsions;kò l ap sakade;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0112;convulsions;kò l ap tòde;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0113;convulsions;chat la tonbe l ap souke kò l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0114;convulsions;bèt la tonbe l ap souke kò l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0115;convulsions;chen an ap kimen nan bouch;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0116;convulsions;chat mwen an ap kimen nan bouch;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0117;convulsions;pye l ap pedale san kontwòl;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0118;convulsions;li rèd epi l ap tranble;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0119;convulsions;chen an rèd epi l ap tranble;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0120;convulsions;li fè malkadi toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0121;convulsions;kò l ap sakade depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0122;convulsions;chat la tonbe l ap souke kò l sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0123;convulsions;li pran kriz depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0124;convulsions;chyen mnan ap kimen nan bouch;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0125;convulsions;chat la tonbe lap souke ko l;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0126;convulsions;ko lap tode;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0130;convulsions;chat mwen an pa janm fè kriz;negation;neg;IA;brouillon
+bp_0131;tremblements_actifs;chen m nan ap tranble;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0132;tremblements_actifs;chat mwen an ap tranble;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0133;tremblements_actifs;kò l ap tranble san rete;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0134;tremblements_actifs;chat mwen an gen tranbleman;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0135;tremblements_actifs;li gen tranbleman;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0136;tremblements_actifs;bèt la ap tranble fò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0137;tremblements_actifs;chen m nan ap tranble fò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0138;tremblements_actifs;tèt li ap tranble;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0139;tremblements_actifs;bèt la ap tranble tankou l frèt;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0140;tremblements_actifs;chat mwen an ap tranble tankou l frèt;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0141;tremblements_actifs;chat mwen an ap tranble fò jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0142;tremblements_actifs;l ap tranble tankou l frèt depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0143;tremblements_actifs;l ap tranble depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0144;tremblements_actifs;kò l ap tranble san rete depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0145;tremblements_actifs;lap tranble;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0146;tremblements_actifs;chyen mnan ap tranble tankou l fret;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0149;tremblements_actifs;chen an pa tranble;negation;neg;IA;brouillon
+bp_0150;ne_peut_pas_uriner;chen m nan pa ka pipi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0151;ne_peut_pas_uriner;li pa ka pipi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0152;ne_peut_pas_uriner;chat la ap fòse pou l pipi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0153;ne_peut_pas_uriner;chen m nan ap fòse pou l pipi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0154;ne_peut_pas_uriner;pipi a pa soti;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0155;ne_peut_pas_uriner;l ap pouse men anyen pa soti;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0156;ne_peut_pas_uriner;chat mwen an ap pouse men anyen pa soti;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0157;ne_peut_pas_uriner;chen an ale nan sab la men li pa fè anyen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0158;ne_peut_pas_uriner;chen m nan ale nan sab la men li pa fè anyen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0159;ne_peut_pas_uriner;se kèk gout pipi sèlman ki soti;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0160;ne_peut_pas_uriner;bèt la ap kriye lè l ap eseye pipi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0161;ne_peut_pas_uriner;chen an ap kriye lè l ap eseye pipi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0162;ne_peut_pas_uriner;li pa pipi depi ayè;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0163;ne_peut_pas_uriner;bèt la ale nan sab la men li pa fè anyen depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0164;ne_peut_pas_uriner;pipi a pa soti toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0165;ne_peut_pas_uriner;li pa pipi depi ayè toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0166;ne_peut_pas_uriner;bèt la ap kriye lè l ap eseye pipi sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0167;ne_peut_pas_uriner;chat mwen an ap fose pou l pipi;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0168;ne_peut_pas_uriner;li pa pipi depi aye;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0172;ne_peut_pas_uriner;chat la pipi nòmal;negation;neg;IA;brouillon
+bp_0173;efforts_vomir_sans_resultat;bèt la ap eseye vomi men anyen pa soti;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0174;efforts_vomir_sans_resultat;chen an ap eseye vomi men anyen pa soti;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0175;efforts_vomir_sans_resultat;chen m nan ap fè efò pou l vomi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0176;efforts_vomir_sans_resultat;l ap fè efò pou l vomi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0177;efforts_vomir_sans_resultat;chen an ap vomi vid;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0178;efforts_vomir_sans_resultat;chen m nan ap vomi vid;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0179;efforts_vomir_sans_resultat;se kim sèlman ki soti;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0180;efforts_vomir_sans_resultat;chat la ap ranje pou l vomi men li pa vomi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0181;efforts_vomir_sans_resultat;chen an ap ranje pou l vomi men li pa vomi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0182;efforts_vomir_sans_resultat;chat mwen an ap rale tankou l pral vomi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0183;efforts_vomir_sans_resultat;chen m nan ap rale tankou l pral vomi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0184;efforts_vomir_sans_resultat;l ap eseye vomi men anyen pa soti sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0185;efforts_vomir_sans_resultat;chen m nan ap ranje pou l vomi men li pa vomi kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0186;efforts_vomir_sans_resultat;chen an ap vomi vid kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0187;efforts_vomir_sans_resultat;se kim sèlman ki soti depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0188;efforts_vomir_sans_resultat;chyen an ap rale tankou l pral vomi;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0189;efforts_vomir_sans_resultat;chyen mnan ap vomi vid;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0192;ventre_gonfle_douloureux;vant li gonfle;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0193;ventre_gonfle_douloureux;vant li di;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0194;ventre_gonfle_douloureux;vant li anfle;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0195;ventre_gonfle_douloureux;vant li fè l mal lè m manyen l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0196;ventre_gonfle_douloureux;vant li vin gwo toudenkou;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0197;ventre_gonfle_douloureux;vant li sere tankou tanbou;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0198;ventre_gonfle_douloureux;chen an pa vle m touche vant li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0199;ventre_gonfle_douloureux;chat mwen an pa vle m touche vant li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0200;ventre_gonfle_douloureux;chen m nan pa vle m touche vant li toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0201;ventre_gonfle_douloureux;vant li fè l mal lè m manyen l depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0202;ventre_gonfle_douloureux;vant li di sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0203;ventre_gonfle_douloureux;vant li vin gwo toudenkou sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0207;ventre_gonfle_douloureux;vant li mou nòmal;negation;neg;IA;brouillon
+bp_0208;vomit_sang;chat la vomi san;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0209;vomit_sang;li vomi san;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0210;vomit_sang;gen san nan vomisman an;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0211;vomit_sang;chen an vomi yon bagay wouj;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0212;vomit_sang;li vomi yon bagay wouj;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0213;vomit_sang;chen an vomi bagay nwa tankou kafe;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0214;vomit_sang;bèt la vomi bagay nwa tankou kafe;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0215;vomit_sang;gen san nan vomisman an depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0216;vomit_sang;bèt la vomi bagay nwa tankou kafe kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0217;vomit_sang;chat mwen an vomi san depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0218;vomit_sang;chat mwen an vomi yon bagay wouj depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0219;vomit_sang;bet la vomi bagay nwa tankou kafe;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0220;vomit_sang;chyen an vomi yon bagay wouj;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0221;vomit_sang;bet la vomi san;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0224;vomit_sang;pa gen san nan vomisman an;negation;neg;IA;brouillon
+bp_0225;diarrhee_sang;chat la gen dyare ak san;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0226;diarrhee_sang;li gen dyare ak san;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0227;diarrhee_sang;gen san nan poupou l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0228;diarrhee_sang;poupou l wouj;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0229;diarrhee_sang;poupou l nwa tankou goudwon;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0230;diarrhee_sang;chat mwen an ap fè san;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0231;diarrhee_sang;bèt la ap fè san;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0232;diarrhee_sang;vantmennen ak san;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0233;diarrhee_sang;tata l gen san;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0234;diarrhee_sang;poupou l nwa tankou goudwon depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0235;diarrhee_sang;tata l gen san depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0236;diarrhee_sang;chen m nan gen dyare ak san toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0237;diarrhee_sang;gen san nan poupou l depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0238;diarrhee_sang;chat mwen an ap fe san;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0242;diarrhee_sang;pa gen san nan dyare a;negation;neg;IA;brouillon
+bp_0243;vomissements_repetes;chen m nan ap vomi san rete;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0244;vomissements_repetes;chen an ap vomi san rete;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0245;vomissements_repetes;li vomi plizyè fwa;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0246;vomissements_repetes;chat mwen an vomi plizyè fwa;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0247;vomissements_repetes;chat mwen an vomi tout sa l manje;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0248;vomissements_repetes;li vomi tout sa l manje;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0249;vomissements_repetes;chen m nan pa kenbe anyen nan vant li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0250;vomissements_repetes;chen an pa kenbe anyen nan vant li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0251;vomissements_repetes;chak fwa l bwè dlo li vomi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0252;vomissements_repetes;bèt la vomi senk fwa jodi a;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0253;vomissements_repetes;chen an vomi senk fwa jodi a;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0254;vomissements_repetes;chat la vomi plizyè fwa depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0255;vomissements_repetes;chen an ap vomi san rete kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0256;vomissements_repetes;chat la vomi tout sa l manje depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0257;vomissements_repetes;chak fwa l bwè dlo li vomi depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0258;vomissements_repetes;chyen mnan vomi tout sa l manje;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0259;vomissements_repetes;chyen mnan pa kenbe anyen nan vant li;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0263;saignement_important;bèt la ap senyen anpil;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0264;saignement_important;chen m nan ap senyen anpil;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0265;saignement_important;san an pa vle rete;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0266;saignement_important;san ap koule anpil;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0267;saignement_important;chen an pèdi anpil san;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0268;saignement_important;chen m nan pèdi anpil san;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0269;saignement_important;chyen mnan ap senyen anpil;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0272;saignement_important;li pa senyen;negation;neg;IA;brouillon
+bp_0273;plaie_profonde_os;li gen yon gwo blesi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0274;plaie_profonde_os;m wè zo a;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0275;plaie_profonde_os;zo a soti deyò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0276;plaie_profonde_os;blese a fon anpil;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0277;plaie_profonde_os;pye l kase m wè zo a;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0278;plaie_profonde_os;m we zo a;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0279;plaie_profonde_os;pye l kase m we zo a;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0282;accident_chute;yon machin frape li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0283;accident_chute;yon machin frape chen m nan;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0284;accident_chute;yon moto frape li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0285;accident_chute;yon moto frape chat la;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0286;accident_chute;chat mwen an tonbe soti sou do kay la;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0287;accident_chute;chen m nan tonbe soti sou do kay la;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0288;accident_chute;chen m nan fè aksidan;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0289;accident_chute;chat mwen an fè aksidan;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0290;accident_chute;yon kamyon pase sou li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0291;accident_chute;bèt la tonbe soti wo;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0292;accident_chute;li tonbe soti wo;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0293;accident_chute;yon kamyon pase sou li depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0294;accident_chute;yon machin frape li depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0295;accident_chute;yon moto frape bèt la depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0296;accident_chute;li tonbe soti wo depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0297;accident_chute;chat mwen an fe aksidan;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0298;accident_chute;yon moto frape bet la;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0302;brulure_grave;chen m nan boule;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0303;brulure_grave;chat mwen an boule;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0304;brulure_grave;dlo cho tonbe sou li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0305;brulure_grave;dife boule l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0306;brulure_grave;bèt la chode;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0307;brulure_grave;chen m nan chode;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0308;brulure_grave;po l boule;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0309;brulure_grave;dlo cho tonbe sou li depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0310;brulure_grave;dife boule l depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0311;brulure_grave;bèt la chode toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0312;brulure_grave;chat la boule depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0315;coup_chaleur;li cho anpil;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0316;coup_chaleur;chen an cho anpil;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0317;coup_chaleur;chat mwen an ap souf fò apre l te nan solèy la;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0318;coup_chaleur;chat la ap souf fò apre l te nan solèy la;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0319;coup_chaleur;chen an fèb, li te rete nan chalè a;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0320;coup_chaleur;chat la fèb, li te rete nan chalè a;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0321;coup_chaleur;chen an pa ka kanpe apre l fin kouri nan solèy;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0322;coup_chaleur;bèt la pa ka kanpe apre l fin kouri nan solèy;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0323;coup_chaleur;lang li pandye l ap ranse anpil;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0324;coup_chaleur;kò l cho tankou dife;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0325;coup_chaleur;chen an ap souf fò apre l te nan solèy la depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0326;coup_chaleur;chen an cho anpil jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0327;coup_chaleur;chen m nan pa ka kanpe apre l fin kouri nan solèy jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0328;coup_chaleur;kò l cho tankou dife jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0329;coup_chaleur;lap souf fo apre l te nan soley la;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0330;coup_chaleur;chat mwen an feb, li te rete nan chale a;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0331;coup_chaleur;lang li pandye lap ranse anpil;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0334;mise_bas_difficile;li pa ka mete pitit li deyò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0335;mise_bas_difficile;l ap pouse men ti pitit la pa soti;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0336;mise_bas_difficile;li gen difikilte pou l fè pitit;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0337;mise_bas_difficile;yon ti pitit kole;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0338;mise_bas_difficile;l ap travay depi lontan e okenn pa soti;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0339;mise_bas_difficile;li pa ka mete pitit li deyò depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0340;mise_bas_difficile;li gen difikilte pou l fè pitit kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0341;mise_bas_difficile;yon ti pitit kole sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0342;mise_bas_difficile;l ap pouse men ti pitit la pa soti depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0343;mise_bas_difficile;li pa ka mete pitit li deyo;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0344;mise_bas_difficile;lap pouse men ti pitit la pa soti;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0345;mise_bas_difficile;lap travay depi lontan e okenn pa soti;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0348;organe_sorti;gen yon bagay ki soti nan dèyè l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0349;organe_sorti;trip li soti deyò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0350;organe_sorti;yon bagay wouj ap pandye nan dèyè l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0351;organe_sorti;gen yon bagay ki soti nan deye l;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0352;organe_sorti;yon bagay wouj ap pandye nan deye l;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0353;organe_sorti;trip li soti deyo;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0356;etouffement;chat la toufe;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0357;etouffement;bèt la toufe;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0358;etouffement;yon zo kole nan gòj li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0359;etouffement;chen an ap toufe;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0360;etouffement;chen m nan ap toufe;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0361;etouffement;chen m nan vale yon bagay ki kole;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0362;etouffement;chat mwen an vale yon bagay ki kole;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0363;etouffement;bèt la ap grate bouch li ak pat li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0364;etouffement;chat la ap grate bouch li ak pat li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0365;etouffement;li pa ka vale;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0366;etouffement;chat la pa ka vale;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0367;etouffement;chat la toufe depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0368;etouffement;yon zo kole nan gòj li depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0369;etouffement;chat la vale yon bagay ki kole depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0370;etouffement;chen m nan pa ka vale depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0371;etouffement;bet la toufe;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0372;etouffement;lap toufe;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0375;gonflement_visage_piqure;figi l gonfle;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0376;gonflement_visage_piqure;chen m nan anfle apre yon gèp pike l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0377;gonflement_visage_piqure;bèt la anfle apre yon gèp pike l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0378;gonflement_visage_piqure;bouch li gonfle;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0379;gonflement_visage_piqure;je l anfle apre yon bèt pike l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0380;gonflement_visage_piqure;gòj li anfle;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0381;gonflement_visage_piqure;bouch li gonfle depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0382;gonflement_visage_piqure;chat la anfle apre yon gèp pike l depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0383;gonflement_visage_piqure;figi l gonfle depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0384;gonflement_visage_piqure;gòj li anfle sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0385;gonflement_visage_piqure;goj li anfle;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0386;gonflement_visage_piqure;chyen mnan anfle apre yon gep pike l;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0387;gonflement_visage_piqure;je l anfle apre yon bet pike l;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0390;oeil_sorti;je l soti deyò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0391;oeil_sorti;zye l soti nan twou l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0392;oeil_sorti;je l pete soti;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0393;oeil_sorti;je l soti deyo;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0395;ingestion_toxique;li manje pwazon;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0396;ingestion_toxique;chat mwen an manje pwazon;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0397;ingestion_toxique;chat mwen an manje pwazon rat;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0398;ingestion_toxique;chen m nan manje pwazon rat;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0399;ingestion_toxique;chen m nan manje chokola;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0400;ingestion_toxique;chen an manje chokola;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0401;ingestion_toxique;chen m nan vale yon bagay danjere;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0402;ingestion_toxique;bèt la vale yon bagay danjere;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0403;ingestion_toxique;chen an bwè kleren;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0404;ingestion_toxique;bèt la bwè kleren;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0405;ingestion_toxique;li niche antijèl;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0406;ingestion_toxique;bèt la niche antijèl;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0407;ingestion_toxique;chat mwen an manje yon flè lis;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0408;ingestion_toxique;bèt la manje yon flè lis;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0409;ingestion_toxique;chen m nan manje rezen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0410;ingestion_toxique;bèt la manje rezen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0411;ingestion_toxique;chen m nan manje chiklèt;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0412;ingestion_toxique;chat la manje chiklèt;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0413;ingestion_toxique;chat mwen an bwè yon pwodui netwayaj;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0414;ingestion_toxique;chen an bwè yon pwodui netwayaj;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0415;ingestion_toxique;chen an manje rès manje ak zonyon;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0416;ingestion_toxique;chat la manje rès manje ak zonyon;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0417;ingestion_toxique;li vale yon bagay danjere depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0418;ingestion_toxique;li manje chokola depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0419;ingestion_toxique;chat mwen an manje yon flè lis sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0420;ingestion_toxique;bèt la niche antijèl depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0421;ingestion_toxique;chyen mnan manje pwazon;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0422;ingestion_toxique;chat la manje yon fle lis;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0426;medicament_humain_donne;m ba l yon grenn tylenòl;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0427;medicament_humain_donne;m ba l parasetamòl;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0428;medicament_humain_donne;m ba l medikaman pa m;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0429;medicament_humain_donne;chen m nan vale grenn medikaman;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0430;medicament_humain_donne;chen an vale grenn medikaman;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0431;medicament_humain_donne;m ba l aspirin;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0432;medicament_humain_donne;m ba l ibipwofèn;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0433;medicament_humain_donne;m mete remèd pis chen an sou chat la;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0434;medicament_humain_donne;m ba l ibipwofèn depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0435;medicament_humain_donne;m ba l medikaman pa m toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0436;medicament_humain_donne;m ba l yon grenn tylenòl sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0437;medicament_humain_donne;chat la vale grenn medikaman kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0438;medicament_humain_donne;m ba l parasetamol;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0441;signes_rage;chat la vin mechan toudenkou;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0442;signes_rage;chen an vin mechan toudenkou;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0443;signes_rage;l ap bave anpil;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0444;signes_rage;chat la ap bave anpil;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0445;signes_rage;bèt la ap mòde tout moun;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0446;signes_rage;l ap mòde tout moun;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0447;signes_rage;machwè l pandye;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0448;signes_rage;bèt la pa ka vale dlo;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0449;signes_rage;chat la pa ka vale dlo;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0450;signes_rage;chen m nan ap mache tankou l sou;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0451;signes_rage;chen an ap mache tankou l sou;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0452;signes_rage;chen an pa pè moun ankò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0453;signes_rage;chen m nan pa pè moun ankò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0454;signes_rage;li pa pè moun ankò depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0455;signes_rage;bèt la vin mechan toudenkou depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0456;signes_rage;bèt la ap mache tankou l sou depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0457;signes_rage;chat la ap mòde tout moun sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0458;signes_rage;chyen mnan ap mache tankou l sou;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0459;signes_rage;chyen mnan ap bave anpil;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0460;signes_rage;chyen an vin mechan toudenkou;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0464;chiot_vomit_diarrhee;ti chen an ap vomi epi l gen dyare;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0465;chiot_vomit_diarrhee;ti chen an gen vantmennen epi l ap vomi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0466;chiot_vomit_diarrhee;ti chen m nan pa manje, l ap vomi, l gen dyare;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0467;chiot_vomit_diarrhee;pitit chen an ap fè dyare ak vomisman;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0468;chiot_vomit_diarrhee;pitit chen an ap fè dyare ak vomisman depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0469;chiot_vomit_diarrhee;ti chen an gen vantmennen epi l ap vomi depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0470;chiot_vomit_diarrhee;ti chen m nan pa manje, l ap vomi, l gen dyare depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0471;chiot_vomit_diarrhee;ti chen an ap vomi epi l gen dyare depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0472;chiot_vomit_diarrhee;ti chyen an ap vomi epi l gen dyare;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0473;chiot_vomit_diarrhee;ti chyen mnan pa manje, lap vomi, l gen dyare;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0474;chiot_vomit_diarrhee;pitit chyen an ap fe dyare ak vomisman;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0476;oeil_douloureux_ferme;je l wouj;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0477;oeil_douloureux_ferme;chen an kenbe yon je fèmen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0478;oeil_douloureux_ferme;chat la kenbe yon je fèmen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0479;oeil_douloureux_ferme;je l ap koule epi l fè l mal;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0480;oeil_douloureux_ferme;l ap fwote je l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0481;oeil_douloureux_ferme;bèt la ap fwote je l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0482;oeil_douloureux_ferme;je l vin blan;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0483;oeil_douloureux_ferme;zye l anfle;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0484;oeil_douloureux_ferme;l ap fwote je l depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0485;oeil_douloureux_ferme;je l vin blan depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0486;oeil_douloureux_ferme;je l wouj sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0487;oeil_douloureux_ferme;je l ap koule epi l fè l mal toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0490;boiterie_sans_appui;chat mwen an pa poze pye l atè;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0491;boiterie_sans_appui;bèt la pa poze pye l atè;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0492;boiterie_sans_appui;chat la ap mache sou twa pye;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0493;boiterie_sans_appui;l ap mache sou twa pye;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0494;boiterie_sans_appui;chat la leve pye l li pa mete l atè;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0495;boiterie_sans_appui;chen an leve pye l li pa mete l atè;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0496;boiterie_sans_appui;pye l pandye;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0497;boiterie_sans_appui;bèt la ap mache sou twa pye depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0498;boiterie_sans_appui;bèt la pa poze pye l atè sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0499;boiterie_sans_appui;pye l pandye depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0500;boiterie_sans_appui;li leve pye l li pa mete l atè depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0501;boiterie_sans_appui;chyen mnan leve pye l li pa mete l ate;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0502;boiterie_sans_appui;chyen mnan ap mache sou twa pye;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0505;boiterie;l ap bwete;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0506;boiterie;bèt la ap bwete;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0507;boiterie;l ap mache kòlòkòlò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0508;boiterie;bèt la ap mache kòlòkòlò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0509;boiterie;pye l fè l mal;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0510;boiterie;chat la gen pwoblèm pou l mache;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0511;boiterie;li gen pwoblèm pou l mache;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0512;boiterie;li pa mache byen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0513;boiterie;bèt la ap mache kòlòkòlò toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0514;boiterie;bèt la gen pwoblèm pou l mache depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0515;boiterie;li pa mache byen depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0516;boiterie;pye l fè l mal depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0517;boiterie;bet la gen pwoblem pou l mache;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0518;boiterie;lap bwete;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0519;boiterie;chyen mnan ap mache kolokolo;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0522;boiterie;bèt la pa bwete;negation;neg;IA;brouillon
+bp_0523;ne_mange_plus;chat la pa manje;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0524;ne_mange_plus;bèt la pa manje;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0525;ne_mange_plus;chen an pa vle manje;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0526;ne_mange_plus;chat mwen an pa vle manje;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0527;ne_mange_plus;li pa gen apeti;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0528;ne_mange_plus;chen m nan pa gen apeti;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0529;ne_mange_plus;li refize manje;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0530;ne_mange_plus;chen an refize manje;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0531;ne_mange_plus;chat mwen an pa touche manje l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0532;ne_mange_plus;chen m nan pa touche manje l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0533;ne_mange_plus;li pa anvi manje;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0534;ne_mange_plus;chat la sispann manje;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0535;ne_mange_plus;chat mwen an sispann manje;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0536;ne_mange_plus;li pa vle manje kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0537;ne_mange_plus;chen an pa touche manje l toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0538;ne_mange_plus;li pa anvi manje jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0539;ne_mange_plus;li pa gen apeti depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0540;ne_mange_plus;bet la pa manje;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0543;ne_mange_plus;chen an manje byen;negation;neg;IA;brouillon
+bp_0544;vomissements;bèt la vomi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0545;vomissements;chat la vomi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0546;vomissements;bèt la vomi yon fwa;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0547;vomissements;chat la vomi yon fwa;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0548;vomissements;li vomi de fwa;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0549;vomissements;chat la vomi de fwa;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0550;vomissements;li gen kè plen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0551;vomissements;li rann manje l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0552;vomissements;chat la rann manje l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0553;vomissements;chat mwen an vomi de fwa depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0554;vomissements;li gen kè plen sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0555;vomissements;chat la vomi kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0556;vomissements;li rann manje l jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0557;vomissements;li gen ke plen;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0560;vomissements;chat la pa vomi;negation;neg;IA;brouillon
+bp_0561;diarrhee;li gen dyare;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0562;diarrhee;chat mwen an gen dyare;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0563;diarrhee;chat mwen an gen vantmennen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0564;diarrhee;chat la gen vantmennen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0565;diarrhee;chat mwen an gen vant pase;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0566;diarrhee;chen an gen vant pase;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0567;diarrhee;poupou l likid;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0568;diarrhee;chen an ap fè tata dlo;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0569;diarrhee;chat la ap fè tata dlo;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0570;diarrhee;vant li ap kouri;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0571;diarrhee;poupou l likid jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0572;diarrhee;l ap fè tata dlo jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0573;diarrhee;chen m nan gen vant pase depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0574;diarrhee;chen an gen dyare depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0575;diarrhee;chyen mnan gen dyare;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0576;diarrhee;chat mwen an ap fe tata dlo;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0579;diarrhee;chat la pa gen dyare;negation;neg;IA;brouillon
+bp_0580;abattu_se_cache;bèt la fatige anpil;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0581;abattu_se_cache;li fatige anpil;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0582;abattu_se_cache;chen m nan pa jwe ankò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0583;abattu_se_cache;chen an pa jwe ankò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0584;abattu_se_cache;chen an ap kache;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0585;abattu_se_cache;bèt la ap kache;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0586;abattu_se_cache;bèt la kouche tout jounen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0587;abattu_se_cache;chat la kouche tout jounen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0588;abattu_se_cache;chat la san fòs;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0589;abattu_se_cache;chat mwen an san fòs;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0590;abattu_se_cache;chat la tris;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0591;abattu_se_cache;chat mwen an tris;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0592;abattu_se_cache;bèt la kache anba kabann nan;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0593;abattu_se_cache;chen an kache anba kabann nan;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0594;abattu_se_cache;l ap kache depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0595;abattu_se_cache;chat mwen an kouche tout jounen depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0596;abattu_se_cache;li san fòs depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0597;abattu_se_cache;chen m nan tris toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0598;abattu_se_cache;chat la san fos;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0599;abattu_se_cache;bet la pa jwe anko;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0600;abattu_se_cache;bet la kouche tout jounen;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0604;signes_douleur;chen an ap plenn;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0605;signes_douleur;chen m nan ap plenn;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0606;signes_douleur;chen an ap kriye;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0607;signes_douleur;chat mwen an ap kriye;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0608;signes_douleur;do l bosi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0609;signes_douleur;li pa vle bouje;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0610;signes_douleur;chen an pa vle bouje;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0611;signes_douleur;chat la ap niche menm kote a san rete;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0612;signes_douleur;chen m nan ap niche menm kote a san rete;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0613;signes_douleur;li rele lè m manyen l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0614;signes_douleur;chat la rele lè m manyen l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0615;signes_douleur;chen an gen doulè;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0616;signes_douleur;chat la gen doulè;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0617;signes_douleur;do l bosi jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0618;signes_douleur;bèt la ap niche menm kote a san rete jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0619;signes_douleur;chat mwen an ap kriye depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0620;signes_douleur;chen an ap plenn jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0621;signes_douleur;chat la gen doule;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0622;signes_douleur;chyen mnan ap plenn;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0626;changement_litiere_chat;ti chat la ale nan sab la souvan;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0627;changement_litiere_chat;chat la ale nan sab la souvan;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0628;changement_litiere_chat;chat mwen an pipi ti kras chak fwa;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0629;changement_litiere_chat;chat la pipi ti kras chak fwa;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0630;changement_litiere_chat;ti chat la pipi lòt kote;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0631;changement_litiere_chat;chat la pipi lòt kote;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0632;changement_litiere_chat;bèt la pa fè bezwen l nan sab li ankò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0633;changement_litiere_chat;chat mwen an pa fè bezwen l nan sab li ankò;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0634;changement_litiere_chat;pipi l gen san;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0635;changement_litiere_chat;chat mwen an pa fè bezwen l nan sab li ankò depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0636;changement_litiere_chat;pipi l gen san toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0637;changement_litiere_chat;bèt la pipi ti kras chak fwa depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0638;changement_litiere_chat;chat la ale nan sab la souvan jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0639;changement_litiere_chat;chat la pa fe bezwen l nan sab li anko;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0642;boit_urine_beaucoup;chen an bwè dlo anpil;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0643;boit_urine_beaucoup;chat mwen an bwè dlo anpil;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0644;boit_urine_beaucoup;chen m nan pipi anpil;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0645;boit_urine_beaucoup;li pipi anpil;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0646;boit_urine_beaucoup;chat mwen an toujou swaf;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0647;boit_urine_beaucoup;bèt la toujou swaf;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0648;boit_urine_beaucoup;li bwè plis pase abitid;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0649;boit_urine_beaucoup;chen m nan bwè plis pase abitid;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0650;boit_urine_beaucoup;chen m nan bwè dlo anpil depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0651;boit_urine_beaucoup;chat mwen an bwè plis pase abitid sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0652;boit_urine_beaucoup;chen an toujou swaf sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0653;boit_urine_beaucoup;chen m nan pipi anpil jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0654;boit_urine_beaucoup;chat la bwe dlo anpil;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0655;boit_urine_beaucoup;chyen mnan bwe plis pase abitid;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0656;boit_urine_beaucoup;chyen mnan toujou swaf;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0659;perte_poids;chen an ap megri;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0660;perte_poids;bèt la ap megri;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0661;perte_poids;chat la vin mèg;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0662;perte_poids;chen an vin mèg;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0663;perte_poids;m wè zo kòt li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0664;perte_poids;chen m nan pèdi pwa;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0665;perte_poids;li pèdi pwa;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0666;perte_poids;chat la ap megri kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0667;perte_poids;m wè zo kòt li depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0668;perte_poids;bèt la vin mèg depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0669;perte_poids;chen an pèdi pwa depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0670;perte_poids;chat mwen an vin meg;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0671;perte_poids;chat la pedi pwa;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0674;toux;l ap touse;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0675;toux;chat mwen an ap touse;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0676;toux;chen an gen yon tous;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0677;toux;bèt la gen yon tous;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0678;toux;chat mwen an touse tankou yon bagay kole nan gòj li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0679;toux;bèt la touse tankou yon bagay kole nan gòj li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0680;toux;l ap touse lannwit;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0681;toux;chat la ap touse lannwit;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0682;toux;chen an gen yon tous toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0683;toux;li touse tankou yon bagay kole nan gòj li kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0684;toux;chat mwen an ap touse lannwit jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0685;toux;chat la ap touse jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0686;toux;chyen mnan ap touse;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0687;toux;lap touse lannwit;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0689;toux;chen an pa touse;negation;neg;IA;brouillon
+bp_0690;ecoulement_yeux_nez;nen l ap koule;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0691;ecoulement_yeux_nez;je l ap koule;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0692;ecoulement_yeux_nez;bèt la ap estènen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0693;ecoulement_yeux_nez;chen an ap estènen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0694;ecoulement_yeux_nez;chat la gen larim nan nen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0695;ecoulement_yeux_nez;chen an gen larim nan nen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0696;ecoulement_yeux_nez;je l plen kaka je;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0697;ecoulement_yeux_nez;je l ap koule depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0698;ecoulement_yeux_nez;chen m nan gen larim nan nen toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0699;ecoulement_yeux_nez;nen l ap koule depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0700;ecoulement_yeux_nez;je l plen kaka je toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0701;ecoulement_yeux_nez;chyen an gen larimnan nen;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0702;ecoulement_yeux_nez;nen lap koule;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0703;ecoulement_yeux_nez;lap estenen;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0706;plaie_petite;chen an gen yon ti blese;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0707;plaie_petite;li gen yon ti blese;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0708;plaie_petite;chen m nan grafouye;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0709;plaie_petite;chen an grafouye;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0710;plaie_petite;li gen yon ti koupe;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0711;plaie_petite;bèt la blese pye l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0712;plaie_petite;li blese pye l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0713;plaie_petite;chat mwen an gen yon ti blese kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0714;plaie_petite;chat mwen an blese pye l depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0715;plaie_petite;li grafouye depi yè swa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0716;plaie_petite;li gen yon ti koupe depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0719;plaie_infectee;blese a anfle;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0720;plaie_infectee;blese a ap koule;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0721;plaie_infectee;blese a santi move;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0722;plaie_infectee;blese a gen pi;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0723;plaie_infectee;chat mwen an gen yon abse;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0724;plaie_infectee;bèt la gen yon abse;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0725;plaie_infectee;blese a santi move depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0726;plaie_infectee;li gen yon abse sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0727;plaie_infectee;blese a ap koule kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0728;plaie_infectee;blese a anfle depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0732;morsure_par_animal;yon chen mòde li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0733;morsure_par_animal;yon chen mòde chat mwen an;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0734;morsure_par_animal;yon chat mòde chat mwen an;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0735;morsure_par_animal;yon chat mòde bèt la;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0736;morsure_par_animal;chen an goumen ak yon lòt chen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0737;morsure_par_animal;chat la goumen ak yon lòt chen;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0738;morsure_par_animal;lòt bèt la mòde l;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0739;morsure_par_animal;lòt bèt la mòde l toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0740;morsure_par_animal;yon chen mòde li jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0741;morsure_par_animal;yon chat mòde chen an jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0742;morsure_par_animal;li goumen ak yon lòt chen jodi a;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0743;morsure_par_animal;yon chyen mode li;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0744;morsure_par_animal;yon chat mode chat la;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0745;morsure_par_animal;lot bet la mode l;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0748;grattage_intense;chat mwen an ap grate san rete;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0749;grattage_intense;l ap grate san rete;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0750;grattage_intense;chen m nan gen gratèl;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0751;grattage_intense;chat la gen gratèl;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0752;grattage_intense;pwal li ap tonbe;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0753;grattage_intense;po l vin wouj;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0754;grattage_intense;chat la pèdi pwal;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0755;grattage_intense;chat mwen an pèdi pwal;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0756;grattage_intense;pwal li ap tonbe sa fè twa jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0757;grattage_intense;l ap grate san rete depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0758;grattage_intense;li gen gratèl depi de jou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0759;grattage_intense;li pèdi pwal toudenkou;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0760;grattage_intense;bet la pedi pwal;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0761;grattage_intense;chyen an gen gratel;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0764;puces_tiques;bèt la gen pis;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0765;puces_tiques;chen an gen pis;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0766;puces_tiques;li gen karapat;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0767;puces_tiques;chat la gen karapat;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0768;puces_tiques;m wè pis sou li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0769;puces_tiques;karapat plen sou li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0770;puces_tiques;m we pis sou li;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0771;puces_tiques;bet la gen pis;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0774;probleme_oreille;chat la ap souke tèt li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0775;probleme_oreille;chen m nan ap souke tèt li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0776;probleme_oreille;zòrèy li santi move;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0777;probleme_oreille;l ap grate zòrèy li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0778;probleme_oreille;chen m nan ap grate zòrèy li;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0779;probleme_oreille;zòrèy li sal anpil;base;pos;IA (glossaire et tournures CMU);brouillon
+bp_0780;probleme_oreille;zòrèy li santi move depi ayè;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0781;probleme_oreille;zòrèy li sal anpil depi maten an;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0782;probleme_oreille;bèt la ap souke tèt li depi kèk minit;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0783;probleme_oreille;chen m nan ap grate zòrèy li kèk èdtan de sa;avec_duree;pos;IA + expressions de durée CMU (modifiées);brouillon
+bp_0784;probleme_oreille;zorey li santi move;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0785;probleme_oreille;zorey li sal anpil;variante_ortho;pos;dérivée automatiquement;brouillon
+bp_0786;probleme_oreille;chyen mnan ap souke tet li;variante_ortho;pos;dérivée automatiquement;brouillon

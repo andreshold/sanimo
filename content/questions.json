@@ -1,0 +1,931 @@
+[
+  {
+    "id": "q_difficulte_respirer",
+    "kind": "alerte",
+    "text": "Èske li gen pwoblèm pou l respire ?",
+    "askedIf": [],
+    "always": true,
+    "priority": 10,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "difficulte_respirer",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_difficulte_respirer"
+  },
+  {
+    "id": "q_respiration_bouche_ouverte_chat",
+    "kind": "alerte",
+    "text": "Èske chat la ap respire ak bouch li louvri ?",
+    "askedIf": [
+      "toux",
+      "ecoulement_yeux_nez"
+    ],
+    "always": false,
+    "priority": 101,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "respiration_bouche_ouverte_chat",
+    "species": [
+      "chat"
+    ],
+    "clipId": "clip_q_respiration_bouche_ouverte_chat"
+  },
+  {
+    "id": "q_gencives_pales_bleues",
+    "kind": "alerte",
+    "text": "Èske jansiv li blan, ble oswa vyolèt ?",
+    "askedIf": [
+      "abattu_se_cache",
+      "ne_mange_plus"
+    ],
+    "always": false,
+    "priority": 102,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "gencives_pales_bleues",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_gencives_pales_bleues"
+  },
+  {
+    "id": "q_effondrement_inconscient",
+    "kind": "alerte",
+    "text": "Èske li tonbe epi li pa ka leve oswa li pa reponn ankò ?",
+    "askedIf": [],
+    "always": true,
+    "priority": 20,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "effondrement_inconscient",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_effondrement_inconscient"
+  },
+  {
+    "id": "q_incapable_se_lever",
+    "kind": "alerte",
+    "text": "Èske li pa ka kanpe oswa li pa ka sèvi ak pye l ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 204,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "incapable_se_lever",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_incapable_se_lever"
+  },
+  {
+    "id": "q_convulsions",
+    "kind": "alerte",
+    "text": "Èske li fè kriz (kò l sakade, li pa konnen sa k ap pase) ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 205,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "convulsions",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_convulsions"
+  },
+  {
+    "id": "q_tremblements_actifs",
+    "kind": "alerte",
+    "text": "Èske l ap tranble fò san l pa rete ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 206,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "tremblements_actifs",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_tremblements_actifs"
+  },
+  {
+    "id": "q_ne_peut_pas_uriner",
+    "kind": "alerte",
+    "text": "Èske l ap fòse pou l pipi epi anyen pa soti ?",
+    "askedIf": [
+      "changement_litiere_chat"
+    ],
+    "always": false,
+    "priority": 107,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "ne_peut_pas_uriner",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_ne_peut_pas_uriner"
+  },
+  {
+    "id": "q_efforts_vomir_sans_resultat",
+    "kind": "alerte",
+    "text": "Èske l ap eseye vomi men anyen pa soti ?",
+    "askedIf": [
+      "vomissements",
+      "signes_douleur"
+    ],
+    "always": false,
+    "priority": 108,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "efforts_vomir_sans_resultat",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_efforts_vomir_sans_resultat"
+  },
+  {
+    "id": "q_ventre_gonfle_douloureux",
+    "kind": "alerte",
+    "text": "Èske vant li gonfle, li di oswa li fè l mal lè w manyen l ?",
+    "askedIf": [
+      "signes_douleur",
+      "abattu_se_cache"
+    ],
+    "always": false,
+    "priority": 109,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "ventre_gonfle_douloureux",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_ventre_gonfle_douloureux"
+  },
+  {
+    "id": "q_vomit_sang",
+    "kind": "alerte",
+    "text": "Èske li vomi san ?",
+    "askedIf": [
+      "vomissements"
+    ],
+    "always": false,
+    "priority": 110,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "vomit_sang",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_vomit_sang"
+  },
+  {
+    "id": "q_diarrhee_sang",
+    "kind": "alerte",
+    "text": "Èske gen san nan dyare a, wouj oswa nwa ?",
+    "askedIf": [
+      "diarrhee"
+    ],
+    "always": false,
+    "priority": 111,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "diarrhee_sang",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_diarrhee_sang"
+  },
+  {
+    "id": "q_vomissements_repetes",
+    "kind": "alerte",
+    "text": "Èske l ap vomi plizyè fwa youn dèyè lòt ?",
+    "askedIf": [
+      "vomissements"
+    ],
+    "always": false,
+    "priority": 112,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "vomissements_repetes",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_vomissements_repetes"
+  },
+  {
+    "id": "q_saignement_important",
+    "kind": "alerte",
+    "text": "Èske l ap senyen anpil ?",
+    "askedIf": [
+      "plaie_petite",
+      "plaie_infectee",
+      "morsure_par_animal",
+      "boiterie_sans_appui"
+    ],
+    "always": false,
+    "priority": 113,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "saignement_important",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_saignement_important"
+  },
+  {
+    "id": "q_plaie_profonde_os",
+    "kind": "alerte",
+    "text": "Èske ou wè yon blese fon oswa zo a ?",
+    "askedIf": [
+      "plaie_petite",
+      "plaie_infectee",
+      "morsure_par_animal"
+    ],
+    "always": false,
+    "priority": 114,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "plaie_profonde_os",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_plaie_profonde_os"
+  },
+  {
+    "id": "q_accident_chute",
+    "kind": "alerte",
+    "text": "Èske yon machin oswa moto frape l, oswa li tonbe soti byen wo ?",
+    "askedIf": [
+      "boiterie",
+      "boiterie_sans_appui",
+      "signes_douleur"
+    ],
+    "always": false,
+    "priority": 115,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "accident_chute",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_accident_chute"
+  },
+  {
+    "id": "q_brulure_grave",
+    "kind": "alerte",
+    "text": "Èske li boule grav ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 216,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "brulure_grave",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_brulure_grave"
+  },
+  {
+    "id": "q_coup_chaleur",
+    "kind": "alerte",
+    "text": "Apre solèy oswa apre l fin kouri, èske li cho anpil, l ap souf fò epi li fèb ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 217,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "coup_chaleur",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_coup_chaleur"
+  },
+  {
+    "id": "q_mise_bas_difficile",
+    "kind": "alerte",
+    "text": "Èske l ap pouse pou l fè pitit men okenn pa soti ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 218,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "mise_bas_difficile",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_mise_bas_difficile"
+  },
+  {
+    "id": "q_organe_sorti",
+    "kind": "alerte",
+    "text": "Èske ou wè yon bagay anndan kò l ki soti deyò ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 219,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "organe_sorti",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_organe_sorti"
+  },
+  {
+    "id": "q_etouffement",
+    "kind": "alerte",
+    "text": "Èske l ap toufe oswa gen yon bagay ki kole nan gòj li ?",
+    "askedIf": [
+      "toux"
+    ],
+    "always": false,
+    "priority": 120,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "etouffement",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_etouffement"
+  },
+  {
+    "id": "q_gonflement_visage_piqure",
+    "kind": "alerte",
+    "text": "Èske figi l oswa gòj li gonfle apre yon bèt pike l ?",
+    "askedIf": [
+      "grattage_intense"
+    ],
+    "always": false,
+    "priority": 121,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "gonflement_visage_piqure",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_gonflement_visage_piqure"
+  },
+  {
+    "id": "q_oeil_sorti",
+    "kind": "alerte",
+    "text": "Èske je l soti nan twou l ?",
+    "askedIf": [
+      "oeil_douloureux_ferme"
+    ],
+    "always": false,
+    "priority": 122,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "oeil_sorti",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_oeil_sorti"
+  },
+  {
+    "id": "q_ingestion_toxique",
+    "kind": "alerte",
+    "text": "Èske li manje, li vale oswa li niche yon bagay ki nan lis pwazon yo ?",
+    "askedIf": [],
+    "always": true,
+    "priority": 30,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "ingestion_toxique",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_ingestion_toxique"
+  },
+  {
+    "id": "q_medicament_humain_donne",
+    "kind": "alerte",
+    "text": "Èske yo ba l oswa li vale yon medikaman pou moun ?",
+    "askedIf": [
+      "tremblements_actifs"
+    ],
+    "always": false,
+    "priority": 124,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "medicament_humain_donne",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_medicament_humain_donne"
+  },
+  {
+    "id": "q_signes_rage",
+    "kind": "alerte",
+    "text": "Èske li chanje konpòtman sanzatann, l ap bave anpil oswa li pa ka vale ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 225,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "signes_rage",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_signes_rage"
+  },
+  {
+    "id": "q_chiot_vomit_diarrhee",
+    "kind": "alerte",
+    "text": "Èske se yon ti chen k ap vomi epi ki gen dyare ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 226,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "symptomId": "chiot_vomit_diarrhee",
+    "species": [
+      "chien"
+    ],
+    "clipId": "clip_q_chiot_vomit_diarrhee"
+  },
+  {
+    "id": "q_oeil_douloureux_ferme",
+    "kind": "contexte",
+    "text": "Èske li kenbe yon je fèmen, oswa je a wouj epi li fè l mal ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 427,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "oeil_douloureux_ferme",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_oeil_douloureux_ferme"
+  },
+  {
+    "id": "q_boiterie_sans_appui",
+    "kind": "contexte",
+    "text": "Èske li pa vle poze youn nan pye l atè ditou ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 428,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "boiterie_sans_appui",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_boiterie_sans_appui"
+  },
+  {
+    "id": "q_boiterie",
+    "kind": "contexte",
+    "text": "Èske l ap bwete ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 429,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "boiterie",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_boiterie"
+  },
+  {
+    "id": "q_ne_mange_plus",
+    "kind": "contexte",
+    "text": "Èske li refize manje ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 430,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "ne_mange_plus",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_ne_mange_plus"
+  },
+  {
+    "id": "q_vomissements",
+    "kind": "contexte",
+    "text": "Èske li vomi ?",
+    "askedIf": [
+      "diarrhee"
+    ],
+    "always": false,
+    "priority": 300,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "vomissements",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "age": [
+      "jenn"
+    ],
+    "clipId": "clip_q_vomissements"
+  },
+  {
+    "id": "q_diarrhee",
+    "kind": "contexte",
+    "text": "Èske li gen dyare ?",
+    "askedIf": [
+      "vomissements"
+    ],
+    "always": false,
+    "priority": 300,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "diarrhee",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "age": [
+      "jenn"
+    ],
+    "clipId": "clip_q_diarrhee"
+  },
+  {
+    "id": "q_abattu_se_cache",
+    "kind": "contexte",
+    "text": "Èske li fatige anpil oswa l ap kache plis pase dabitid ?",
+    "askedIf": [
+      "ne_mange_plus"
+    ],
+    "always": false,
+    "priority": 333,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "abattu_se_cache",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_abattu_se_cache"
+  },
+  {
+    "id": "q_signes_douleur",
+    "kind": "contexte",
+    "text": "Èske l ap plenn, do l bosi oswa li pa vle bouje ?",
+    "askedIf": [
+      "probleme_oreille",
+      "boiterie"
+    ],
+    "always": false,
+    "priority": 334,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "signes_douleur",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_signes_douleur"
+  },
+  {
+    "id": "q_changement_litiere_chat",
+    "kind": "contexte",
+    "text": "Èske l ale fè bezwen l souvan, ti kras chak fwa, oswa lòt kote pase abitid ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 435,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "changement_litiere_chat",
+    "species": [
+      "chat"
+    ],
+    "clipId": "clip_q_changement_litiere_chat"
+  },
+  {
+    "id": "q_boit_urine_beaucoup",
+    "kind": "contexte",
+    "text": "Èske l ap bwè dlo epi pipi plis pase abitid ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 436,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "boit_urine_beaucoup",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_boit_urine_beaucoup"
+  },
+  {
+    "id": "q_perte_poids",
+    "kind": "contexte",
+    "text": "Èske li megri dènye semèn sa yo ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 437,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "perte_poids",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_perte_poids"
+  },
+  {
+    "id": "q_toux",
+    "kind": "contexte",
+    "text": "Èske l ap touse ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 438,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "toux",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_toux"
+  },
+  {
+    "id": "q_ecoulement_yeux_nez",
+    "kind": "contexte",
+    "text": "Èske je l oswa nen l ap koule ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 439,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "ecoulement_yeux_nez",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_ecoulement_yeux_nez"
+  },
+  {
+    "id": "q_plaie_petite",
+    "kind": "contexte",
+    "text": "Èske li gen yon ti blese ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 440,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "plaie_petite",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_plaie_petite"
+  },
+  {
+    "id": "q_plaie_infectee",
+    "kind": "contexte",
+    "text": "Èske blese a anfle, li cho oswa l ap koule ?",
+    "askedIf": [
+      "plaie_petite",
+      "morsure_par_animal"
+    ],
+    "always": false,
+    "priority": 341,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "plaie_infectee",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_plaie_infectee"
+  },
+  {
+    "id": "q_morsure_par_animal",
+    "kind": "contexte",
+    "text": "Èske yon lòt bèt mòde l ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 442,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "morsure_par_animal",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_morsure_par_animal"
+  },
+  {
+    "id": "q_grattage_intense",
+    "kind": "contexte",
+    "text": "Èske l ap grate anpil oswa pwal li ap tonbe ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 443,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "grattage_intense",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_grattage_intense"
+  },
+  {
+    "id": "q_puces_tiques",
+    "kind": "contexte",
+    "text": "Èske ou wè pis oswa karapat sou li ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 444,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "puces_tiques",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_puces_tiques"
+  },
+  {
+    "id": "q_probleme_oreille",
+    "kind": "contexte",
+    "text": "Èske l ap souke tèt li souvan oswa zòrèy li santi move ?",
+    "askedIf": [],
+    "always": false,
+    "priority": 445,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "symptomId": "probleme_oreille",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "clipId": "clip_q_probleme_oreille"
+  },
+  {
+    "id": "q_chat_male_uriner",
+    "kind": "alerte",
+    "text": "Èske chat la ap fòse pou l pipi epi anyen pa soti ?",
+    "askedIf": [],
+    "always": true,
+    "priority": 5,
+    "levelIfUnknown": "ijans",
+    "status": "brouillon",
+    "symptomId": "ne_peut_pas_uriner",
+    "species": [
+      "chat"
+    ],
+    "sex": "male",
+    "clipId": "clip_q_chat_male_uriner"
+  },
+  {
+    "id": "q_vomit_plus_24h",
+    "kind": "duree",
+    "text": "Èske sa fè plis pase 24 èdtan l ap vomi ?",
+    "askedIf": [
+      "vomissements"
+    ],
+    "always": false,
+    "priority": 310,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "clipId": "clip_q_vomit_plus_24h"
+  },
+  {
+    "id": "q_ne_boit_plus",
+    "kind": "evolution",
+    "text": "Èske li pa bwè dlo ankò, oswa li vomi dlo li bwè a ?",
+    "askedIf": [
+      "vomissements",
+      "diarrhee"
+    ],
+    "always": false,
+    "priority": 300,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "clipId": "clip_q_ne_boit_plus"
+  },
+  {
+    "id": "q_diarrhee_plus_48h",
+    "kind": "duree",
+    "text": "Èske sa fè plis pase 2 jou li gen dyare ?",
+    "askedIf": [
+      "diarrhee"
+    ],
+    "always": false,
+    "priority": 311,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "clipId": "clip_q_diarrhee_plus_48h"
+  },
+  {
+    "id": "q_chat_jeun_24h",
+    "kind": "duree",
+    "text": "Èske sa fè plis pase 24 èdtan chat la pa manje anyen ?",
+    "askedIf": [
+      "ne_mange_plus"
+    ],
+    "always": false,
+    "priority": 312,
+    "levelIfUnknown": "konsilte",
+    "status": "brouillon",
+    "species": [
+      "chat"
+    ],
+    "clipId": "clip_q_chat_jeun_24h"
+  },
+  {
+    "id": "q_chien_jeun_48h",
+    "kind": "duree",
+    "text": "Èske sa fè plis pase 2 jou chen an pa manje anyen ?",
+    "askedIf": [
+      "ne_mange_plus"
+    ],
+    "always": false,
+    "priority": 313,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "species": [
+      "chien"
+    ],
+    "clipId": "clip_q_chien_jeun_48h"
+  },
+  {
+    "id": "q_boiterie_plus_24h",
+    "kind": "duree",
+    "text": "Èske sa fè plis pase 24 èdtan l ap bwete ?",
+    "askedIf": [
+      "boiterie"
+    ],
+    "always": false,
+    "priority": 314,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "clipId": "clip_q_boiterie_plus_24h"
+  },
+  {
+    "id": "q_respi_plus_semaine",
+    "kind": "duree",
+    "text": "Èske sa fè plis pase yon semèn ?",
+    "askedIf": [
+      "toux",
+      "ecoulement_yeux_nez"
+    ],
+    "always": false,
+    "priority": 315,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "clipId": "clip_q_respi_plus_semaine"
+  },
+  {
+    "id": "q_aggravation",
+    "kind": "evolution",
+    "text": "Èske l ap vin pi mal ?",
+    "askedIf": [
+      "boiterie",
+      "ne_mange_plus",
+      "vomissements",
+      "diarrhee",
+      "toux",
+      "ecoulement_yeux_nez",
+      "plaie_petite",
+      "grattage_intense",
+      "puces_tiques",
+      "probleme_oreille"
+    ],
+    "always": false,
+    "priority": 320,
+    "levelIfUnknown": "siveye",
+    "status": "brouillon",
+    "clipId": "clip_q_aggravation"
+  }
+]

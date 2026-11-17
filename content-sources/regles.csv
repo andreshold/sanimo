@@ -1,0 +1,23 @@
+﻿id;priorite;conditions;niveau;raison_ht;consignes;source;statut;note
+r_chiot_vomit_et_diarrhee;10;sym:vomissements & sym:diarrhee & espece:chien & age:jenn;ijans;Ti chen k ap vomi epi ki gen dyare;urg_aller_vite,urg_transport_calme,gen_eau_propre;Aucune (synthèse §2.3, chiots);brouillon;Même niveau que le symptôme chiot_vomit_diarrhee (signe d'alerte proposé) : à valider avec le vétérinaire
+r_jeune_vomit;20;sym:vomissements & age:jenn;konsilte;Yon jenn bèt k ap vomi ka pèdi dlo nan kò l vit;gen_eau_propre,ret_vomit_diarrhee;Aucune (seuil proposé);brouillon;À valider
+r_jeune_diarrhee;20;sym:diarrhee & age:jenn;konsilte;Yon jenn bèt ki gen dyare ka pèdi dlo nan kò l vit;gen_eau_propre,ret_vomit_diarrhee;Aucune (seuil proposé);brouillon;À valider
+r_vomit_plus_24h;30;rep:q_vomit_plus_24h=wi;konsilte;Sa fè plis pase 24 èdtan l ap vomi;gen_eau_propre,gen_noter,ret_vomit_diarrhee;Aucune (seuil proposé);brouillon;Seuil à valider
+r_ne_boit_plus;30;rep:q_ne_boit_plus=wi;konsilte;Li pa bwè ankò oswa li vomi dlo a;gen_noter,ret_vomit_diarrhee;Merck (synthèse §2.3);brouillon;Pourrait monter à 🔴 chez le jeune : à valider
+r_diarrhee_plus_48h;30;rep:q_diarrhee_plus_48h=wi;konsilte;Sa fè plis pase 2 jou li gen dyare;gen_eau_propre,gen_noter,ret_vomit_diarrhee;Aucune (seuil proposé);brouillon;Seuil à valider
+r_chat_jeun_24h;30;rep:q_chat_jeun_24h=wi & espece:chat;konsilte;Sa fè plis pase 24 èdtan chat la pa manje;gen_eau_propre,gen_noter,ret_general;Aucune (seuil proposé);brouillon;Seuil à valider
+r_chien_jeun_48h;30;rep:q_chien_jeun_48h=wi & espece:chien;konsilte;Sa fè plis pase 2 jou chen an pa manje;gen_eau_propre,gen_noter,ret_general;Aucune (seuil proposé);brouillon;Seuil à valider
+r_granmoun_ne_mange_plus;30;sym:ne_mange_plus & age:granmoun;konsilte;Yon bèt ki granmoun ki pa manje ankò;gen_eau_propre,gen_noter,ret_general;Aucune;brouillon;À valider
+r_boiterie_plus_24h;30;rep:q_boiterie_plus_24h=wi;konsilte;Sa fè plis pase 24 èdtan l ap bwete;boit_repos,ret_general;Aucune (seuil proposé);brouillon;Seuil à valider
+r_respi_plus_semaine;30;rep:q_respi_plus_semaine=wi;konsilte;Sa fè plis pase yon semèn l ap touse oswa nen l ap koule;ret_respi;Aucune;brouillon;Seuil à valider
+r_aggravation;30;rep:q_aggravation=wi;konsilte;L ap vin pi mal;gen_noter,ret_general;TRD §6.2;brouillon;
+r_chat_male_litiere;40;sym:changement_litiere_chat & espece:chat & sexe:male;konsilte;Chat mal k ap ale nan sab li souvan;ret_chat_urine;VetClaw:feline-medicine;brouillon;Même niveau que niveau_min, mais avec la consigne de retour urinaire
+r_suivi_vomit;50;sym:vomissements;siveye;L ap vomi;gen_eau_propre,gen_noter,ret_vomit_diarrhee;Aucune;brouillon;Consignes de surveillance (le niveau vient de niveau_min)
+r_suivi_diarrhee;50;sym:diarrhee;siveye;Li gen dyare;gen_eau_propre,gen_noter,ret_vomit_diarrhee;Aucune;brouillon;Consignes de surveillance
+r_suivi_respi;50;sym:toux;siveye;L ap touse;ret_respi;Aucune;brouillon;Consignes de surveillance
+r_suivi_ecoulement;50;sym:ecoulement_yeux_nez;siveye;Je l oswa nen l ap koule;ret_respi;Aucune;brouillon;Consignes de surveillance
+r_suivi_boiterie;50;sym:boiterie;siveye;L ap bwete;boit_repos,ret_general;Aucune;brouillon;Consignes de surveillance
+r_suivi_plaie;50;sym:plaie_petite;siveye;Ti blese;ret_plaie;Aucune;brouillon;Consignes de surveillance
+r_suivi_ne_mange_plus;50;sym:ne_mange_plus;siveye;Li pa manje;gen_eau_propre,gen_noter,ret_general;Aucune;brouillon;Consignes de surveillance
+r_suivi_chat_respi;50;sym:toux & espece:chat;siveye;Chat k ap touse;ret_respi;Aucune;brouillon;Chat : respiration bouche ouverte = 🔴
+r_chat_male_urine_inconnue;15;rep:q_ne_peut_pas_uriner=mpakonnen & espece:chat & sexe:male;ijans;Chat mal : nou pa konnen si l ka pipi;urg_aller_vite,urg_transport_calme,ret_chat_urine;VetClaw:feline-medicine;brouillon;Filet de sécurité : même règle que q_chat_male_uriner, si la question générale a été posée

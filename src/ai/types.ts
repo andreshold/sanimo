@@ -4,7 +4,8 @@
  * D1 utilise une simulation tant qu'elle n'est pas prête.
  */
 
-export type Lang = 'ht' | 'fr';
+/** L'application est entièrement en créole haïtien : une seule langue. */
+export type Lang = 'ht';
 
 export type ModelId = 'oswald' | 'makandal' | 'fatiman';
 

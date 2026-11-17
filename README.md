@@ -9,7 +9,7 @@ Application Android (Expo SDK 58 / React Native, *development build*) avec trois
 
 - [Plan de construction](PLAN-SANIMO.md) — produit, architecture, calendrier, rôles
 - [Feuille de route D1 · Application](docs/09-Feuille-de-route-D1-Application.md)
-- [App flow](docs/03-App-flow.md) · [TRD](docs/02-TRD.md) · [Données](donnees/LISEZMOI.md)
+- [App flow](docs/03-App-flow.md) · [TRD](docs/02-TRD.md) · [Données](content-sources/LISEZMOI.md)
 
 ## Installation (Windows)
 
@@ -28,6 +28,8 @@ npx expo run:android      # build de développement + installation sur le télé
 npx expo start            # serveur de développement (après le premier build)
 npx tsc --noEmit          # vérification des types
 npx expo lint             # lint
+npm test                  # tests Jest (moteur de triage)
+npm run content           # content-sources/*.csv → content/*.json (vérifie le contenu)
 ```
 
 Écran caché de banc d'essai IA (mode dev) : `/dev/bench`, accessible depuis l'accueil.
@@ -41,6 +43,6 @@ src/triage/     moteur de règles (D3)
 src/ui/         thème et composants (charte Sanimo)
 src/i18n/       textes ht / fr
 content/        contenu validé (JSON)
-donnees/        tableurs sources (CSV)
+content-sources/ tableurs sources (CSV) → content/ (JSON généré)
 tools/          scripts d'installation et banc d'essai
 ```

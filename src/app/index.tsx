@@ -31,7 +31,7 @@ const showDevScreens = __DEV__ || process.env.EXPO_PUBLIC_BENCH === '1';
 
 /** E10 — Accueil : un gros bouton « Kòmanse », le bouton rouge Ijans, la reprise et les accès rapides. */
 export default function HomeScreen() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const [resumable, setResumable] = useState<Assessment | null>(null);
   const [aiReady, setAiReady] = useState(true);
 
@@ -44,7 +44,7 @@ export default function HomeScreen() {
   );
 
   const startNew = () => {
-    getAssessmentSession().start(i18n.language === 'fr' ? 'fr' : 'ht');
+    getAssessmentSession().start('ht');
     router.push('/animal');
   };
 

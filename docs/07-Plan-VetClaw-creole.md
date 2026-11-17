@@ -143,10 +143,10 @@ Les compétences VetClaw donnent des **graines** utiles pour la banque de phrase
 | Dates | Étape | Livrable | Responsable |
 |---|---|---|---|
 | 12–14 nov. | Valider ce tri (§2) ; figer la liste fermée des symptômes | Tableur `symptomes` v1 (identifiants `snake_case`) | C |
-| 13–17 nov. | Extraction VetClaw → fiches FR, recoupement Merck/Cornell/ASPCA | **Fait le 12 nov. (v1, chien et chat)** : [`donnees/`](../donnees/LISEZMOI.md), soit 46 symptômes, 23 toxiques et 30 consignes, avec un premier jet créole par IA | C, aidé par l'IA |
+| 13–17 nov. | Extraction VetClaw → fiches FR, recoupement Merck/Cornell/ASPCA | **Fait le 12 nov. (v1, chien et chat)** : [`content-sources/`](../content-sources/LISEZMOI.md), soit 46 symptômes, 23 toxiques et 30 consignes, avec un premier jet créole par IA | C, aidé par l'IA |
 | 14–16 nov. | Glossaire créole vétérinaire | `glossaire` (≈ 80 termes) relu par 2 locuteurs | B |
 | 15–19 nov. | Traduction et adaptation en créole oral | Colonnes HT de `questions`, `consignes`, textes des clips | C + locuteur natif |
-| 15–20 nov. | Banque de phrases, lexique et cas de test en créole | **Banque v1 faite le 12 nov.** : [`banque_phrases.csv`](../donnees/banque_phrases.csv), 788 phrases. **Lexique (393 termes) et cas de test (75) faits le 12 nov.** Restent la relecture par un locuteur natif et l'enregistrement audio des cas | B |
+| 15–20 nov. | Banque de phrases, lexique et cas de test en créole | **Banque v1 faite le 12 nov.** : [`banque_phrases.csv`](../content-sources/banque_phrases.csv), 788 phrases. **Lexique (393 termes) et cas de test (75) faits le 12 nov.** Restent la relecture par un locuteur natif et l'enregistrement audio des cas | B |
 | 17–20 nov. | Tests des modèles sur ces données (playgrounds) : D1 et D2 | Notes D1/D2 avec chiffres | B |
 | 18–24 nov. | **Relecture par un vétérinaire haïtien** : signes d'alerte, toxiques locaux, consignes | Colonne `statut = validé` + nom du relecteur | A (contact), C |
 | 20 nov. | Réponse de l'organisation sur D5 (données préparées, audios, affinage) | Note D5 | A |

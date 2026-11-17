@@ -7,7 +7,9 @@
 | Rôle | **D1 — Application** (voir [PLAN-SANIMO](../PLAN-SANIMO.md) §5) |
 | Livrable final | **APK installable**, tous les écrans E01 → E80, parcours complet en mode avion |
 | Échéances | **J1** mer. 18 (parcours clavier) · **J2** dim. 22 (parcours voix) · **Gel** mar. 24 · **Démo** ven. 27 |
-| Références | [PLAN-SANIMO](../PLAN-SANIMO.md) · [App flow](03-App-flow.md) · [TRD](02-TRD.md) · [Données](../donnees/LISEZMOI.md) · Charte visuelle v1 |
+| Références | [PLAN-SANIMO](../PLAN-SANIMO.md) · [App flow](03-App-flow.md) · [TRD](02-TRD.md) · [Données](../content-sources/LISEZMOI.md) · Charte visuelle v1 |
+
+> **Décision du 15 nov. — application entièrement en créole.** Plus d'écran E01 (choix de langue), plus de `src/i18n/fr.ts`, plus de réglage de langue (E80). La première ouverture commence à E02 (avertissement). `Lang` vaut seulement `'ht'`. Les mentions de E01 et du français plus bas sont caduques.
 
 Ce document découpe le travail D1 en **étapes courtes, vérifiables et dans l'ordre**. Chaque étape a : un objectif, les tâches, la compétence (skill) Claude Code à charger, et une **définition de « terminé »**. On ne passe à l'étape suivante que lorsque la case « terminé » est cochée.
 

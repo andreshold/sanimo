@@ -1,0 +1,330 @@
+[
+  {
+    "id": "tox_chocolat",
+    "category": "aliment",
+    "name": "Chokola, kakawo",
+    "localNames": [
+      "chokola peyi ?"
+    ],
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "level": "ijans",
+    "message": "Chokola se pwazon pou chen. Plis li nwa, plis li danjere.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_chocolat"
+  },
+  {
+    "id": "tox_raisin",
+    "category": "aliment",
+    "name": "Rezen, rezen sèk",
+    "localNames": [],
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "level": "ijans",
+    "message": "Menm kèk grenn rezen ka gate ren chen an. Pa gen kantite ki pa danjere.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_raisin"
+  },
+  {
+    "id": "tox_oignon_ail",
+    "category": "aliment",
+    "name": "Zonyon, lay, echalòt, siv",
+    "localNames": [
+      "épis ?"
+    ],
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "level": "ijans",
+    "message": "Zonyon ak lay gate san bèt la. Chat pi fragil pase chen.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_oignon_ail"
+  },
+  {
+    "id": "tox_xylitol",
+    "category": "aliment",
+    "name": "Ksilitòl (chiklèt, sirèt « san sik »)",
+    "localNames": [],
+    "species": [
+      "chien"
+    ],
+    "level": "ijans",
+    "message": "Chiklèt san sik ka touye yon chen byen vit.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_xylitol"
+  },
+  {
+    "id": "tox_macadamia",
+    "category": "aliment",
+    "name": "Nwa makadamya",
+    "localNames": [],
+    "species": [
+      "chien"
+    ],
+    "level": "ijans",
+    "message": "Nwa makadamya fè chen an fèb epi tranble.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_macadamia"
+  },
+  {
+    "id": "tox_noix",
+    "category": "aliment",
+    "name": "Nwa",
+    "localNames": [],
+    "species": [
+      "chien"
+    ],
+    "level": "konsilte",
+    "message": "Nwa ka rann chen an malad.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_noix"
+  },
+  {
+    "id": "tox_muscade",
+    "category": "aliment",
+    "name": "Miskad",
+    "localNames": [],
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "level": "ijans",
+    "message": "Miskad ka bay bèt la kriz.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_muscade"
+  },
+  {
+    "id": "tox_alcool",
+    "category": "aliment",
+    "name": "Alkòl (wonm, kleren, byè)",
+    "localNames": [
+      "kleren",
+      "tafya ?"
+    ],
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "level": "ijans",
+    "message": "Alkòl se pwazon pou bèt, menm ti kras.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_alcool"
+  },
+  {
+    "id": "tox_cafeine",
+    "category": "aliment",
+    "name": "Kafe, te, bwason enèji, kola",
+    "localNames": [
+      "café peyi ?"
+    ],
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "level": "ijans",
+    "message": "Kafe ak te se pwazon pou chen.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_cafeine"
+  },
+  {
+    "id": "tox_pate_pain",
+    "category": "aliment",
+    "name": "Pat pen kri",
+    "localNames": [],
+    "species": [
+      "chien"
+    ],
+    "level": "ijans",
+    "message": "Pat pen kri gonfle nan vant chen an.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_pate_pain"
+  },
+  {
+    "id": "tox_os_cuits",
+    "category": "aliment",
+    "name": "Zo kwit (poul, pwason)",
+    "localNames": [],
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "level": "konsilte",
+    "message": "Zo kwit kase an moso pwenti ki ka blese bèt la.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_os_cuits"
+  },
+  {
+    "id": "tox_paracetamol",
+    "category": "medicament_humain",
+    "name": "Asetaminofèn, parasetamòl",
+    "localNames": [
+      "Tylenol",
+      "Panadol ?"
+    ],
+    "species": [
+      "chat"
+    ],
+    "level": "ijans",
+    "message": "Asetaminofèn touye chat, menm yon sèl grenn.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_paracetamol"
+  },
+  {
+    "id": "tox_paracetamol_chien",
+    "category": "medicament_humain",
+    "name": "Asetaminofèn, parasetamòl",
+    "localNames": [],
+    "species": [
+      "chien"
+    ],
+    "level": "ijans",
+    "message": "Pa janm bay chen w asetaminofèn san veterinè.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_paracetamol_chien"
+  },
+  {
+    "id": "tox_ains_humains",
+    "category": "medicament_humain",
+    "name": "Ibipwofèn, aspirin",
+    "localNames": [
+      "Advil ?"
+    ],
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "level": "ijans",
+    "message": "Medikaman doulè pou moun boule vant ak ren bèt.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_ains_humains"
+  },
+  {
+    "id": "tox_creme_5fu",
+    "category": "medicament_humain",
+    "name": "Krèm tretman po pou moun (5-FU)",
+    "localNames": [],
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "level": "ijans",
+    "message": "Si bèt la niche po yon moun ki mete krèm sa a, li ka mouri.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_creme_5fu"
+  },
+  {
+    "id": "tox_permethrine_chat",
+    "category": "antiparasitaire",
+    "name": "Remèd pis pou chen (pèmetrin) sou yon chat",
+    "localNames": [],
+    "species": [
+      "chat"
+    ],
+    "level": "ijans",
+    "message": "Remèd pis pou chen ka touye chat. Menm lè chat la kole ak yon chen ki fèk pran remèd la, li danjere.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_permethrine_chat"
+  },
+  {
+    "id": "tox_ivermectine_betail",
+    "category": "antiparasitaire",
+    "name": "Remèd bèt (ivèmektin) pou bèf oswa kabrit bay yon chen",
+    "localNames": [
+      "Ivomec ?"
+    ],
+    "species": [
+      "chien"
+    ],
+    "level": "ijans",
+    "message": "Remèd pou bèf ak kabrit ka pwazonnen chen, sitou kèk ras chen gadò.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_ivermectine_betail"
+  },
+  {
+    "id": "tox_huiles_essentielles_chat",
+    "category": "produit_menager",
+    "name": "Lwil esansyèl, dezenfektan",
+    "localNames": [],
+    "species": [
+      "chat"
+    ],
+    "level": "ijans",
+    "message": "Lwil esansyèl ak kèk dezenfektan pwazonnen chat.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_huiles_essentielles_chat"
+  },
+  {
+    "id": "tox_lys_chat",
+    "category": "plante",
+    "name": "Flè lis",
+    "localNames": [],
+    "species": [
+      "chat"
+    ],
+    "level": "ijans",
+    "message": "Flè lis touye chat, menm ti kras pousyè flè a oswa dlo vaz la. Ale kay veterinè menm si chat la sanble l byen.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_lys_chat"
+  },
+  {
+    "id": "tox_antigel",
+    "category": "produit_menager",
+    "name": "Antijèl, likid radyatè",
+    "localNames": [],
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "level": "ijans",
+    "message": "Antijèl gen gou dous epi li touye vit. Fò w ale kay veterinè nan premye èdtan yo.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_antigel"
+  },
+  {
+    "id": "tox_mort_aux_rats",
+    "category": "produit_menager",
+    "name": "Pwazon rat",
+    "localNames": [],
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "level": "ijans",
+    "message": "Pwazon rat ka fè bèt la senyen anndan kò l kèk jou apre.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_mort_aux_rats"
+  },
+  {
+    "id": "tox_cannabis",
+    "category": "autre",
+    "name": "Mariwana",
+    "localNames": [],
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "level": "ijans",
+    "message": "Mariwana fè chen an pa ka kanpe dwat epi li ka fè l dòmi twò fon.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_cannabis"
+  },
+  {
+    "id": "tox_pesticides",
+    "category": "produit_menager",
+    "name": "Pwazon jaden, ensektisid",
+    "localNames": [],
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "level": "ijans",
+    "message": "Pwazon pou plant ak ensèk ka pwazonnen bèt.",
+    "status": "brouillon",
+    "clipId": "clip_t_tox_pesticides"
+  }
+]

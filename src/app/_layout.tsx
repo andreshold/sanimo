@@ -52,9 +52,8 @@ export default function RootLayout() {
           contentStyle: { backgroundColor: colors.surface },
         }}
       >
-        {/* Première ouverture : langue → avertissement → pack IA */}
+        {/* Première ouverture : avertissement → pack IA (application en créole seulement, pas de choix de langue) */}
         <Stack.Protected guard={!onboarded}>
-          <Stack.Screen name="(onboarding)/langue" options={{ headerShown: false }} />
           <Stack.Screen name="(onboarding)/avertissement" options={{ title: '' }} />
         </Stack.Protected>
 

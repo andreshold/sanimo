@@ -1,0 +1,597 @@
+[
+  {
+    "id": "difficulte_respirer",
+    "category": "respiration",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li gen difikilte pou l respire, l ap respire vit vit",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_difficulte_respirer",
+    "status": "brouillon"
+  },
+  {
+    "id": "respiration_bouche_ouverte_chat",
+    "category": "respiration",
+    "species": [
+      "chat"
+    ],
+    "label": "Chat la ap respire ak bouch li louvri",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_respiration_bouche_ouverte_chat",
+    "status": "brouillon"
+  },
+  {
+    "id": "gencives_pales_bleues",
+    "category": "circulation",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Jansiv li blan, ble oswa vyolèt",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_gencives_pales_bleues",
+    "status": "brouillon"
+  },
+  {
+    "id": "effondrement_inconscient",
+    "category": "conscience",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li tonbe, li pa reponn lè w rele l",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_effondrement_inconscient",
+    "status": "brouillon"
+  },
+  {
+    "id": "incapable_se_lever",
+    "category": "conscience",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li pa ka kanpe, pye l pa mache",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_incapable_se_lever",
+    "status": "brouillon"
+  },
+  {
+    "id": "convulsions",
+    "category": "neurologique",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "L ap fè kriz, kò l ap sakade",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_convulsions",
+    "status": "brouillon"
+  },
+  {
+    "id": "tremblements_actifs",
+    "category": "neurologique",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "L ap tranble fò san rete",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_tremblements_actifs",
+    "status": "brouillon"
+  },
+  {
+    "id": "ne_peut_pas_uriner",
+    "category": "urinaire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "L ap fòse pou l pipi men anyen pa soti",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_ne_peut_pas_uriner",
+    "status": "brouillon"
+  },
+  {
+    "id": "efforts_vomir_sans_resultat",
+    "category": "digestif",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "L ap eseye vomi men anyen pa soti",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_efforts_vomir_sans_resultat",
+    "status": "brouillon"
+  },
+  {
+    "id": "ventre_gonfle_douloureux",
+    "category": "digestif",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Vant li gonfle, li di oswa li fè l mal",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_ventre_gonfle_douloureux",
+    "status": "brouillon"
+  },
+  {
+    "id": "vomit_sang",
+    "category": "digestif",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "L ap vomi san",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_vomit_sang",
+    "status": "brouillon"
+  },
+  {
+    "id": "diarrhee_sang",
+    "category": "digestif",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Dyare ak san (wouj oswa nwa tankou goudwon)",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_diarrhee_sang",
+    "status": "brouillon"
+  },
+  {
+    "id": "vomissements_repetes",
+    "category": "digestif",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "L ap vomi san rete",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_vomissements_repetes",
+    "status": "brouillon"
+  },
+  {
+    "id": "saignement_important",
+    "category": "trauma",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "L ap senyen anpil",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_saignement_important",
+    "status": "brouillon"
+  },
+  {
+    "id": "plaie_profonde_os",
+    "category": "trauma",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Gen yon blese fon oswa ou wè zo a",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_plaie_profonde_os",
+    "status": "brouillon"
+  },
+  {
+    "id": "accident_chute",
+    "category": "trauma",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Machin frape l oswa li tonbe soti wo",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_accident_chute",
+    "status": "brouillon"
+  },
+  {
+    "id": "brulure_grave",
+    "category": "trauma",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li boule grav",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_brulure_grave",
+    "status": "brouillon"
+  },
+  {
+    "id": "coup_chaleur",
+    "category": "environnement",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li cho anpil, l ap souf fò, li fèb apre solèy oswa apre l fin kouri",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_coup_chaleur",
+    "status": "brouillon"
+  },
+  {
+    "id": "mise_bas_difficile",
+    "category": "reproduction",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li gen difikilte pou l mete ti pitit li deyò",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_mise_bas_difficile",
+    "status": "brouillon"
+  },
+  {
+    "id": "organe_sorti",
+    "category": "trauma",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Gen yon pati anndan kò l ki soti deyò",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_organe_sorti",
+    "status": "brouillon"
+  },
+  {
+    "id": "etouffement",
+    "category": "respiration",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li toufe, gen yon bagay ki kole nan gòj li",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_etouffement",
+    "status": "brouillon"
+  },
+  {
+    "id": "gonflement_visage_piqure",
+    "category": "allergie",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Figi l oswa gòj li ap gonfle apre yon bèt pike l",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_gonflement_visage_piqure",
+    "status": "brouillon"
+  },
+  {
+    "id": "oeil_sorti",
+    "category": "oeil",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Je l soti nan twou l",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_oeil_sorti",
+    "status": "brouillon"
+  },
+  {
+    "id": "ingestion_toxique",
+    "category": "toxique",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li manje oswa li vale yon bagay ki ka pwazonnen l",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_ingestion_toxique",
+    "status": "brouillon"
+  },
+  {
+    "id": "medicament_humain_donne",
+    "category": "toxique",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li pran oswa li vale yon medikaman pou moun",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_medicament_humain_donne",
+    "status": "brouillon"
+  },
+  {
+    "id": "signes_rage",
+    "category": "rage",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li vin mechan sanzatann, l ap bave anpil, machwè l pandye, li pa ka vale",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_signes_rage",
+    "status": "brouillon"
+  },
+  {
+    "id": "chiot_vomit_diarrhee",
+    "category": "digestif",
+    "species": [
+      "chien"
+    ],
+    "label": "Ti chen an ap vomi epi li gen dyare",
+    "alert": true,
+    "minLevel": "ijans",
+    "questionId": "q_chiot_vomit_diarrhee",
+    "status": "brouillon"
+  },
+  {
+    "id": "oeil_douloureux_ferme",
+    "category": "oeil",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Je l wouj, li fè l mal oswa li kenbe l fèmen",
+    "alert": false,
+    "minLevel": "konsilte",
+    "questionId": "q_oeil_douloureux_ferme",
+    "status": "brouillon"
+  },
+  {
+    "id": "boiterie_sans_appui",
+    "category": "locomotion",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li pa poze youn nan pye l atè ditou",
+    "alert": false,
+    "minLevel": "konsilte",
+    "questionId": "q_boiterie_sans_appui",
+    "status": "brouillon"
+  },
+  {
+    "id": "boiterie",
+    "category": "locomotion",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "L ap bwete",
+    "alert": false,
+    "minLevel": "siveye",
+    "questionId": "q_boiterie",
+    "status": "brouillon"
+  },
+  {
+    "id": "ne_mange_plus",
+    "category": "general",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li pa manje ankò",
+    "alert": false,
+    "minLevel": "siveye",
+    "questionId": "q_ne_mange_plus",
+    "status": "brouillon"
+  },
+  {
+    "id": "vomissements",
+    "category": "digestif",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li vomi (youn oswa de fwa)",
+    "alert": false,
+    "minLevel": "siveye",
+    "questionId": "q_vomissements",
+    "status": "brouillon"
+  },
+  {
+    "id": "diarrhee",
+    "category": "digestif",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li gen dyare san san",
+    "alert": false,
+    "minLevel": "siveye",
+    "questionId": "q_diarrhee",
+    "status": "brouillon"
+  },
+  {
+    "id": "abattu_se_cache",
+    "category": "general",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li fatige anpil, li pa jwe ankò, l ap kache",
+    "alert": false,
+    "minLevel": "konsilte",
+    "questionId": "q_abattu_se_cache",
+    "status": "brouillon"
+  },
+  {
+    "id": "signes_douleur",
+    "category": "douleur",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "L ap plenn, do l bosi, li pa vle bouje oswa l ap niche yon kote",
+    "alert": false,
+    "minLevel": "konsilte",
+    "questionId": "q_signes_douleur",
+    "status": "brouillon"
+  },
+  {
+    "id": "changement_litiere_chat",
+    "category": "urinaire",
+    "species": [
+      "chat"
+    ],
+    "label": "L ap ale nan kabann sab li souvan, li pipi ti kras oswa li pipi lòt kote",
+    "alert": false,
+    "minLevel": "konsilte",
+    "questionId": "q_changement_litiere_chat",
+    "status": "brouillon"
+  },
+  {
+    "id": "boit_urine_beaucoup",
+    "category": "urinaire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li bwè dlo epi li pipi plis pase abitid",
+    "alert": false,
+    "minLevel": "konsilte",
+    "questionId": "q_boit_urine_beaucoup",
+    "status": "brouillon"
+  },
+  {
+    "id": "perte_poids",
+    "category": "general",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "L ap megri",
+    "alert": false,
+    "minLevel": "konsilte",
+    "questionId": "q_perte_poids",
+    "status": "brouillon"
+  },
+  {
+    "id": "toux",
+    "category": "respiration",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "L ap touse",
+    "alert": false,
+    "minLevel": "siveye",
+    "questionId": "q_toux",
+    "status": "brouillon"
+  },
+  {
+    "id": "ecoulement_yeux_nez",
+    "category": "respiration",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Je l oswa nen l ap koule, l ap estènen",
+    "alert": false,
+    "minLevel": "siveye",
+    "questionId": "q_ecoulement_yeux_nez",
+    "status": "brouillon"
+  },
+  {
+    "id": "plaie_petite",
+    "category": "trauma",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Ti blese oswa grafouyen",
+    "alert": false,
+    "minLevel": "siveye",
+    "questionId": "q_plaie_petite",
+    "status": "brouillon"
+  },
+  {
+    "id": "plaie_infectee",
+    "category": "trauma",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Blese a anfle, li cho, l ap koule oswa li santi move",
+    "alert": false,
+    "minLevel": "konsilte",
+    "questionId": "q_plaie_infectee",
+    "status": "brouillon"
+  },
+  {
+    "id": "morsure_par_animal",
+    "category": "trauma",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Yon lòt bèt mòde l",
+    "alert": false,
+    "minLevel": "konsilte",
+    "questionId": "q_morsure_par_animal",
+    "status": "brouillon"
+  },
+  {
+    "id": "grattage_intense",
+    "category": "peau",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "L ap grate anpil, pwal li ap tonbe",
+    "alert": false,
+    "minLevel": "siveye",
+    "questionId": "q_grattage_intense",
+    "status": "brouillon"
+  },
+  {
+    "id": "puces_tiques",
+    "category": "peau",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "Li gen pis oswa karapat",
+    "alert": false,
+    "minLevel": "siveye",
+    "questionId": "q_puces_tiques",
+    "status": "brouillon"
+  },
+  {
+    "id": "probleme_oreille",
+    "category": "peau",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "label": "L ap souke tèt li, zòrèy li santi move",
+    "alert": false,
+    "minLevel": "siveye",
+    "questionId": "q_probleme_oreille",
+    "status": "brouillon"
+  }
+]

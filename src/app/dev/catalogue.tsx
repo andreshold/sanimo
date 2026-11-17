@@ -121,7 +121,7 @@ export default function CatalogueScreen() {
           size="md"
           onPress={() => {
             resetSettings();
-            router.replace('/langue');
+            router.replace('/avertissement');
           }}
         />
       </Section>

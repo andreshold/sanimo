@@ -51,7 +51,7 @@ describe('dépôt des évaluations', () => {
 
   it('enregistre et relit les champs, listes et réponses comprises (aller-retour JSON)', () => {
     const db = freshDb();
-    const { id } = createAssessment(db, { lang: 'fr' }, T0);
+    const { id } = createAssessment(db, { lang: 'ht' }, T0);
     updateAssessment(
       db,
       id,
@@ -129,7 +129,7 @@ describe('effacement', () => {
   it('efface toutes les évaluations', () => {
     const db = freshDb();
     createAssessment(db, { lang: 'ht' }, T0);
-    createAssessment(db, { lang: 'fr' }, T0);
+    createAssessment(db, { lang: 'ht' }, T0);
     expect(deleteAllAssessments(db)).toBe(2);
     expect(listDoneAssessments(db)).toEqual([]);
     expect(findResumable(db, T0)).toBeNull();

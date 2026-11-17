@@ -1,394 +1,233 @@
-﻿id;symptome_id;langue;terme;variantes_normalisees;note;statut
-lx_0001;difficulte_respirer;ht;difikilte pou l respire;;;brouillon
-lx_0002;difficulte_respirer;ht;pa respire byen;;;brouillon
-lx_0003;difficulte_respirer;ht;souf kout;;;brouillon
-lx_0004;difficulte_respirer;ht;souf li kout;;;brouillon
-lx_0005;difficulte_respirer;ht;respire vit;;;brouillon
-lx_0006;difficulte_respirer;ht;pa ka pran souf;;;brouillon
-lx_0007;difficulte_respirer;ht;trangle pou l respire;;;brouillon
-lx_0008;difficulte_respirer;fr;respire mal;;;brouillon
-lx_0009;difficulte_respirer;fr;mal à respirer;mal a respirer;;brouillon
-lx_0010;difficulte_respirer;fr;essouffl;;;brouillon
-lx_0011;difficulte_respirer;fr;respire vite;;;brouillon
-lx_0012;difficulte_respirer;fr;respiration difficile;;;brouillon
-lx_0013;respiration_bouche_ouverte_chat;ht;respire ak bouch li louvri;;;brouillon
-lx_0014;respiration_bouche_ouverte_chat;ht;bouch li louvri;;;brouillon
-lx_0015;respiration_bouche_ouverte_chat;ht;ranse;;;brouillon
-lx_0016;respiration_bouche_ouverte_chat;ht;lang li deyò;lang li deyo;;brouillon
-lx_0017;respiration_bouche_ouverte_chat;fr;bouche ouverte;;;brouillon
-lx_0018;respiration_bouche_ouverte_chat;fr;halète;halete;;brouillon
-lx_0019;gencives_pales_bleues;ht;jansiv li blan;;;brouillon
-lx_0020;gencives_pales_bleues;ht;jansiv li ble;;;brouillon
-lx_0021;gencives_pales_bleues;ht;jansiv li vyolèt;jansiv li vyolet;;brouillon
-lx_0022;gencives_pales_bleues;ht;jansiv li pal;;;brouillon
-lx_0023;gencives_pales_bleues;ht;lang li ble;;;brouillon
-lx_0024;gencives_pales_bleues;fr;gencives blanches;;;brouillon
-lx_0025;gencives_pales_bleues;fr;gencives bleues;;;brouillon
-lx_0026;gencives_pales_bleues;fr;gencives pâles;gencives pales;;brouillon
-lx_0027;gencives_pales_bleues;fr;gencives violettes;;;brouillon
-lx_0028;gencives_pales_bleues;fr;langue bleue;;;brouillon
-lx_0029;effondrement_inconscient;ht;tonbe atè;tonbe ate;;brouillon
-lx_0030;effondrement_inconscient;ht;endispoze;;;brouillon
-lx_0031;effondrement_inconscient;ht;pa reponn;;;brouillon
-lx_0032;effondrement_inconscient;ht;san konesans;;;brouillon
-lx_0033;effondrement_inconscient;ht;pèdi konesans;pedi konesans;;brouillon
-lx_0034;effondrement_inconscient;ht;sanble l mouri;;;brouillon
-lx_0035;effondrement_inconscient;fr;effondr;;;brouillon
-lx_0036;effondrement_inconscient;fr;ne répond plus;ne repond plus;;brouillon
-lx_0037;effondrement_inconscient;fr;perdu connaissance;;;brouillon
-lx_0038;effondrement_inconscient;fr;inconscient;;;brouillon
-lx_0039;effondrement_inconscient;fr;évanoui;evanoui;;brouillon
-lx_0040;incapable_se_lever;ht;pa ka kanpe;;;brouillon
-lx_0041;incapable_se_lever;ht;pa ka leve;;;brouillon
-lx_0042;incapable_se_lever;ht;pye dèyè l pa mache;pye deye l pa mache;;brouillon
-lx_0043;incapable_se_lever;ht;trennen pye;;;brouillon
-lx_0044;incapable_se_lever;ht;paralize;;;brouillon
-lx_0045;incapable_se_lever;ht;pye l mouri;;;brouillon
-lx_0046;incapable_se_lever;fr;n'arrive plus à se lever;n'arrive plus a se lever;;brouillon
-lx_0047;incapable_se_lever;fr;ne peut pas se lever;;;brouillon
-lx_0048;incapable_se_lever;fr;paralys;;;brouillon
-lx_0049;incapable_se_lever;fr;ne marche plus;;;brouillon
-lx_0050;convulsions;ht;kriz;;Vérifier avec locuteurs : « kriz » peut désigner une crise de nerfs;brouillon
-lx_0051;convulsions;ht;malkadi;;;brouillon
-lx_0052;convulsions;ht;kò l ap sakade;ko l ap sakade | ko lap sakade;;brouillon
-lx_0053;convulsions;ht;kò l ap tòde;ko l ap tode | ko lap tode;;brouillon
-lx_0054;convulsions;ht;kimen nan bouch;;;brouillon
-lx_0055;convulsions;ht;pedale;;;brouillon
-lx_0056;convulsions;fr;convulsion;;;brouillon
-lx_0057;convulsions;fr;crise;;Ambigu (crise de nerfs) en français aussi;brouillon
-lx_0058;convulsions;fr;spasme;;;brouillon
-lx_0059;tremblements_actifs;ht;tranble;;;brouillon
-lx_0060;tremblements_actifs;ht;tranbleman;;;brouillon
-lx_0061;tremblements_actifs;ht;tranble fò;tranble fo;;brouillon
-lx_0062;tremblements_actifs;ht;kò l ap tranble;ko l ap tranble | ko lap tranble;;brouillon
-lx_0063;tremblements_actifs;fr;tremble;;;brouillon
-lx_0064;tremblements_actifs;fr;tremblement;;;brouillon
-lx_0065;tremblements_actifs;fr;frissonne;;;brouillon
-lx_0066;ne_peut_pas_uriner;ht;pa ka pipi;;;brouillon
-lx_0067;ne_peut_pas_uriner;ht;fòse pou l pipi;fose pou l pipi;;brouillon
-lx_0068;ne_peut_pas_uriner;ht;pipi a pa soti;;;brouillon
-lx_0069;ne_peut_pas_uriner;ht;pa pipi depi;;;brouillon
-lx_0070;ne_peut_pas_uriner;ht;kèk gout pipi;kek gout pipi;;brouillon
-lx_0071;ne_peut_pas_uriner;ht;pouse men anyen pa soti;;;brouillon
-lx_0072;ne_peut_pas_uriner;fr;n'arrive pas à uriner;n'arrive pas a uriner;;brouillon
-lx_0073;ne_peut_pas_uriner;fr;ne fait plus pipi;;;brouillon
-lx_0074;ne_peut_pas_uriner;fr;ne peut pas uriner;;;brouillon
-lx_0075;ne_peut_pas_uriner;fr;bloqué;bloque;;brouillon
-lx_0076;efforts_vomir_sans_resultat;ht;eseye vomi;;;brouillon
-lx_0077;efforts_vomir_sans_resultat;ht;efò pou l vomi;efo pou l vomi;;brouillon
-lx_0078;efforts_vomir_sans_resultat;ht;vomi vid;;;brouillon
-lx_0079;efforts_vomir_sans_resultat;ht;ranje pou l vomi;ranzye pou l vomi;;brouillon
-lx_0080;efforts_vomir_sans_resultat;ht;anyen pa soti;;Commun à vomir et uriner : désambiguïser avec « vomi » / « pipi »;brouillon
-lx_0081;efforts_vomir_sans_resultat;fr;essaie de vomir;;;brouillon
-lx_0082;efforts_vomir_sans_resultat;fr;haut-le-cœur;;;brouillon
-lx_0083;efforts_vomir_sans_resultat;fr;rien ne sort;;;brouillon
-lx_0084;ventre_gonfle_douloureux;ht;vant li gonfle;;;brouillon
-lx_0085;ventre_gonfle_douloureux;ht;vant li di;;;brouillon
-lx_0086;ventre_gonfle_douloureux;ht;vant li anfle;;;brouillon
-lx_0087;ventre_gonfle_douloureux;ht;vant li fè l mal;vant li fe l mal;;brouillon
-lx_0088;ventre_gonfle_douloureux;ht;vant li sere;;;brouillon
-lx_0089;ventre_gonfle_douloureux;ht;vant li vin gwo;;;brouillon
-lx_0090;ventre_gonfle_douloureux;fr;ventre gonflé;ventre gonfle;;brouillon
-lx_0091;ventre_gonfle_douloureux;fr;ventre dur;;;brouillon
-lx_0092;ventre_gonfle_douloureux;fr;mal au ventre;;;brouillon
-lx_0093;ventre_gonfle_douloureux;fr;ventre gros;;;brouillon
-lx_0094;vomit_sang;ht;vomi san;;;brouillon
-lx_0095;vomit_sang;ht;san nan vomisman;;;brouillon
-lx_0096;vomit_sang;ht;vomi wouj;;;brouillon
-lx_0097;vomit_sang;ht;vomi nwa;;;brouillon
-lx_0098;vomit_sang;fr;vomit du sang;;;brouillon
-lx_0099;vomit_sang;fr;vomi du sang;;;brouillon
-lx_0100;diarrhee_sang;ht;dyare ak san;;;brouillon
-lx_0101;diarrhee_sang;ht;san nan poupou;;;brouillon
-lx_0102;diarrhee_sang;ht;poupou l wouj;;;brouillon
-lx_0103;diarrhee_sang;ht;poupou l nwa;;;brouillon
-lx_0104;diarrhee_sang;ht;fè san;fe san;Expression orale à valider;brouillon
-lx_0105;diarrhee_sang;ht;tata ak san;;;brouillon
-lx_0106;diarrhee_sang;fr;diarrhée avec du sang;diarrhee avec du sang;;brouillon
-lx_0107;diarrhee_sang;fr;sang dans ses selles;;;brouillon
-lx_0108;diarrhee_sang;fr;selles noires;;;brouillon
-lx_0109;vomissements_repetes;ht;vomi san rete;;;brouillon
-lx_0110;vomissements_repetes;ht;vomi plizyè fwa;vomi plizye fwa;;brouillon
-lx_0111;vomissements_repetes;ht;vomi tout sa l manje;;;brouillon
-lx_0112;vomissements_repetes;ht;pa kenbe anyen;;;brouillon
-lx_0113;vomissements_repetes;fr;vomit sans arrêt;vomit sans arret;;brouillon
-lx_0114;vomissements_repetes;fr;vomi plusieurs fois;;;brouillon
-lx_0115;vomissements_repetes;fr;ne garde rien;;;brouillon
-lx_0116;saignement_important;ht;senyen anpil;;;brouillon
-lx_0117;saignement_important;ht;san an pa vle rete;;;brouillon
-lx_0118;saignement_important;ht;pèdi anpil san;pedi anpil san;;brouillon
-lx_0119;saignement_important;ht;san ap koule;;;brouillon
-lx_0120;saignement_important;fr;saigne beaucoup;;;brouillon
-lx_0121;saignement_important;fr;sang ne s'arrête pas;sang ne s'arrete pas;;brouillon
-lx_0122;saignement_important;fr;hémorragie;hemorragie;;brouillon
-lx_0123;plaie_profonde_os;ht;gwo blesi;;;brouillon
-lx_0124;plaie_profonde_os;ht;gwo blese;;;brouillon
-lx_0125;plaie_profonde_os;ht;wè zo a;we zo a;;brouillon
-lx_0126;plaie_profonde_os;ht;zo a soti;;;brouillon
-lx_0127;plaie_profonde_os;ht;blese a fon;;;brouillon
-lx_0128;plaie_profonde_os;ht;pye l kase;;Fracture sans plaie ouverte : 🔴 à valider;brouillon
-lx_0129;plaie_profonde_os;fr;plaie profonde;;;brouillon
-lx_0130;plaie_profonde_os;fr;on voit l'os;;;brouillon
-lx_0131;plaie_profonde_os;fr;os sorti;;;brouillon
-lx_0132;plaie_profonde_os;fr;fracture;;Mot médical : faible priorité;brouillon
-lx_0133;accident_chute;ht;machin frape;;;brouillon
-lx_0134;accident_chute;ht;moto frape;;;brouillon
-lx_0135;accident_chute;ht;kamyon;;;brouillon
-lx_0136;accident_chute;ht;aksidan;;;brouillon
-lx_0137;accident_chute;ht;tonbe soti wo;;;brouillon
-lx_0138;accident_chute;ht;tonbe sou do kay;;;brouillon
-lx_0139;accident_chute;fr;renversé;renverse;;brouillon
-lx_0140;accident_chute;fr;voiture;;;brouillon
-lx_0141;accident_chute;fr;accident;;;brouillon
-lx_0142;accident_chute;fr;tombé du toit;tombe du toit;;brouillon
-lx_0143;accident_chute;fr;chute;;;brouillon
-lx_0144;brulure_grave;ht;boule;;"« boule » = brûler mais aussi « boule » (balle) ; à combiner avec contexte";brouillon
-lx_0145;brulure_grave;ht;chode;;;brouillon
-lx_0146;brulure_grave;ht;dlo cho;;;brouillon
-lx_0147;brulure_grave;ht;dife;;"Ambigu (feu en général) ; seulement avec « boule »";brouillon
-lx_0148;brulure_grave;fr;brûl;brul;;brouillon
-lx_0149;brulure_grave;fr;eau bouillante;;;brouillon
-lx_0150;coup_chaleur;ht;cho anpil;;;brouillon
-lx_0151;coup_chaleur;ht;nan solèy;nan soley;;brouillon
-lx_0152;coup_chaleur;ht;nan chalè;nan chale;;brouillon
-lx_0153;coup_chaleur;ht;kò l cho;ko l cho;;brouillon
-lx_0154;coup_chaleur;fr;coup de chaleur;;;brouillon
-lx_0155;coup_chaleur;fr;trop chaud;;;brouillon
-lx_0156;coup_chaleur;fr;au soleil;;;brouillon
-lx_0157;mise_bas_difficile;ht;mete pitit li deyò;mete pitit li deyo;;brouillon
-lx_0158;mise_bas_difficile;ht;ti pitit la pa soti;;;brouillon
-lx_0159;mise_bas_difficile;ht;fè pitit;fe pitit;;brouillon
-lx_0160;mise_bas_difficile;ht;pitit kole;;;brouillon
-lx_0161;mise_bas_difficile;fr;mettre bas;;;brouillon
-lx_0162;mise_bas_difficile;fr;petit est coincé;petit est coince;;brouillon
-lx_0163;mise_bas_difficile;fr;accouche;;;brouillon
-lx_0164;organe_sorti;ht;soti nan dèyè;soti nan deye;;brouillon
-lx_0165;organe_sorti;ht;trip li soti;;;brouillon
-lx_0166;organe_sorti;ht;pandye nan dèyè;pandye nan deye;;brouillon
-lx_0167;organe_sorti;fr;sort de son derrière;sort de son derriere;;brouillon
-lx_0168;organe_sorti;fr;organe sort;;;brouillon
-lx_0169;etouffement;ht;toufe;;;brouillon
-lx_0170;etouffement;ht;kole nan gòj;kole nan goj;;brouillon
-lx_0171;etouffement;ht;pa ka vale;;;brouillon
-lx_0172;etouffement;ht;zo kole;;;brouillon
-lx_0173;etouffement;fr;s'étouffe;s'etouffe;;brouillon
-lx_0174;etouffement;fr;coincé dans sa gorge;coince dans sa gorge;;brouillon
-lx_0175;etouffement;fr;étouffe;etouffe;;brouillon
-lx_0176;gonflement_visage_piqure;ht;figi l gonfle;;;brouillon
-lx_0177;gonflement_visage_piqure;ht;figi l anfle;;;brouillon
-lx_0178;gonflement_visage_piqure;ht;bouch li gonfle;;;brouillon
-lx_0179;gonflement_visage_piqure;ht;gèp pike;gep pike;;brouillon
-lx_0180;gonflement_visage_piqure;ht;myèl pike;myel pike;;brouillon
-lx_0181;gonflement_visage_piqure;ht;gòj li anfle;goj li anfle;;brouillon
-lx_0182;gonflement_visage_piqure;fr;visage gonflé;visage gonfle;;brouillon
-lx_0183;gonflement_visage_piqure;fr;a gonflé;a gonfle;;brouillon
-lx_0184;gonflement_visage_piqure;fr;piqûre;piqure;;brouillon
-lx_0185;gonflement_visage_piqure;fr;guêpe;guepe;;brouillon
-lx_0186;gonflement_visage_piqure;fr;abeille;;;brouillon
-lx_0187;oeil_sorti;ht;je l soti;zye l soti;;brouillon
-lx_0188;oeil_sorti;ht;zye l soti;;;brouillon
-lx_0189;oeil_sorti;ht;je l pete;zye l pete;;brouillon
-lx_0190;oeil_sorti;fr;œil sorti;;;brouillon
-lx_0191;oeil_sorti;fr;oeil sorti;;;brouillon
-lx_0192;ingestion_toxique;ht;pwazon;;;brouillon
-lx_0193;ingestion_toxique;ht;pwazon rat;;;brouillon
-lx_0194;ingestion_toxique;ht;chokola;;;brouillon
-lx_0195;ingestion_toxique;ht;kleren;;;brouillon
-lx_0196;ingestion_toxique;ht;antijèl;antijel;;brouillon
-lx_0197;ingestion_toxique;ht;flè lis;fle lis;;brouillon
-lx_0198;ingestion_toxique;ht;rezen;;;brouillon
-lx_0199;ingestion_toxique;ht;chiklèt;chiklet;;brouillon
-lx_0200;ingestion_toxique;ht;pwodui netwayaj;;;brouillon
-lx_0201;ingestion_toxique;ht;zonyon;;;brouillon
-lx_0202;ingestion_toxique;ht;lay;;"Mot court : risque de faux positif ; à combiner avec « manje »";brouillon
-lx_0203;ingestion_toxique;ht;kafe;;;brouillon
-lx_0204;ingestion_toxique;ht;mariwana;;;brouillon
-lx_0205;ingestion_toxique;fr;poison;;;brouillon
-lx_0206;ingestion_toxique;fr;mort-aux-rats;;;brouillon
-lx_0207;ingestion_toxique;fr;chocolat;;;brouillon
-lx_0208;ingestion_toxique;fr;antigel;;;brouillon
-lx_0209;ingestion_toxique;fr;lys;;;brouillon
-lx_0210;ingestion_toxique;fr;raisin;;;brouillon
-lx_0211;ingestion_toxique;fr;chewing-gum;;;brouillon
-lx_0212;ingestion_toxique;fr;oignon;;;brouillon
-lx_0213;ingestion_toxique;fr;ail;;;brouillon
-lx_0214;ingestion_toxique;fr;alcool;;;brouillon
-lx_0215;medicament_humain_donne;ht;tylenòl;tylenol;;brouillon
-lx_0216;medicament_humain_donne;ht;parasetamòl;parasetamol;;brouillon
-lx_0217;medicament_humain_donne;ht;asetaminofèn;asetaminofen;;brouillon
-lx_0218;medicament_humain_donne;ht;aspirin;;;brouillon
-lx_0219;medicament_humain_donne;ht;ibipwofèn;ibipwofen;;brouillon
-lx_0220;medicament_humain_donne;ht;medikaman pa m;;;brouillon
-lx_0221;medicament_humain_donne;ht;grenn medikaman;;;brouillon
-lx_0222;medicament_humain_donne;ht;remèd pis chen;remed pis chen | remed pis chyen;;brouillon
-lx_0223;medicament_humain_donne;fr;paracétamol;paracetamol;;brouillon
-lx_0224;medicament_humain_donne;fr;doliprane;;;brouillon
-lx_0225;medicament_humain_donne;fr;aspirine;;;brouillon
-lx_0226;medicament_humain_donne;fr;ibuprofène;ibuprofene;;brouillon
-lx_0227;medicament_humain_donne;fr;mes médicaments;mes medicaments;;brouillon
-lx_0228;medicament_humain_donne;fr;antipuces;;;brouillon
-lx_0229;signes_rage;ht;vin mechan;;;brouillon
-lx_0230;signes_rage;ht;bave anpil;;;brouillon
-lx_0231;signes_rage;ht;mòde tout moun;mode tout moun;;brouillon
-lx_0232;signes_rage;ht;machwè l pandye;machwe l pandye;;brouillon
-lx_0233;signes_rage;ht;pa ka vale dlo;;;brouillon
-lx_0234;signes_rage;ht;pa pè moun;pa pe moun;;brouillon
-lx_0235;signes_rage;fr;agressif;;;brouillon
-lx_0236;signes_rage;fr;bave;;"Chien qui bave après l'effort = normal ; à combiner";brouillon
-lx_0237;signes_rage;fr;n'arrive pas à avaler;n'arrive pas a avaler;;brouillon
-lx_0238;signes_rage;fr;rage;;;brouillon
-lx_0239;chiot_vomit_diarrhee;ht;ti chen;ti chyen;Indique l'âge, pas un symptôme : n'active chiot_vomit_diarrhee qu'avec vomi + dyare;brouillon
-lx_0240;chiot_vomit_diarrhee;ht;pitit chen;pitit chyen;Idem ti chen;brouillon
-lx_0241;chiot_vomit_diarrhee;ht;tichen;tichyen;;brouillon
-lx_0242;chiot_vomit_diarrhee;ht;chen piti;chyen piti;;brouillon
-lx_0243;chiot_vomit_diarrhee;fr;chiot;;Idem ti chen;brouillon
-lx_0244;chiot_vomit_diarrhee;fr;jeune chien;;;brouillon
-lx_0245;oeil_douloureux_ferme;ht;je l wouj;zye l wouj;;brouillon
-lx_0246;oeil_douloureux_ferme;ht;je fèmen;je femen | zye femen;;brouillon
-lx_0247;oeil_douloureux_ferme;ht;fwote je;;;brouillon
-lx_0248;oeil_douloureux_ferme;ht;je l vin blan;zye l vin blan;;brouillon
-lx_0249;oeil_douloureux_ferme;ht;zye l anfle;;;brouillon
-lx_0250;oeil_douloureux_ferme;fr;œil fermé;œil ferme;;brouillon
-lx_0251;oeil_douloureux_ferme;fr;œil rouge;;;brouillon
-lx_0252;oeil_douloureux_ferme;fr;oeil rouge;;;brouillon
-lx_0253;oeil_douloureux_ferme;fr;frotte l'œil;;;brouillon
-lx_0254;boiterie_sans_appui;ht;pa poze pye l;;;brouillon
-lx_0255;boiterie_sans_appui;ht;sou twa pye;;;brouillon
-lx_0256;boiterie_sans_appui;ht;pye l pandye;;;brouillon
-lx_0257;boiterie_sans_appui;fr;ne pose plus sa patte;;;brouillon
-lx_0258;boiterie_sans_appui;fr;trois pattes;;;brouillon
-lx_0259;boiterie;ht;bwete;;;brouillon
-lx_0260;boiterie;ht;kòlòkòlò;kolokolo;;brouillon
-lx_0261;boiterie;ht;pye l fè l mal;pye l fe l mal;;brouillon
-lx_0262;boiterie;ht;pa mache byen;;;brouillon
-lx_0263;boiterie;fr;boite;;;brouillon
-lx_0264;boiterie;fr;mal à la patte;mal a la patte;;brouillon
-lx_0265;ne_mange_plus;ht;pa manje;;Négation de « manje » : attention à « li pa manje chokola »;brouillon
-lx_0266;ne_mange_plus;ht;pa vle manje;;;brouillon
-lx_0267;ne_mange_plus;ht;pa gen apeti;;;brouillon
-lx_0268;ne_mange_plus;ht;refize manje;;;brouillon
-lx_0269;ne_mange_plus;ht;sispann manje;;;brouillon
-lx_0270;ne_mange_plus;ht;pa anvi manje;;;brouillon
-lx_0271;ne_mange_plus;fr;ne mange plus;;;brouillon
-lx_0272;ne_mange_plus;fr;ne mange pas;;;brouillon
-lx_0273;ne_mange_plus;fr;pas d'appétit;pas d'appetit;;brouillon
-lx_0274;ne_mange_plus;fr;refuse de manger;;;brouillon
-lx_0275;vomissements;ht;vomi;;Matche aussi « eseye vomi » et « vomi san » : les règles prennent le symptôme le plus grave;brouillon
-lx_0276;vomissements;ht;vomisman;;;brouillon
-lx_0277;vomissements;ht;kè plen;ke plen;;brouillon
-lx_0278;vomissements;ht;rann manje;;;brouillon
-lx_0279;vomissements;fr;vomi;;Matche aussi « eseye vomi » et « vomi san » : les règles prennent le symptôme le plus grave;brouillon
-lx_0280;vomissements;fr;vomit;;;brouillon
-lx_0281;vomissements;fr;nausée;nausee;;brouillon
-lx_0282;diarrhee;ht;dyare;;;brouillon
-lx_0283;diarrhee;ht;vantmennen;;;brouillon
-lx_0284;diarrhee;ht;vant pase;;;brouillon
-lx_0285;diarrhee;ht;tata dlo;;;brouillon
-lx_0286;diarrhee;ht;poupou l likid;;;brouillon
-lx_0287;diarrhee;ht;vant li ap kouri;;;brouillon
-lx_0288;diarrhee;fr;diarrhée;diarrhee;;brouillon
-lx_0289;diarrhee;fr;selles liquides;;;brouillon
-lx_0290;diarrhee;fr;chiasse;;;brouillon
-lx_0291;abattu_se_cache;ht;fatige anpil;;;brouillon
-lx_0292;abattu_se_cache;ht;pa jwe;;;brouillon
-lx_0293;abattu_se_cache;ht;kache;;Fréquent hors contexte médical;brouillon
-lx_0294;abattu_se_cache;ht;kouche tout jounen;;;brouillon
-lx_0295;abattu_se_cache;ht;san fòs;san fos;;brouillon
-lx_0296;abattu_se_cache;ht;tris;;Subjectif;brouillon
-lx_0297;abattu_se_cache;fr;fatigué;fatigue;;brouillon
-lx_0298;abattu_se_cache;fr;se cache;;;brouillon
-lx_0299;abattu_se_cache;fr;ne joue plus;;;brouillon
-lx_0300;abattu_se_cache;fr;abattu;;;brouillon
-lx_0301;abattu_se_cache;fr;mou;;Très ambigu en français;brouillon
-lx_0302;signes_douleur;ht;plenn;;;brouillon
-lx_0303;signes_douleur;ht;kriye;;;brouillon
-lx_0304;signes_douleur;ht;do l bosi;;;brouillon
-lx_0305;signes_douleur;ht;pa vle bouje;;;brouillon
-lx_0306;signes_douleur;ht;gen doulè;gen doule;;brouillon
-lx_0307;signes_douleur;ht;rele lè m manyen;rele le m manyen;;brouillon
-lx_0308;signes_douleur;fr;gémit;gemit;;brouillon
-lx_0309;signes_douleur;fr;a mal;;;brouillon
-lx_0310;signes_douleur;fr;crie quand;;;brouillon
-lx_0311;signes_douleur;fr;dos voûté;dos voute;;brouillon
-lx_0312;signes_douleur;fr;douleur;;;brouillon
-lx_0313;changement_litiere_chat;ht;nan sab la souvan;;;brouillon
-lx_0314;changement_litiere_chat;ht;pipi ti kras;;;brouillon
-lx_0315;changement_litiere_chat;ht;pipi lòt kote;pipi lot kote;;brouillon
-lx_0316;changement_litiere_chat;ht;kabann sab;;;brouillon
-lx_0317;changement_litiere_chat;fr;litière;litiere;;brouillon
-lx_0318;changement_litiere_chat;fr;urine à côté;urine a cote;;brouillon
-lx_0319;boit_urine_beaucoup;ht;bwè dlo anpil;bwe dlo anpil;;brouillon
-lx_0320;boit_urine_beaucoup;ht;pipi anpil;;;brouillon
-lx_0321;boit_urine_beaucoup;ht;toujou swaf;;;brouillon
-lx_0322;boit_urine_beaucoup;ht;bwè plis;bwe plis;;brouillon
-lx_0323;boit_urine_beaucoup;fr;boit beaucoup;;;brouillon
-lx_0324;boit_urine_beaucoup;fr;urine beaucoup;;;brouillon
-lx_0325;boit_urine_beaucoup;fr;toujours soif;;;brouillon
-lx_0326;perte_poids;ht;megri;;;brouillon
-lx_0327;perte_poids;ht;vin mèg;vin meg;;brouillon
-lx_0328;perte_poids;ht;zo kòt;zo kot;;brouillon
-lx_0329;perte_poids;ht;pèdi pwa;pedi pwa;;brouillon
-lx_0330;perte_poids;fr;maigri;;;brouillon
-lx_0331;perte_poids;fr;perdu du poids;;;brouillon
-lx_0332;perte_poids;fr;maigre;;;brouillon
-lx_0333;toux;ht;touse;;;brouillon
-lx_0334;toux;ht;tous;;"Court ; vérifier qu'il ne matche pas « tout »";brouillon
-lx_0335;toux;ht;touse sèch;touse sech;;brouillon
-lx_0336;toux;ht;touse lannwit;;;brouillon
-lx_0337;toux;fr;tousse;;;brouillon
-lx_0338;toux;fr;toux;;;brouillon
-lx_0339;toux;fr;quinte;;;brouillon
-lx_0340;ecoulement_yeux_nez;ht;nen l ap koule;nen lap koule;;brouillon
-lx_0341;ecoulement_yeux_nez;ht;je l ap koule;je lap koule | zye l ap koule;;brouillon
-lx_0342;ecoulement_yeux_nez;ht;estènen;estenen;;brouillon
-lx_0343;ecoulement_yeux_nez;ht;larim;;;brouillon
-lx_0344;ecoulement_yeux_nez;ht;kaka je;;;brouillon
-lx_0345;ecoulement_yeux_nez;fr;nez coule;;;brouillon
-lx_0346;ecoulement_yeux_nez;fr;éternue;eternue;;brouillon
-lx_0347;ecoulement_yeux_nez;fr;yeux coulent;;;brouillon
-lx_0348;plaie_petite;ht;ti blese;;;brouillon
-lx_0349;plaie_petite;ht;grafouye;;;brouillon
-lx_0350;plaie_petite;ht;ti koupe;;;brouillon
-lx_0351;plaie_petite;ht;blese pye;;;brouillon
-lx_0352;plaie_petite;fr;petite plaie;;;brouillon
-lx_0353;plaie_petite;fr;égratign;egratign;;brouillon
-lx_0354;plaie_petite;fr;coupure;;;brouillon
-lx_0355;plaie_infectee;ht;blese a anfle;;;brouillon
-lx_0356;plaie_infectee;ht;blese a ap koule;;;brouillon
-lx_0357;plaie_infectee;ht;santi move;;;brouillon
-lx_0358;plaie_infectee;ht;gen pi;;;brouillon
-lx_0359;plaie_infectee;ht;abse;;;brouillon
-lx_0360;plaie_infectee;fr;plaie coule;;;brouillon
-lx_0361;plaie_infectee;fr;sent mauvais;;;brouillon
-lx_0362;plaie_infectee;fr;abcès;abces;;brouillon
-lx_0363;plaie_infectee;fr;pus;;;brouillon
-lx_0364;morsure_par_animal;ht;chen mòde;chen mode | chyen mode;;brouillon
-lx_0365;morsure_par_animal;ht;chat mòde;chat mode;;brouillon
-lx_0366;morsure_par_animal;ht;goumen;;;brouillon
-lx_0367;morsure_par_animal;ht;bèt mòde;bet mode;;brouillon
-lx_0368;morsure_par_animal;fr;mordu;;;brouillon
-lx_0369;morsure_par_animal;fr;s'est battu;;;brouillon
-lx_0370;morsure_par_animal;fr;morsure;;;brouillon
-lx_0371;grattage_intense;ht;grate san rete;;;brouillon
-lx_0372;grattage_intense;ht;gratèl;gratel;;brouillon
-lx_0373;grattage_intense;ht;pwal li ap tonbe;;;brouillon
-lx_0374;grattage_intense;ht;pèdi pwal;pedi pwal;;brouillon
-lx_0375;grattage_intense;ht;po l wouj;;;brouillon
-lx_0376;grattage_intense;fr;se gratte;;;brouillon
-lx_0377;grattage_intense;fr;perd ses poils;;;brouillon
-lx_0378;grattage_intense;fr;démange;demange;;brouillon
-lx_0379;puces_tiques;ht;pis;;Ambigu : « pis » = puces mais aussi « puis » (alò pis…). Exiger « gen pis » ou « pis sou li » ?;brouillon
-lx_0380;puces_tiques;ht;karapat;;;brouillon
-lx_0381;puces_tiques;ht;gen pis;;;brouillon
-lx_0382;puces_tiques;ht;pis sou li;;;brouillon
-lx_0383;puces_tiques;ht;gen karapat;;;brouillon
-lx_0384;puces_tiques;fr;puces;;;brouillon
-lx_0385;puces_tiques;fr;tiques;;;brouillon
-lx_0386;puces_tiques;fr;parasites;;;brouillon
-lx_0387;probleme_oreille;ht;souke tèt;souke tet;;brouillon
-lx_0388;probleme_oreille;ht;zòrèy li santi;zorey li santi;;brouillon
-lx_0389;probleme_oreille;ht;grate zòrèy;grate zorey;;brouillon
-lx_0390;probleme_oreille;ht;zòrèy li sal;zorey li sal;;brouillon
-lx_0391;probleme_oreille;fr;secoue la tête;secoue la tete;;brouillon
-lx_0392;probleme_oreille;fr;oreille sent;;;brouillon
-lx_0393;probleme_oreille;fr;oreille sale;;;brouillon
+﻿id;symptome_id;terme;variantes_normalisees;note;statut
+lx_0001;difficulte_respirer;difikilte pou l respire;;;brouillon
+lx_0002;difficulte_respirer;pa respire byen;;;brouillon
+lx_0003;difficulte_respirer;souf kout;;;brouillon
+lx_0004;difficulte_respirer;souf li kout;;;brouillon
+lx_0005;difficulte_respirer;respire vit;;;brouillon
+lx_0006;difficulte_respirer;pa ka pran souf;;;brouillon
+lx_0007;difficulte_respirer;trangle pou l respire;;;brouillon
+lx_0013;respiration_bouche_ouverte_chat;respire ak bouch li louvri;;;brouillon
+lx_0014;respiration_bouche_ouverte_chat;bouch li louvri;;;brouillon
+lx_0015;respiration_bouche_ouverte_chat;ranse;;;brouillon
+lx_0016;respiration_bouche_ouverte_chat;lang li deyò;lang li deyo;;brouillon
+lx_0019;gencives_pales_bleues;jansiv li blan;;;brouillon
+lx_0020;gencives_pales_bleues;jansiv li ble;;;brouillon
+lx_0021;gencives_pales_bleues;jansiv li vyolèt;jansiv li vyolet;;brouillon
+lx_0022;gencives_pales_bleues;jansiv li pal;;;brouillon
+lx_0023;gencives_pales_bleues;lang li ble;;;brouillon
+lx_0029;effondrement_inconscient;tonbe atè;tonbe ate;;brouillon
+lx_0030;effondrement_inconscient;endispoze;;;brouillon
+lx_0031;effondrement_inconscient;pa reponn;;;brouillon
+lx_0032;effondrement_inconscient;san konesans;;;brouillon
+lx_0033;effondrement_inconscient;pèdi konesans;pedi konesans;;brouillon
+lx_0034;effondrement_inconscient;sanble l mouri;;;brouillon
+lx_0040;incapable_se_lever;pa ka kanpe;;;brouillon
+lx_0041;incapable_se_lever;pa ka leve;;;brouillon
+lx_0042;incapable_se_lever;pye dèyè l pa mache;pye deye l pa mache;;brouillon
+lx_0043;incapable_se_lever;trennen pye;;;brouillon
+lx_0044;incapable_se_lever;paralize;;;brouillon
+lx_0045;incapable_se_lever;pye l mouri;;;brouillon
+lx_0050;convulsions;kriz;;Vérifier avec locuteurs : « kriz » peut désigner une crise de nerfs;brouillon
+lx_0051;convulsions;malkadi;;;brouillon
+lx_0052;convulsions;kò l ap sakade;ko l ap sakade | ko lap sakade;;brouillon
+lx_0053;convulsions;kò l ap tòde;ko l ap tode | ko lap tode;;brouillon
+lx_0054;convulsions;kimen nan bouch;;;brouillon
+lx_0055;convulsions;pedale;;;brouillon
+lx_0059;tremblements_actifs;tranble;;;brouillon
+lx_0060;tremblements_actifs;tranbleman;;;brouillon
+lx_0061;tremblements_actifs;tranble fò;tranble fo;;brouillon
+lx_0062;tremblements_actifs;kò l ap tranble;ko l ap tranble | ko lap tranble;;brouillon
+lx_0066;ne_peut_pas_uriner;pa ka pipi;;;brouillon
+lx_0067;ne_peut_pas_uriner;fòse pou l pipi;fose pou l pipi;;brouillon
+lx_0068;ne_peut_pas_uriner;pipi a pa soti;;;brouillon
+lx_0069;ne_peut_pas_uriner;pa pipi depi;;;brouillon
+lx_0070;ne_peut_pas_uriner;kèk gout pipi;kek gout pipi;;brouillon
+lx_0071;ne_peut_pas_uriner;pouse men anyen pa soti;;;brouillon
+lx_0076;efforts_vomir_sans_resultat;eseye vomi;;;brouillon
+lx_0077;efforts_vomir_sans_resultat;efò pou l vomi;efo pou l vomi;;brouillon
+lx_0078;efforts_vomir_sans_resultat;vomi vid;;;brouillon
+lx_0079;efforts_vomir_sans_resultat;ranje pou l vomi;ranzye pou l vomi;;brouillon
+lx_0080;efforts_vomir_sans_resultat;anyen pa soti;;Commun à vomir et uriner : désambiguïser avec « vomi » / « pipi »;brouillon
+lx_0084;ventre_gonfle_douloureux;vant li gonfle;;;brouillon
+lx_0085;ventre_gonfle_douloureux;vant li di;;;brouillon
+lx_0086;ventre_gonfle_douloureux;vant li anfle;;;brouillon
+lx_0087;ventre_gonfle_douloureux;vant li fè l mal;vant li fe l mal;;brouillon
+lx_0088;ventre_gonfle_douloureux;vant li sere;;;brouillon
+lx_0089;ventre_gonfle_douloureux;vant li vin gwo;;;brouillon
+lx_0094;vomit_sang;vomi san;;;brouillon
+lx_0095;vomit_sang;san nan vomisman;;;brouillon
+lx_0096;vomit_sang;vomi wouj;;;brouillon
+lx_0097;vomit_sang;vomi nwa;;;brouillon
+lx_0100;diarrhee_sang;dyare ak san;;;brouillon
+lx_0101;diarrhee_sang;san nan poupou;;;brouillon
+lx_0102;diarrhee_sang;poupou l wouj;;;brouillon
+lx_0103;diarrhee_sang;poupou l nwa;;;brouillon
+lx_0104;diarrhee_sang;fè san;fe san;Expression orale à valider;brouillon
+lx_0105;diarrhee_sang;tata ak san;;;brouillon
+lx_0109;vomissements_repetes;vomi san rete;;;brouillon
+lx_0110;vomissements_repetes;vomi plizyè fwa;vomi plizye fwa;;brouillon
+lx_0111;vomissements_repetes;vomi tout sa l manje;;;brouillon
+lx_0112;vomissements_repetes;pa kenbe anyen;;;brouillon
+lx_0116;saignement_important;senyen anpil;;;brouillon
+lx_0117;saignement_important;san an pa vle rete;;;brouillon
+lx_0118;saignement_important;pèdi anpil san;pedi anpil san;;brouillon
+lx_0119;saignement_important;san ap koule;;;brouillon
+lx_0123;plaie_profonde_os;gwo blesi;;;brouillon
+lx_0124;plaie_profonde_os;gwo blese;;;brouillon
+lx_0125;plaie_profonde_os;wè zo a;we zo a;;brouillon
+lx_0126;plaie_profonde_os;zo a soti;;;brouillon
+lx_0127;plaie_profonde_os;blese a fon;;;brouillon
+lx_0128;plaie_profonde_os;pye l kase;;Fracture sans plaie ouverte : 🔴 à valider;brouillon
+lx_0133;accident_chute;machin frape;;;brouillon
+lx_0134;accident_chute;moto frape;;;brouillon
+lx_0135;accident_chute;kamyon;;;brouillon
+lx_0136;accident_chute;aksidan;;;brouillon
+lx_0137;accident_chute;tonbe soti wo;;;brouillon
+lx_0138;accident_chute;tonbe sou do kay;;;brouillon
+lx_0144;brulure_grave;boule;;"« boule » = brûler mais aussi « boule » (balle) ; à combiner avec contexte";brouillon
+lx_0145;brulure_grave;chode;;;brouillon
+lx_0146;brulure_grave;dlo cho;;;brouillon
+lx_0147;brulure_grave;dife;;"Ambigu (feu en général) ; seulement avec « boule »";brouillon
+lx_0150;coup_chaleur;cho anpil;;;brouillon
+lx_0151;coup_chaleur;nan solèy;nan soley;;brouillon
+lx_0152;coup_chaleur;nan chalè;nan chale;;brouillon
+lx_0153;coup_chaleur;kò l cho;ko l cho;;brouillon
+lx_0157;mise_bas_difficile;mete pitit li deyò;mete pitit li deyo;;brouillon
+lx_0158;mise_bas_difficile;ti pitit la pa soti;;;brouillon
+lx_0159;mise_bas_difficile;fè pitit;fe pitit;;brouillon
+lx_0160;mise_bas_difficile;pitit kole;;;brouillon
+lx_0164;organe_sorti;soti nan dèyè;soti nan deye;;brouillon
+lx_0165;organe_sorti;trip li soti;;;brouillon
+lx_0166;organe_sorti;pandye nan dèyè;pandye nan deye;;brouillon
+lx_0169;etouffement;toufe;;;brouillon
+lx_0170;etouffement;kole nan gòj;kole nan goj;;brouillon
+lx_0171;etouffement;pa ka vale;;;brouillon
+lx_0172;etouffement;zo kole;;;brouillon
+lx_0176;gonflement_visage_piqure;figi l gonfle;;;brouillon
+lx_0177;gonflement_visage_piqure;figi l anfle;;;brouillon
+lx_0178;gonflement_visage_piqure;bouch li gonfle;;;brouillon
+lx_0179;gonflement_visage_piqure;gèp pike;gep pike;;brouillon
+lx_0180;gonflement_visage_piqure;myèl pike;myel pike;;brouillon
+lx_0181;gonflement_visage_piqure;gòj li anfle;goj li anfle;;brouillon
+lx_0187;oeil_sorti;je l soti;zye l soti;;brouillon
+lx_0188;oeil_sorti;zye l soti;;;brouillon
+lx_0189;oeil_sorti;je l pete;zye l pete;;brouillon
+lx_0192;ingestion_toxique;pwazon;;;brouillon
+lx_0193;ingestion_toxique;pwazon rat;;;brouillon
+lx_0194;ingestion_toxique;chokola;;;brouillon
+lx_0195;ingestion_toxique;kleren;;;brouillon
+lx_0196;ingestion_toxique;antijèl;antijel;;brouillon
+lx_0197;ingestion_toxique;flè lis;fle lis;;brouillon
+lx_0198;ingestion_toxique;rezen;;;brouillon
+lx_0199;ingestion_toxique;chiklèt;chiklet;;brouillon
+lx_0200;ingestion_toxique;pwodui netwayaj;;;brouillon
+lx_0201;ingestion_toxique;zonyon;;;brouillon
+lx_0202;ingestion_toxique;lay;;"Mot court : risque de faux positif ; à combiner avec « manje »";brouillon
+lx_0203;ingestion_toxique;kafe;;;brouillon
+lx_0204;ingestion_toxique;mariwana;;;brouillon
+lx_0215;medicament_humain_donne;tylenòl;tylenol;;brouillon
+lx_0216;medicament_humain_donne;parasetamòl;parasetamol;;brouillon
+lx_0217;medicament_humain_donne;asetaminofèn;asetaminofen;;brouillon
+lx_0218;medicament_humain_donne;aspirin;;;brouillon
+lx_0219;medicament_humain_donne;ibipwofèn;ibipwofen;;brouillon
+lx_0220;medicament_humain_donne;medikaman pa m;;;brouillon
+lx_0221;medicament_humain_donne;grenn medikaman;;;brouillon
+lx_0222;medicament_humain_donne;remèd pis chen;remed pis chen | remed pis chyen;;brouillon
+lx_0229;signes_rage;vin mechan;;;brouillon
+lx_0230;signes_rage;bave anpil;;;brouillon
+lx_0231;signes_rage;mòde tout moun;mode tout moun;;brouillon
+lx_0232;signes_rage;machwè l pandye;machwe l pandye;;brouillon
+lx_0233;signes_rage;pa ka vale dlo;;;brouillon
+lx_0234;signes_rage;pa pè moun;pa pe moun;;brouillon
+lx_0239;chiot_vomit_diarrhee;ti chen;ti chyen;Indique l'âge, pas un symptôme : n'active chiot_vomit_diarrhee qu'avec vomi + dyare;brouillon
+lx_0240;chiot_vomit_diarrhee;pitit chen;pitit chyen;Idem ti chen;brouillon
+lx_0241;chiot_vomit_diarrhee;tichen;tichyen;;brouillon
+lx_0242;chiot_vomit_diarrhee;chen piti;chyen piti;;brouillon
+lx_0245;oeil_douloureux_ferme;je l wouj;zye l wouj;;brouillon
+lx_0246;oeil_douloureux_ferme;je fèmen;je femen | zye femen;;brouillon
+lx_0247;oeil_douloureux_ferme;fwote je;;;brouillon
+lx_0248;oeil_douloureux_ferme;je l vin blan;zye l vin blan;;brouillon
+lx_0249;oeil_douloureux_ferme;zye l anfle;;;brouillon
+lx_0254;boiterie_sans_appui;pa poze pye l;;;brouillon
+lx_0255;boiterie_sans_appui;sou twa pye;;;brouillon
+lx_0256;boiterie_sans_appui;pye l pandye;;;brouillon
+lx_0259;boiterie;bwete;;;brouillon
+lx_0260;boiterie;kòlòkòlò;kolokolo;;brouillon
+lx_0261;boiterie;pye l fè l mal;pye l fe l mal;;brouillon
+lx_0262;boiterie;pa mache byen;;;brouillon
+lx_0265;ne_mange_plus;pa manje;;Négation de « manje » : attention à « li pa manje chokola »;brouillon
+lx_0266;ne_mange_plus;pa vle manje;;;brouillon
+lx_0267;ne_mange_plus;pa gen apeti;;;brouillon
+lx_0268;ne_mange_plus;refize manje;;;brouillon
+lx_0269;ne_mange_plus;sispann manje;;;brouillon
+lx_0270;ne_mange_plus;pa anvi manje;;;brouillon
+lx_0275;vomissements;vomi;;Matche aussi « eseye vomi » et « vomi san » : les règles prennent le symptôme le plus grave;brouillon
+lx_0276;vomissements;vomisman;;;brouillon
+lx_0277;vomissements;kè plen;ke plen;;brouillon
+lx_0278;vomissements;rann manje;;;brouillon
+lx_0282;diarrhee;dyare;;;brouillon
+lx_0283;diarrhee;vantmennen;;;brouillon
+lx_0284;diarrhee;vant pase;;;brouillon
+lx_0285;diarrhee;tata dlo;;;brouillon
+lx_0286;diarrhee;poupou l likid;;;brouillon
+lx_0287;diarrhee;vant li ap kouri;;;brouillon
+lx_0291;abattu_se_cache;fatige anpil;;;brouillon
+lx_0292;abattu_se_cache;pa jwe;;;brouillon
+lx_0293;abattu_se_cache;kache;;Fréquent hors contexte médical;brouillon
+lx_0294;abattu_se_cache;kouche tout jounen;;;brouillon
+lx_0295;abattu_se_cache;san fòs;san fos;;brouillon
+lx_0296;abattu_se_cache;tris;;Subjectif;brouillon
+lx_0302;signes_douleur;plenn;;;brouillon
+lx_0303;signes_douleur;kriye;;;brouillon
+lx_0304;signes_douleur;do l bosi;;;brouillon
+lx_0305;signes_douleur;pa vle bouje;;;brouillon
+lx_0306;signes_douleur;gen doulè;gen doule;;brouillon
+lx_0307;signes_douleur;rele lè m manyen;rele le m manyen;;brouillon
+lx_0313;changement_litiere_chat;nan sab la souvan;;;brouillon
+lx_0314;changement_litiere_chat;pipi ti kras;;;brouillon
+lx_0315;changement_litiere_chat;pipi lòt kote;pipi lot kote;;brouillon
+lx_0316;changement_litiere_chat;kabann sab;;;brouillon
+lx_0319;boit_urine_beaucoup;bwè dlo anpil;bwe dlo anpil;;brouillon
+lx_0320;boit_urine_beaucoup;pipi anpil;;;brouillon
+lx_0321;boit_urine_beaucoup;toujou swaf;;;brouillon
+lx_0322;boit_urine_beaucoup;bwè plis;bwe plis;;brouillon
+lx_0326;perte_poids;megri;;;brouillon
+lx_0327;perte_poids;vin mèg;vin meg;;brouillon
+lx_0328;perte_poids;zo kòt;zo kot;;brouillon
+lx_0329;perte_poids;pèdi pwa;pedi pwa;;brouillon
+lx_0333;toux;touse;;;brouillon
+lx_0334;toux;tous;;"Court ; vérifier qu'il ne matche pas « tout »";brouillon
+lx_0335;toux;touse sèch;touse sech;;brouillon
+lx_0336;toux;touse lannwit;;;brouillon
+lx_0340;ecoulement_yeux_nez;nen l ap koule;nen lap koule;;brouillon
+lx_0341;ecoulement_yeux_nez;je l ap koule;je lap koule | zye l ap koule;;brouillon
+lx_0342;ecoulement_yeux_nez;estènen;estenen;;brouillon
+lx_0343;ecoulement_yeux_nez;larim;;;brouillon
+lx_0344;ecoulement_yeux_nez;kaka je;;;brouillon
+lx_0348;plaie_petite;ti blese;;;brouillon
+lx_0349;plaie_petite;grafouye;;;brouillon
+lx_0350;plaie_petite;ti koupe;;;brouillon
+lx_0351;plaie_petite;blese pye;;;brouillon
+lx_0355;plaie_infectee;blese a anfle;;;brouillon
+lx_0356;plaie_infectee;blese a ap koule;;;brouillon
+lx_0357;plaie_infectee;santi move;;;brouillon
+lx_0358;plaie_infectee;gen pi;;;brouillon
+lx_0359;plaie_infectee;abse;;;brouillon
+lx_0364;morsure_par_animal;chen mòde;chen mode | chyen mode;;brouillon
+lx_0365;morsure_par_animal;chat mòde;chat mode;;brouillon
+lx_0366;morsure_par_animal;goumen;;;brouillon
+lx_0367;morsure_par_animal;bèt mòde;bet mode;;brouillon
+lx_0371;grattage_intense;grate san rete;;;brouillon
+lx_0372;grattage_intense;gratèl;gratel;;brouillon
+lx_0373;grattage_intense;pwal li ap tonbe;;;brouillon
+lx_0374;grattage_intense;pèdi pwal;pedi pwal;;brouillon
+lx_0375;grattage_intense;po l wouj;;;brouillon
+lx_0379;puces_tiques;pis;;Ambigu : « pis » = puces mais aussi « puis » (alò pis…). Exiger « gen pis » ou « pis sou li » ?;brouillon
+lx_0380;puces_tiques;karapat;;;brouillon
+lx_0381;puces_tiques;gen pis;;;brouillon
+lx_0382;puces_tiques;pis sou li;;;brouillon
+lx_0383;puces_tiques;gen karapat;;;brouillon
+lx_0387;probleme_oreille;souke tèt;souke tet;;brouillon
+lx_0388;probleme_oreille;zòrèy li santi;zorey li santi;;brouillon
+lx_0389;probleme_oreille;grate zòrèy;grate zorey;;brouillon
+lx_0390;probleme_oreille;zòrèy li sal;zorey li sal;;brouillon

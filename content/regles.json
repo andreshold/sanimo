@@ -1,0 +1,1656 @@
+[
+  {
+    "id": "alerte_difficulte_respirer",
+    "when": [
+      {
+        "sym": "difficulte_respirer"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Li gen difikilte pou l respire, l ap respire vit vit",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_respiration_bouche_ouverte_chat",
+    "when": [
+      {
+        "sym": "respiration_bouche_ouverte_chat"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Chat la ap respire ak bouch li louvri",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_gencives_pales_bleues",
+    "when": [
+      {
+        "sym": "gencives_pales_bleues"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Jansiv li blan, ble oswa vyolèt",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_effondrement_inconscient",
+    "when": [
+      {
+        "sym": "effondrement_inconscient"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Li tonbe, li pa reponn lè w rele l",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_incapable_se_lever",
+    "when": [
+      {
+        "sym": "incapable_se_lever"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Li pa ka kanpe, pye l pa mache",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_convulsions",
+    "when": [
+      {
+        "sym": "convulsions"
+      }
+    ],
+    "level": "ijans",
+    "reason": "L ap fè kriz, kò l ap sakade",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme",
+      "conv_eloigner_objets",
+      "conv_pas_main_gueule"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_tremblements_actifs",
+    "when": [
+      {
+        "sym": "tremblements_actifs"
+      }
+    ],
+    "level": "ijans",
+    "reason": "L ap tranble fò san rete",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme",
+      "conv_eloigner_objets",
+      "conv_pas_main_gueule"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_ne_peut_pas_uriner",
+    "when": [
+      {
+        "sym": "ne_peut_pas_uriner"
+      }
+    ],
+    "level": "ijans",
+    "reason": "L ap fòse pou l pipi men anyen pa soti",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_efforts_vomir_sans_resultat",
+    "when": [
+      {
+        "sym": "efforts_vomir_sans_resultat"
+      }
+    ],
+    "level": "ijans",
+    "reason": "L ap eseye vomi men anyen pa soti",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_ventre_gonfle_douloureux",
+    "when": [
+      {
+        "sym": "ventre_gonfle_douloureux"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Vant li gonfle, li di oswa li fè l mal",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_vomit_sang",
+    "when": [
+      {
+        "sym": "vomit_sang"
+      }
+    ],
+    "level": "ijans",
+    "reason": "L ap vomi san",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_diarrhee_sang",
+    "when": [
+      {
+        "sym": "diarrhee_sang"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Dyare ak san (wouj oswa nwa tankou goudwon)",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_vomissements_repetes",
+    "when": [
+      {
+        "sym": "vomissements_repetes"
+      }
+    ],
+    "level": "ijans",
+    "reason": "L ap vomi san rete",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_saignement_important",
+    "when": [
+      {
+        "sym": "saignement_important"
+      }
+    ],
+    "level": "ijans",
+    "reason": "L ap senyen anpil",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme",
+      "plaie_appuyer",
+      "plaie_couvrir",
+      "plaie_pas_produit_fort"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_plaie_profonde_os",
+    "when": [
+      {
+        "sym": "plaie_profonde_os"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Gen yon blese fon oswa ou wè zo a",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme",
+      "plaie_appuyer",
+      "plaie_couvrir",
+      "plaie_pas_produit_fort"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_accident_chute",
+    "when": [
+      {
+        "sym": "accident_chute"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Machin frape l oswa li tonbe soti wo",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme",
+      "plaie_appuyer",
+      "plaie_couvrir",
+      "plaie_pas_produit_fort"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_brulure_grave",
+    "when": [
+      {
+        "sym": "brulure_grave"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Li boule grav",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme",
+      "plaie_appuyer",
+      "plaie_couvrir",
+      "plaie_pas_produit_fort"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_coup_chaleur",
+    "when": [
+      {
+        "sym": "coup_chaleur"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Li cho anpil, l ap souf fò, li fèb apre solèy oswa apre l fin kouri",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme",
+      "chaleur_ombre"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_mise_bas_difficile",
+    "when": [
+      {
+        "sym": "mise_bas_difficile"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Li gen difikilte pou l mete ti pitit li deyò",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_organe_sorti",
+    "when": [
+      {
+        "sym": "organe_sorti"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Gen yon pati anndan kò l ki soti deyò",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme",
+      "plaie_appuyer",
+      "plaie_couvrir",
+      "plaie_pas_produit_fort"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_etouffement",
+    "when": [
+      {
+        "sym": "etouffement"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Li toufe, gen yon bagay ki kole nan gòj li",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_gonflement_visage_piqure",
+    "when": [
+      {
+        "sym": "gonflement_visage_piqure"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Figi l oswa gòj li ap gonfle apre yon bèt pike l",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_oeil_sorti",
+    "when": [
+      {
+        "sym": "oeil_sorti"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Je l soti nan twou l",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_ingestion_toxique",
+    "when": [
+      {
+        "sym": "ingestion_toxique"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Li manje oswa li vale yon bagay ki ka pwazonnen l",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme",
+      "tox_noter_heure",
+      "tox_garder_emballage",
+      "tox_meme_sil_va_bien",
+      "tox_pas_faire_vomir",
+      "tox_pas_remede_maison"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_medicament_humain_donne",
+    "when": [
+      {
+        "sym": "medicament_humain_donne"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Li pran oswa li vale yon medikaman pou moun",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme",
+      "tox_noter_heure",
+      "tox_garder_emballage",
+      "tox_meme_sil_va_bien",
+      "tox_pas_faire_vomir",
+      "tox_pas_remede_maison"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_signes_rage",
+    "when": [
+      {
+        "sym": "signes_rage"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Li vin mechan sanzatann, l ap bave anpil, machwè l pandye, li pa ka vale",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme",
+      "rage_pas_toucher",
+      "rage_observer_animal"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "alerte_chiot_vomit_diarrhee",
+    "when": [
+      {
+        "sym": "chiot_vomit_diarrhee"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Ti chen an ap vomi epi li gen dyare",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : signe_alerte = oui (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_difficulte_respirer",
+    "when": [
+      {
+        "rep": "q_difficulte_respirer",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske li gen pwoblèm pou l respire ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_respiration_bouche_ouverte_chat",
+    "when": [
+      {
+        "rep": "q_respiration_bouche_ouverte_chat",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske chat la ap respire ak bouch li louvri ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_gencives_pales_bleues",
+    "when": [
+      {
+        "rep": "q_gencives_pales_bleues",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske jansiv li blan, ble oswa vyolèt ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_effondrement_inconscient",
+    "when": [
+      {
+        "rep": "q_effondrement_inconscient",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske li tonbe epi li pa ka leve oswa li pa reponn ankò ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_incapable_se_lever",
+    "when": [
+      {
+        "rep": "q_incapable_se_lever",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske li pa ka kanpe oswa li pa ka sèvi ak pye l ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_convulsions",
+    "when": [
+      {
+        "rep": "q_convulsions",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske li fè kriz (kò l sakade, li pa konnen sa k ap pase) ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_tremblements_actifs",
+    "when": [
+      {
+        "rep": "q_tremblements_actifs",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske l ap tranble fò san l pa rete ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_ne_peut_pas_uriner",
+    "when": [
+      {
+        "rep": "q_ne_peut_pas_uriner",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske l ap fòse pou l pipi epi anyen pa soti ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_efforts_vomir_sans_resultat",
+    "when": [
+      {
+        "rep": "q_efforts_vomir_sans_resultat",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske l ap eseye vomi men anyen pa soti ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_ventre_gonfle_douloureux",
+    "when": [
+      {
+        "rep": "q_ventre_gonfle_douloureux",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske vant li gonfle, li di oswa li fè l mal lè w manyen l ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_vomit_sang",
+    "when": [
+      {
+        "rep": "q_vomit_sang",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske li vomi san ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_diarrhee_sang",
+    "when": [
+      {
+        "rep": "q_diarrhee_sang",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske gen san nan dyare a, wouj oswa nwa ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_vomissements_repetes",
+    "when": [
+      {
+        "rep": "q_vomissements_repetes",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske l ap vomi plizyè fwa youn dèyè lòt ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_saignement_important",
+    "when": [
+      {
+        "rep": "q_saignement_important",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske l ap senyen anpil ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_plaie_profonde_os",
+    "when": [
+      {
+        "rep": "q_plaie_profonde_os",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske ou wè yon blese fon oswa zo a ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_accident_chute",
+    "when": [
+      {
+        "rep": "q_accident_chute",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske yon machin oswa moto frape l, oswa li tonbe soti byen wo ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_brulure_grave",
+    "when": [
+      {
+        "rep": "q_brulure_grave",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske li boule grav ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_coup_chaleur",
+    "when": [
+      {
+        "rep": "q_coup_chaleur",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Apre solèy oswa apre l fin kouri, èske li cho anpil, l ap souf fò epi li fèb ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_mise_bas_difficile",
+    "when": [
+      {
+        "rep": "q_mise_bas_difficile",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske l ap pouse pou l fè pitit men okenn pa soti ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_organe_sorti",
+    "when": [
+      {
+        "rep": "q_organe_sorti",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske ou wè yon bagay anndan kò l ki soti deyò ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_etouffement",
+    "when": [
+      {
+        "rep": "q_etouffement",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske l ap toufe oswa gen yon bagay ki kole nan gòj li ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_gonflement_visage_piqure",
+    "when": [
+      {
+        "rep": "q_gonflement_visage_piqure",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske figi l oswa gòj li gonfle apre yon bèt pike l ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_oeil_sorti",
+    "when": [
+      {
+        "rep": "q_oeil_sorti",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske je l soti nan twou l ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_ingestion_toxique",
+    "when": [
+      {
+        "rep": "q_ingestion_toxique",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske li manje, li vale oswa li niche yon bagay ki nan lis pwazon yo ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_medicament_humain_donne",
+    "when": [
+      {
+        "rep": "q_medicament_humain_donne",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske yo ba l oswa li vale yon medikaman pou moun ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_signes_rage",
+    "when": [
+      {
+        "rep": "q_signes_rage",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske li chanje konpòtman sanzatann, l ap bave anpil oswa li pa ka vale ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_chiot_vomit_diarrhee",
+    "when": [
+      {
+        "rep": "q_chiot_vomit_diarrhee",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske se yon ti chen k ap vomi epi ki gen dyare ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_chat_male_uriner",
+    "when": [
+      {
+        "rep": "q_chat_male_uriner",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Ou pa konnen : Èske chat la ap fòse pou l pipi epi anyen pa soti ?",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_ne_boit_plus",
+    "when": [
+      {
+        "rep": "q_ne_boit_plus",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske li pa bwè dlo ankò, oswa li vomi dlo li bwè a ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "prudence_chat_jeun_24h",
+    "when": [
+      {
+        "rep": "q_chat_jeun_24h",
+        "value": "mpakonnen"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Ou pa konnen : Èske sa fè plis pase 24 èdtan chat la pa manje anyen ?",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Généré : « m pa konnen » (questions.csv, niveau_si_mpakonnen)",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_chiot_vomit_et_diarrhee",
+    "when": [
+      {
+        "sym": "vomissements"
+      },
+      {
+        "sym": "diarrhee"
+      },
+      {
+        "species": "chien"
+      },
+      {
+        "age": "jenn"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Ti chen k ap vomi epi ki gen dyare",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme",
+      "gen_eau_propre"
+    ],
+    "source": "Aucune (synthèse §2.3, chiots)",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_chat_male_urine_inconnue",
+    "when": [
+      {
+        "rep": "q_ne_peut_pas_uriner",
+        "value": "mpakonnen"
+      },
+      {
+        "species": "chat"
+      },
+      {
+        "sex": "male"
+      }
+    ],
+    "level": "ijans",
+    "reason": "Chat mal : nou pa konnen si l ka pipi",
+    "adviceIds": [
+      "urg_aller_vite",
+      "urg_transport_calme",
+      "ret_chat_urine"
+    ],
+    "source": "VetClaw:feline-medicine",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_jeune_vomit",
+    "when": [
+      {
+        "sym": "vomissements"
+      },
+      {
+        "age": "jenn"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Yon jenn bèt k ap vomi ka pèdi dlo nan kò l vit",
+    "adviceIds": [
+      "gen_eau_propre",
+      "ret_vomit_diarrhee"
+    ],
+    "source": "Aucune (seuil proposé)",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_jeune_diarrhee",
+    "when": [
+      {
+        "sym": "diarrhee"
+      },
+      {
+        "age": "jenn"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Yon jenn bèt ki gen dyare ka pèdi dlo nan kò l vit",
+    "adviceIds": [
+      "gen_eau_propre",
+      "ret_vomit_diarrhee"
+    ],
+    "source": "Aucune (seuil proposé)",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_vomit_plus_24h",
+    "when": [
+      {
+        "rep": "q_vomit_plus_24h",
+        "value": "wi"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Sa fè plis pase 24 èdtan l ap vomi",
+    "adviceIds": [
+      "gen_eau_propre",
+      "gen_noter",
+      "ret_vomit_diarrhee"
+    ],
+    "source": "Aucune (seuil proposé)",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_ne_boit_plus",
+    "when": [
+      {
+        "rep": "q_ne_boit_plus",
+        "value": "wi"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Li pa bwè ankò oswa li vomi dlo a",
+    "adviceIds": [
+      "gen_noter",
+      "ret_vomit_diarrhee"
+    ],
+    "source": "Merck (synthèse §2.3)",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_diarrhee_plus_48h",
+    "when": [
+      {
+        "rep": "q_diarrhee_plus_48h",
+        "value": "wi"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Sa fè plis pase 2 jou li gen dyare",
+    "adviceIds": [
+      "gen_eau_propre",
+      "gen_noter",
+      "ret_vomit_diarrhee"
+    ],
+    "source": "Aucune (seuil proposé)",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_chat_jeun_24h",
+    "when": [
+      {
+        "rep": "q_chat_jeun_24h",
+        "value": "wi"
+      },
+      {
+        "species": "chat"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Sa fè plis pase 24 èdtan chat la pa manje",
+    "adviceIds": [
+      "gen_eau_propre",
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Aucune (seuil proposé)",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_chien_jeun_48h",
+    "when": [
+      {
+        "rep": "q_chien_jeun_48h",
+        "value": "wi"
+      },
+      {
+        "species": "chien"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Sa fè plis pase 2 jou chen an pa manje",
+    "adviceIds": [
+      "gen_eau_propre",
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Aucune (seuil proposé)",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_granmoun_ne_mange_plus",
+    "when": [
+      {
+        "sym": "ne_mange_plus"
+      },
+      {
+        "age": "granmoun"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Yon bèt ki granmoun ki pa manje ankò",
+    "adviceIds": [
+      "gen_eau_propre",
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Aucune",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_boiterie_plus_24h",
+    "when": [
+      {
+        "rep": "q_boiterie_plus_24h",
+        "value": "wi"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Sa fè plis pase 24 èdtan l ap bwete",
+    "adviceIds": [
+      "boit_repos",
+      "ret_general"
+    ],
+    "source": "Aucune (seuil proposé)",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_respi_plus_semaine",
+    "when": [
+      {
+        "rep": "q_respi_plus_semaine",
+        "value": "wi"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Sa fè plis pase yon semèn l ap touse oswa nen l ap koule",
+    "adviceIds": [
+      "ret_respi"
+    ],
+    "source": "Aucune",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_aggravation",
+    "when": [
+      {
+        "rep": "q_aggravation",
+        "value": "wi"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "L ap vin pi mal",
+    "adviceIds": [
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "TRD §6.2",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_chat_male_litiere",
+    "when": [
+      {
+        "sym": "changement_litiere_chat"
+      },
+      {
+        "species": "chat"
+      },
+      {
+        "sex": "male"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Chat mal k ap ale nan sab li souvan",
+    "adviceIds": [
+      "ret_chat_urine"
+    ],
+    "source": "VetClaw:feline-medicine",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_suivi_vomit",
+    "when": [
+      {
+        "sym": "vomissements"
+      }
+    ],
+    "level": "siveye",
+    "reason": "L ap vomi",
+    "adviceIds": [
+      "gen_eau_propre",
+      "gen_noter",
+      "ret_vomit_diarrhee"
+    ],
+    "source": "Aucune",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_suivi_diarrhee",
+    "when": [
+      {
+        "sym": "diarrhee"
+      }
+    ],
+    "level": "siveye",
+    "reason": "Li gen dyare",
+    "adviceIds": [
+      "gen_eau_propre",
+      "gen_noter",
+      "ret_vomit_diarrhee"
+    ],
+    "source": "Aucune",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_suivi_respi",
+    "when": [
+      {
+        "sym": "toux"
+      }
+    ],
+    "level": "siveye",
+    "reason": "L ap touse",
+    "adviceIds": [
+      "ret_respi"
+    ],
+    "source": "Aucune",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_suivi_ecoulement",
+    "when": [
+      {
+        "sym": "ecoulement_yeux_nez"
+      }
+    ],
+    "level": "siveye",
+    "reason": "Je l oswa nen l ap koule",
+    "adviceIds": [
+      "ret_respi"
+    ],
+    "source": "Aucune",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_suivi_boiterie",
+    "when": [
+      {
+        "sym": "boiterie"
+      }
+    ],
+    "level": "siveye",
+    "reason": "L ap bwete",
+    "adviceIds": [
+      "boit_repos",
+      "ret_general"
+    ],
+    "source": "Aucune",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_suivi_plaie",
+    "when": [
+      {
+        "sym": "plaie_petite"
+      }
+    ],
+    "level": "siveye",
+    "reason": "Ti blese",
+    "adviceIds": [
+      "ret_plaie"
+    ],
+    "source": "Aucune",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_suivi_ne_mange_plus",
+    "when": [
+      {
+        "sym": "ne_mange_plus"
+      }
+    ],
+    "level": "siveye",
+    "reason": "Li pa manje",
+    "adviceIds": [
+      "gen_eau_propre",
+      "gen_noter",
+      "ret_general"
+    ],
+    "source": "Aucune",
+    "status": "brouillon"
+  },
+  {
+    "id": "r_suivi_chat_respi",
+    "when": [
+      {
+        "sym": "toux"
+      },
+      {
+        "species": "chat"
+      }
+    ],
+    "level": "siveye",
+    "reason": "Chat k ap touse",
+    "adviceIds": [
+      "ret_respi"
+    ],
+    "source": "Aucune",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_oeil_douloureux_ferme",
+    "when": [
+      {
+        "sym": "oeil_douloureux_ferme"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Je l wouj, li fè l mal oswa li kenbe l fèmen",
+    "adviceIds": [],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_boiterie_sans_appui",
+    "when": [
+      {
+        "sym": "boiterie_sans_appui"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Li pa poze youn nan pye l atè ditou",
+    "adviceIds": [
+      "boit_repos"
+    ],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_boiterie",
+    "when": [
+      {
+        "sym": "boiterie"
+      }
+    ],
+    "level": "siveye",
+    "reason": "L ap bwete",
+    "adviceIds": [],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_ne_mange_plus",
+    "when": [
+      {
+        "sym": "ne_mange_plus"
+      }
+    ],
+    "level": "siveye",
+    "reason": "Li pa manje ankò",
+    "adviceIds": [],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_vomissements",
+    "when": [
+      {
+        "sym": "vomissements"
+      }
+    ],
+    "level": "siveye",
+    "reason": "Li vomi (youn oswa de fwa)",
+    "adviceIds": [],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_diarrhee",
+    "when": [
+      {
+        "sym": "diarrhee"
+      }
+    ],
+    "level": "siveye",
+    "reason": "Li gen dyare san san",
+    "adviceIds": [],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_abattu_se_cache",
+    "when": [
+      {
+        "sym": "abattu_se_cache"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Li fatige anpil, li pa jwe ankò, l ap kache",
+    "adviceIds": [],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_signes_douleur",
+    "when": [
+      {
+        "sym": "signes_douleur"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "L ap plenn, do l bosi, li pa vle bouje oswa l ap niche yon kote",
+    "adviceIds": [],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_changement_litiere_chat",
+    "when": [
+      {
+        "sym": "changement_litiere_chat"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "L ap ale nan kabann sab li souvan, li pipi ti kras oswa li pipi lòt kote",
+    "adviceIds": [
+      "ret_chat_urine"
+    ],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_boit_urine_beaucoup",
+    "when": [
+      {
+        "sym": "boit_urine_beaucoup"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Li bwè dlo epi li pipi plis pase abitid",
+    "adviceIds": [],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_perte_poids",
+    "when": [
+      {
+        "sym": "perte_poids"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "L ap megri",
+    "adviceIds": [],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_toux",
+    "when": [
+      {
+        "sym": "toux"
+      }
+    ],
+    "level": "siveye",
+    "reason": "L ap touse",
+    "adviceIds": [],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_ecoulement_yeux_nez",
+    "when": [
+      {
+        "sym": "ecoulement_yeux_nez"
+      }
+    ],
+    "level": "siveye",
+    "reason": "Je l oswa nen l ap koule, l ap estènen",
+    "adviceIds": [],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_plaie_petite",
+    "when": [
+      {
+        "sym": "plaie_petite"
+      }
+    ],
+    "level": "siveye",
+    "reason": "Ti blese oswa grafouyen",
+    "adviceIds": [
+      "plaie_rincer",
+      "plaie_couvrir",
+      "plaie_pas_lecher",
+      "plaie_pas_produit_fort"
+    ],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_plaie_infectee",
+    "when": [
+      {
+        "sym": "plaie_infectee"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Blese a anfle, li cho, l ap koule oswa li santi move",
+    "adviceIds": [
+      "plaie_rincer",
+      "plaie_pas_lecher",
+      "plaie_pas_produit_fort",
+      "ret_plaie"
+    ],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_morsure_par_animal",
+    "when": [
+      {
+        "sym": "morsure_par_animal"
+      }
+    ],
+    "level": "konsilte",
+    "reason": "Yon lòt bèt mòde l",
+    "adviceIds": [
+      "plaie_morsure_vite",
+      "plaie_rincer",
+      "rage_observer_animal"
+    ],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_grattage_intense",
+    "when": [
+      {
+        "sym": "grattage_intense"
+      }
+    ],
+    "level": "siveye",
+    "reason": "L ap grate anpil, pwal li ap tonbe",
+    "adviceIds": [],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_puces_tiques",
+    "when": [
+      {
+        "sym": "puces_tiques"
+      }
+    ],
+    "level": "siveye",
+    "reason": "Li gen pis oswa karapat",
+    "adviceIds": [],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "min_probleme_oreille",
+    "when": [
+      {
+        "sym": "probleme_oreille"
+      }
+    ],
+    "level": "siveye",
+    "reason": "L ap souke tèt li, zòrèy li santi move",
+    "adviceIds": [],
+    "source": "Généré : niveau_min (symptomes.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "plafond_questions",
+    "when": [],
+    "level": "konsilte",
+    "reason": "Gen plizyè bagay ki rete pou verifye : fè yon veterinè egzamine l.",
+    "adviceIds": [
+      "gen_noter"
+    ],
+    "source": "Généré : plafond de questions (src/triage/engine.ts)",
+    "status": "brouillon"
+  }
+]

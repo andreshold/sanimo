@@ -1,0 +1,1063 @@
+[
+  {
+    "id": "clip_e02_avetisman",
+    "screen": "E02",
+    "text": "Sanimo ede w konnen sa pou w fè ak ki lè pou w mennen bèt ou kay veterinè. Li pa bay non maladi, li pa bay medikaman, epi li pa ranplase yon veterinè.",
+    "words": 33,
+    "status": "brouillon",
+    "i18nKey": "onboarding.disclaimerBody"
+  },
+  {
+    "id": "clip_e02_ijans",
+    "screen": "E02",
+    "text": "Si bèt ou an danje, peze bouton wouj « Ijans kounye a ».",
+    "words": 11,
+    "status": "brouillon",
+    "i18nKey": "onboarding.disclaimerEmergency"
+  },
+  {
+    "id": "clip_e03_pake",
+    "screen": "E03",
+    "text": "Pou Sanimo ka tande w epi pale avè w san entènèt, li bezwen telechaje yon pake yon sèl fwa. Sèvi ak Wi-Fi si w kapab.",
+    "words": 25,
+    "status": "brouillon",
+    "i18nKey": "onboarding.aiPackBody"
+  },
+  {
+    "id": "clip_e10_akey",
+    "screen": "E10",
+    "text": "Asistan veterinè pou bèt ou, menm san entènèt.",
+    "words": 8,
+    "status": "brouillon",
+    "i18nKey": "home.tagline"
+  },
+  {
+    "id": "clip_e20_bet",
+    "screen": "E20",
+    "text": "Ki bèt ou genyen?",
+    "words": 4,
+    "status": "brouillon",
+    "i18nKey": "triage.animalTitle"
+  },
+  {
+    "id": "clip_e20_laj",
+    "screen": "E20",
+    "text": "Ki laj li?",
+    "words": 3,
+    "status": "brouillon",
+    "i18nKey": "triage.ageTitle"
+  },
+  {
+    "id": "clip_e20_sekse",
+    "screen": "E20",
+    "text": "Se mal oswa femèl?",
+    "words": 4,
+    "status": "brouillon",
+    "i18nKey": "triage.sexTitle"
+  },
+  {
+    "id": "clip_e20_lot_bet",
+    "screen": "E20",
+    "text": "Pou kounye a, Sanimo konn ede pou chen ak chat sèlman. Pou lòt bèt (kabrit, kochon, poul…), kontakte yon veterinè.",
+    "words": 20,
+    "status": "brouillon",
+    "i18nKey": "triage.otherAnimalBody"
+  },
+  {
+    "id": "clip_e21_rakonte",
+    "screen": "E21",
+    "text": "Pale oswa ekri. Egzanp: « Chen mwen an ap vomi depi ayè, li pa vle manje. »",
+    "words": 15,
+    "status": "brouillon",
+    "i18nKey": "triage.descriptionHint"
+  },
+  {
+    "id": "clip_e22_sentom",
+    "screen": "E22",
+    "text": "Tcheke sa ki vre. Ou ka ajoute lòt.",
+    "words": 8,
+    "status": "brouillon",
+    "i18nKey": "triage.symptomsHint"
+  },
+  {
+    "id": "clip_e22_anyen",
+    "screen": "E22",
+    "text": "Nou pa t jwenn sentòm nan sa ou ekri a. N ap poze w kèk kesyon.",
+    "words": 16,
+    "status": "brouillon",
+    "i18nKey": "triage.noneDetected"
+  },
+  {
+    "id": "clip_e30_ijans",
+    "screen": "E30",
+    "text": "Ale kay yon veterinè kounye a.",
+    "words": 6,
+    "status": "brouillon",
+    "i18nKey": "level.ijans.meaning"
+  },
+  {
+    "id": "clip_e30_konsilte",
+    "screen": "E30",
+    "text": "Al wè yon veterinè nan 24 a 48 èdtan.",
+    "words": 9,
+    "status": "brouillon",
+    "i18nKey": "level.konsilte.meaning"
+  },
+  {
+    "id": "clip_e30_siveye",
+    "screen": "E30",
+    "text": "Siveye bèt la lakay ou.",
+    "words": 5,
+    "status": "brouillon",
+    "i18nKey": "level.siveye.meaning"
+  },
+  {
+    "id": "clip_e11_ijans",
+    "screen": "E11",
+    "text": "Bèt ou an danje. Ale kay yon veterinè kounye a. Men sa pou w fè pandan w ap prepare w.",
+    "words": 20,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_e40_raj",
+    "screen": "E40",
+    "text": "Yon bèt mòde yon moun oswa yon lòt bèt? Men sa pou w fè.",
+    "words": 14,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_e41_pwazon",
+    "screen": "E41",
+    "text": "Chèche sa bèt ou a manje oswa bwè nan lis la. Si ou pa sèten, ale kay yon veterinè kounye a.",
+    "words": 21,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_difficulte_respirer",
+    "screen": "E23",
+    "text": "Èske li gen pwoblèm pou l respire ?",
+    "contentRef": "questions:q_difficulte_respirer",
+    "words": 7,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_respiration_bouche_ouverte_chat",
+    "screen": "E23",
+    "text": "Èske chat la ap respire ak bouch li louvri ?",
+    "contentRef": "questions:q_respiration_bouche_ouverte_chat",
+    "words": 9,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_gencives_pales_bleues",
+    "screen": "E23",
+    "text": "Èske jansiv li blan, ble oswa vyolèt ?",
+    "contentRef": "questions:q_gencives_pales_bleues",
+    "words": 7,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_effondrement_inconscient",
+    "screen": "E23",
+    "text": "Èske li tonbe epi li pa ka leve oswa li pa reponn ankò ?",
+    "contentRef": "questions:q_effondrement_inconscient",
+    "words": 13,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_incapable_se_lever",
+    "screen": "E23",
+    "text": "Èske li pa ka kanpe oswa li pa ka sèvi ak pye l ?",
+    "contentRef": "questions:q_incapable_se_lever",
+    "words": 13,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_convulsions",
+    "screen": "E23",
+    "text": "Èske li fè kriz (kò l sakade, li pa konnen sa k ap pase) ?",
+    "contentRef": "questions:q_convulsions",
+    "words": 14,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_tremblements_actifs",
+    "screen": "E23",
+    "text": "Èske l ap tranble fò san l pa rete ?",
+    "contentRef": "questions:q_tremblements_actifs",
+    "words": 9,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_ne_peut_pas_uriner",
+    "screen": "E23",
+    "text": "Èske l ap fòse pou l pipi epi anyen pa soti ?",
+    "contentRef": "questions:q_ne_peut_pas_uriner",
+    "words": 11,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_efforts_vomir_sans_resultat",
+    "screen": "E23",
+    "text": "Èske l ap eseye vomi men anyen pa soti ?",
+    "contentRef": "questions:q_efforts_vomir_sans_resultat",
+    "words": 9,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_ventre_gonfle_douloureux",
+    "screen": "E23",
+    "text": "Èske vant li gonfle, li di oswa li fè l mal lè w manyen l ?",
+    "contentRef": "questions:q_ventre_gonfle_douloureux",
+    "words": 15,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_vomit_sang",
+    "screen": "E23",
+    "text": "Èske li vomi san ?",
+    "contentRef": "questions:q_vomit_sang",
+    "words": 4,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_diarrhee_sang",
+    "screen": "E23",
+    "text": "Èske gen san nan dyare a, wouj oswa nwa ?",
+    "contentRef": "questions:q_diarrhee_sang",
+    "words": 9,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_vomissements_repetes",
+    "screen": "E23",
+    "text": "Èske l ap vomi plizyè fwa youn dèyè lòt ?",
+    "contentRef": "questions:q_vomissements_repetes",
+    "words": 9,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_saignement_important",
+    "screen": "E23",
+    "text": "Èske l ap senyen anpil ?",
+    "contentRef": "questions:q_saignement_important",
+    "words": 5,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_plaie_profonde_os",
+    "screen": "E23",
+    "text": "Èske ou wè yon blese fon oswa zo a ?",
+    "contentRef": "questions:q_plaie_profonde_os",
+    "words": 9,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_accident_chute",
+    "screen": "E23",
+    "text": "Èske yon machin oswa moto frape l, oswa li tonbe soti byen wo ?",
+    "contentRef": "questions:q_accident_chute",
+    "words": 13,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_brulure_grave",
+    "screen": "E23",
+    "text": "Èske li boule grav ?",
+    "contentRef": "questions:q_brulure_grave",
+    "words": 4,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_coup_chaleur",
+    "screen": "E23",
+    "text": "Apre solèy oswa apre l fin kouri, èske li cho anpil, l ap souf fò epi li fèb ?",
+    "contentRef": "questions:q_coup_chaleur",
+    "words": 18,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_mise_bas_difficile",
+    "screen": "E23",
+    "text": "Èske l ap pouse pou l fè pitit men okenn pa soti ?",
+    "contentRef": "questions:q_mise_bas_difficile",
+    "words": 12,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_organe_sorti",
+    "screen": "E23",
+    "text": "Èske ou wè yon bagay anndan kò l ki soti deyò ?",
+    "contentRef": "questions:q_organe_sorti",
+    "words": 11,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_etouffement",
+    "screen": "E23",
+    "text": "Èske l ap toufe oswa gen yon bagay ki kole nan gòj li ?",
+    "contentRef": "questions:q_etouffement",
+    "words": 13,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_gonflement_visage_piqure",
+    "screen": "E23",
+    "text": "Èske figi l oswa gòj li gonfle apre yon bèt pike l ?",
+    "contentRef": "questions:q_gonflement_visage_piqure",
+    "words": 12,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_oeil_sorti",
+    "screen": "E23",
+    "text": "Èske je l soti nan twou l ?",
+    "contentRef": "questions:q_oeil_sorti",
+    "words": 7,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_ingestion_toxique",
+    "screen": "E23",
+    "text": "Èske li manje, li vale oswa li niche yon bagay ki nan lis pwazon yo ?",
+    "contentRef": "questions:q_ingestion_toxique",
+    "words": 15,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_medicament_humain_donne",
+    "screen": "E23",
+    "text": "Èske yo ba l oswa li vale yon medikaman pou moun ?",
+    "contentRef": "questions:q_medicament_humain_donne",
+    "words": 11,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_signes_rage",
+    "screen": "E23",
+    "text": "Èske li chanje konpòtman sanzatann, l ap bave anpil oswa li pa ka vale ?",
+    "contentRef": "questions:q_signes_rage",
+    "words": 14,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_chiot_vomit_diarrhee",
+    "screen": "E23",
+    "text": "Èske se yon ti chen k ap vomi epi ki gen dyare ?",
+    "contentRef": "questions:q_chiot_vomit_diarrhee",
+    "words": 12,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_oeil_douloureux_ferme",
+    "screen": "E23",
+    "text": "Èske li kenbe yon je fèmen, oswa je a wouj epi li fè l mal ?",
+    "contentRef": "questions:q_oeil_douloureux_ferme",
+    "words": 15,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_boiterie_sans_appui",
+    "screen": "E23",
+    "text": "Èske li pa vle poze youn nan pye l atè ditou ?",
+    "contentRef": "questions:q_boiterie_sans_appui",
+    "words": 11,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_boiterie",
+    "screen": "E23",
+    "text": "Èske l ap bwete ?",
+    "contentRef": "questions:q_boiterie",
+    "words": 4,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_ne_mange_plus",
+    "screen": "E23",
+    "text": "Èske li refize manje ?",
+    "contentRef": "questions:q_ne_mange_plus",
+    "words": 4,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_vomissements",
+    "screen": "E23",
+    "text": "Èske li vomi ?",
+    "contentRef": "questions:q_vomissements",
+    "words": 3,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_diarrhee",
+    "screen": "E23",
+    "text": "Èske li gen dyare ?",
+    "contentRef": "questions:q_diarrhee",
+    "words": 4,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_abattu_se_cache",
+    "screen": "E23",
+    "text": "Èske li fatige anpil oswa l ap kache plis pase dabitid ?",
+    "contentRef": "questions:q_abattu_se_cache",
+    "words": 11,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_signes_douleur",
+    "screen": "E23",
+    "text": "Èske l ap plenn, do l bosi oswa li pa vle bouje ?",
+    "contentRef": "questions:q_signes_douleur",
+    "words": 12,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_changement_litiere_chat",
+    "screen": "E23",
+    "text": "Èske l ale fè bezwen l souvan, ti kras chak fwa, oswa lòt kote pase abitid ?",
+    "contentRef": "questions:q_changement_litiere_chat",
+    "words": 16,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_boit_urine_beaucoup",
+    "screen": "E23",
+    "text": "Èske l ap bwè dlo epi pipi plis pase abitid ?",
+    "contentRef": "questions:q_boit_urine_beaucoup",
+    "words": 10,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_perte_poids",
+    "screen": "E23",
+    "text": "Èske li megri dènye semèn sa yo ?",
+    "contentRef": "questions:q_perte_poids",
+    "words": 7,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_toux",
+    "screen": "E23",
+    "text": "Èske l ap touse ?",
+    "contentRef": "questions:q_toux",
+    "words": 4,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_ecoulement_yeux_nez",
+    "screen": "E23",
+    "text": "Èske je l oswa nen l ap koule ?",
+    "contentRef": "questions:q_ecoulement_yeux_nez",
+    "words": 8,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_plaie_petite",
+    "screen": "E23",
+    "text": "Èske li gen yon ti blese ?",
+    "contentRef": "questions:q_plaie_petite",
+    "words": 6,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_plaie_infectee",
+    "screen": "E23",
+    "text": "Èske blese a anfle, li cho oswa l ap koule ?",
+    "contentRef": "questions:q_plaie_infectee",
+    "words": 10,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_morsure_par_animal",
+    "screen": "E23",
+    "text": "Èske yon lòt bèt mòde l ?",
+    "contentRef": "questions:q_morsure_par_animal",
+    "words": 6,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_grattage_intense",
+    "screen": "E23",
+    "text": "Èske l ap grate anpil oswa pwal li ap tonbe ?",
+    "contentRef": "questions:q_grattage_intense",
+    "words": 10,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_puces_tiques",
+    "screen": "E23",
+    "text": "Èske ou wè pis oswa karapat sou li ?",
+    "contentRef": "questions:q_puces_tiques",
+    "words": 8,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_probleme_oreille",
+    "screen": "E23",
+    "text": "Èske l ap souke tèt li souvan oswa zòrèy li santi move ?",
+    "contentRef": "questions:q_probleme_oreille",
+    "words": 12,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_chat_male_uriner",
+    "screen": "E23",
+    "text": "Èske chat la ap fòse pou l pipi epi anyen pa soti ?",
+    "contentRef": "questions:q_chat_male_uriner",
+    "words": 12,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_vomit_plus_24h",
+    "screen": "E23",
+    "text": "Èske sa fè plis pase 24 èdtan l ap vomi ?",
+    "contentRef": "questions:q_vomit_plus_24h",
+    "words": 10,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_ne_boit_plus",
+    "screen": "E23",
+    "text": "Èske li pa bwè dlo ankò, oswa li vomi dlo li bwè a ?",
+    "contentRef": "questions:q_ne_boit_plus",
+    "words": 13,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_diarrhee_plus_48h",
+    "screen": "E23",
+    "text": "Èske sa fè plis pase 2 jou li gen dyare ?",
+    "contentRef": "questions:q_diarrhee_plus_48h",
+    "words": 10,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_chat_jeun_24h",
+    "screen": "E23",
+    "text": "Èske sa fè plis pase 24 èdtan chat la pa manje anyen ?",
+    "contentRef": "questions:q_chat_jeun_24h",
+    "words": 12,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_chien_jeun_48h",
+    "screen": "E23",
+    "text": "Èske sa fè plis pase 2 jou chen an pa manje anyen ?",
+    "contentRef": "questions:q_chien_jeun_48h",
+    "words": 12,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_boiterie_plus_24h",
+    "screen": "E23",
+    "text": "Èske sa fè plis pase 24 èdtan l ap bwete ?",
+    "contentRef": "questions:q_boiterie_plus_24h",
+    "words": 10,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_respi_plus_semaine",
+    "screen": "E23",
+    "text": "Èske sa fè plis pase yon semèn ?",
+    "contentRef": "questions:q_respi_plus_semaine",
+    "words": 7,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_q_aggravation",
+    "screen": "E23",
+    "text": "Èske l ap vin pi mal ?",
+    "contentRef": "questions:q_aggravation",
+    "words": 6,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_gen_pas_medicament_humain",
+    "screen": "E31",
+    "text": "Pa janm bay bèt ou medikaman pou moun san ou pa pale ak yon veterinè.",
+    "contentRef": "consignes:gen_pas_medicament_humain",
+    "words": 15,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_gen_pas_antipuces_chien_sur_chat",
+    "screen": "E31",
+    "text": "Pa janm mete remèd pis pou chen sou chat. Kenbe chat la lwen chen ki fèk pran remèd la.",
+    "contentRef": "consignes:gen_pas_antipuces_chien_sur_chat",
+    "words": 19,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_gen_pas_produit_betail",
+    "screen": "E31",
+    "text": "Pa sèvi ak remèd bèf oswa kabrit sou chen san ou pa pale ak yon veterinè.",
+    "contentRef": "consignes:gen_pas_produit_betail",
+    "words": 16,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_gen_pas_huiles_chat",
+    "screen": "E31",
+    "text": "Pa mete lwil esansyèl sou chat oswa toupre l.",
+    "contentRef": "consignes:gen_pas_huiles_chat",
+    "words": 9,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_gen_chat_se_cache",
+    "screen": "E31",
+    "text": "Yon chat ki malad konn kache. Si l ap kache, li manje mwens oswa li pa netwaye kò l ankò, veye l byen.",
+    "contentRef": "consignes:gen_chat_se_cache",
+    "words": 23,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_gen_chat_silencieux_douleur",
+    "screen": "E31",
+    "text": "Yon chat ki pa rele ka gen doulè kanmenm.",
+    "contentRef": "consignes:gen_chat_silencieux_douleur",
+    "words": 9,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_urg_aller_vite",
+    "screen": "E31",
+    "text": "Ale kay yon veterinè kounye a. Rele l pandan w sou wout si w kapab.",
+    "contentRef": "consignes:urg_aller_vite",
+    "words": 15,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_urg_dans_le_doute",
+    "screen": "E31",
+    "text": "Si w gen dout, pa tann sa vin pi mal.",
+    "contentRef": "consignes:urg_dans_le_doute",
+    "words": 10,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_urg_transport_calme",
+    "screen": "E31",
+    "text": "Pote bèt la dousman. Mete chat la nan yon bwat fèmen, mete bèt ki blese a sou yon planch oswa yon dra.",
+    "contentRef": "consignes:urg_transport_calme",
+    "words": 22,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_tox_garder_emballage",
+    "screen": "E31",
+    "text": "Kenbe anbalaj la oswa yon moso sa li vale a pou w montre veterinè a.",
+    "contentRef": "consignes:tox_garder_emballage",
+    "words": 15,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_tox_noter_heure",
+    "screen": "E31",
+    "text": "Note ki lè li vale l ak konbyen li vale, si w konnen.",
+    "contentRef": "consignes:tox_noter_heure",
+    "words": 13,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_tox_pas_faire_vomir",
+    "screen": "E31",
+    "text": "Pa fè l vomi si yon veterinè pa di w fè l.",
+    "contentRef": "consignes:tox_pas_faire_vomir",
+    "words": 12,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_tox_pas_vomir_caustique",
+    "screen": "E31",
+    "text": "Si li vale yon pwodui ki boule oswa gaz, pa fè l vomi ditou.",
+    "contentRef": "consignes:tox_pas_vomir_caustique",
+    "words": 14,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_tox_pas_remede_maison",
+    "screen": "E31",
+    "text": "Pa ba l lèt, lwil oswa remèd fèy.",
+    "contentRef": "consignes:tox_pas_remede_maison",
+    "words": 8,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_tox_meme_sil_va_bien",
+    "screen": "E31",
+    "text": "Gen pwazon ki fè efè kèk èdtan oswa kèk jou apre. Ale kay veterinè menm si bèt la sanble l byen.",
+    "contentRef": "consignes:tox_meme_sil_va_bien",
+    "words": 21,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_plaie_rincer",
+    "screen": "E31",
+    "text": "Lave blese a ak dlo pwòp.",
+    "contentRef": "consignes:plaie_rincer",
+    "words": 6,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_plaie_pas_produit_fort",
+    "screen": "E31",
+    "text": "Pa vide pwodui fò (alkòl, klowòks, kleren) sou blese a.",
+    "contentRef": "consignes:plaie_pas_produit_fort",
+    "words": 10,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_plaie_couvrir",
+    "screen": "E31",
+    "text": "Kouvri blese a ak yon twal pwòp.",
+    "contentRef": "consignes:plaie_couvrir",
+    "words": 7,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_plaie_appuyer",
+    "screen": "E31",
+    "text": "Si l ap senyen, peze fò sou blese a ak yon twal pwòp.",
+    "contentRef": "consignes:plaie_appuyer",
+    "words": 13,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_plaie_pas_lecher",
+    "screen": "E31",
+    "text": "Pa kite l niche oswa mòde blese a.",
+    "contentRef": "consignes:plaie_pas_lecher",
+    "words": 8,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_plaie_morsure_vite",
+    "screen": "E31",
+    "text": "Fòk yon veterinè gade yon kout dan bèt rapid, sitou sou chat.",
+    "contentRef": "consignes:plaie_morsure_vite",
+    "words": 12,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_chaleur_ombre",
+    "screen": "E31",
+    "text": "Mete l nan lonbraj, kote ki gen van, epi mouye l ak dlo fre, pa dlo glase.",
+    "contentRef": "consignes:chaleur_ombre",
+    "words": 17,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_chaleur_races_nez_court",
+    "screen": "E31",
+    "text": "Chen ki gen nen kout (bouldòg, kalen) pa sipòte chalè.",
+    "contentRef": "consignes:chaleur_races_nez_court",
+    "words": 10,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_conv_pas_main_gueule",
+    "screen": "E31",
+    "text": "Pandan kriz la, pa mete men w nan bouch li.",
+    "contentRef": "consignes:conv_pas_main_gueule",
+    "words": 10,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_conv_eloigner_objets",
+    "screen": "E31",
+    "text": "Retire bagay ki bò kote l epi gade konbyen tan kriz la dire.",
+    "contentRef": "consignes:conv_eloigner_objets",
+    "words": 13,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_rage_laver_15min",
+    "screen": "E40",
+    "text": "Si yon bèt mòde oswa grafouye yon moun : lave blese a ak dlo ak savon pandan omwen 15 minit.",
+    "contentRef": "consignes:rage_laver_15min",
+    "words": 19,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_rage_centre_sante",
+    "screen": "E40",
+    "text": "Ale nan yon sant sante touswit. Pa tann pou w wè si bèt la ap tonbe malad.",
+    "contentRef": "consignes:rage_centre_sante",
+    "words": 17,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_rage_observer_animal",
+    "screen": "E40",
+    "text": "Pa touye epi pa lage bèt ki mòde a : fòk yo veye l pandan 10 jou.",
+    "contentRef": "consignes:rage_observer_animal",
+    "words": 16,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_rage_pas_toucher",
+    "screen": "E40",
+    "text": "Pa manyen ak men w yon bèt k ap bave anpil oswa ki chanje konpòtman sanzatann.",
+    "contentRef": "consignes:rage_pas_toucher",
+    "words": 16,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_rage_vacciner",
+    "screen": "E40",
+    "text": "Fè vaksinen chen ak chat ou kont raj depi yo gen 3 a 4 mwa, epi fè rapèl la.",
+    "contentRef": "consignes:rage_vacciner",
+    "words": 19,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_gen_eau_propre",
+    "screen": "E31",
+    "text": "Toujou kite dlo pwòp pou li.",
+    "contentRef": "consignes:gen_eau_propre",
+    "words": 6,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_gen_noter",
+    "screen": "E31",
+    "text": "Ekri sa w wè ak depi kilè, pou w ka di veterinè a.",
+    "contentRef": "consignes:gen_noter",
+    "words": 13,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_boit_repos",
+    "screen": "E31",
+    "text": "Kenbe l trankil : pa kite l kouri ni sote.",
+    "contentRef": "consignes:boit_repos",
+    "words": 9,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_ret_general",
+    "screen": "E31",
+    "text": "Si li vin pi mal, li pa bwè ankò, li gen pwoblèm pou l respire oswa li pa ka leve, mennen l kay yon veterinè touswit.",
+    "contentRef": "consignes:ret_general",
+    "words": 26,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_ret_vomit_diarrhee",
+    "screen": "E31",
+    "text": "Si ou wè san nan vomi a oswa nan poupou a, si l ap vomi san rete oswa li pa bwè ankò, mennen l kay yon veterinè touswit.",
+    "contentRef": "consignes:ret_vomit_diarrhee",
+    "words": 28,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_ret_chat_urine",
+    "screen": "E31",
+    "text": "Si chat la ap fòse pou l pipi epi anyen pa soti, se yon ijans : mennen l kay yon veterinè touswit.",
+    "contentRef": "consignes:ret_chat_urine",
+    "words": 21,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_ret_respi",
+    "screen": "E31",
+    "text": "Si li gen pwoblèm pou l respire, si chat la ap respire ak bouch louvri, oswa si jansiv li vin pal oswa ble, mennen l kay yon veterinè touswit.",
+    "contentRef": "consignes:ret_respi",
+    "words": 29,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_c_ret_plaie",
+    "screen": "E31",
+    "text": "Si blese a anfle, li vin cho, l ap koule oswa li santi move, al wè yon veterinè.",
+    "contentRef": "consignes:ret_plaie",
+    "words": 18,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_chocolat",
+    "screen": "E41",
+    "text": "Chokola se pwazon pou chen. Plis li nwa, plis li danjere.",
+    "contentRef": "toxiques:tox_chocolat",
+    "words": 11,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_raisin",
+    "screen": "E41",
+    "text": "Menm kèk grenn rezen ka gate ren chen an. Pa gen kantite ki pa danjere.",
+    "contentRef": "toxiques:tox_raisin",
+    "words": 15,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_oignon_ail",
+    "screen": "E41",
+    "text": "Zonyon ak lay gate san bèt la. Chat pi fragil pase chen.",
+    "contentRef": "toxiques:tox_oignon_ail",
+    "words": 12,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_xylitol",
+    "screen": "E41",
+    "text": "Chiklèt san sik ka touye yon chen byen vit.",
+    "contentRef": "toxiques:tox_xylitol",
+    "words": 9,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_macadamia",
+    "screen": "E41",
+    "text": "Nwa makadamya fè chen an fèb epi tranble.",
+    "contentRef": "toxiques:tox_macadamia",
+    "words": 8,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_noix",
+    "screen": "E41",
+    "text": "Nwa ka rann chen an malad.",
+    "contentRef": "toxiques:tox_noix",
+    "words": 6,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_muscade",
+    "screen": "E41",
+    "text": "Miskad ka bay bèt la kriz.",
+    "contentRef": "toxiques:tox_muscade",
+    "words": 6,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_alcool",
+    "screen": "E41",
+    "text": "Alkòl se pwazon pou bèt, menm ti kras.",
+    "contentRef": "toxiques:tox_alcool",
+    "words": 8,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_cafeine",
+    "screen": "E41",
+    "text": "Kafe ak te se pwazon pou chen.",
+    "contentRef": "toxiques:tox_cafeine",
+    "words": 7,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_pate_pain",
+    "screen": "E41",
+    "text": "Pat pen kri gonfle nan vant chen an.",
+    "contentRef": "toxiques:tox_pate_pain",
+    "words": 8,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_os_cuits",
+    "screen": "E41",
+    "text": "Zo kwit kase an moso pwenti ki ka blese bèt la.",
+    "contentRef": "toxiques:tox_os_cuits",
+    "words": 11,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_paracetamol",
+    "screen": "E41",
+    "text": "Asetaminofèn touye chat, menm yon sèl grenn.",
+    "contentRef": "toxiques:tox_paracetamol",
+    "words": 7,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_paracetamol_chien",
+    "screen": "E41",
+    "text": "Pa janm bay chen w asetaminofèn san veterinè.",
+    "contentRef": "toxiques:tox_paracetamol_chien",
+    "words": 8,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_ains_humains",
+    "screen": "E41",
+    "text": "Medikaman doulè pou moun boule vant ak ren bèt.",
+    "contentRef": "toxiques:tox_ains_humains",
+    "words": 9,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_creme_5fu",
+    "screen": "E41",
+    "text": "Si bèt la niche po yon moun ki mete krèm sa a, li ka mouri.",
+    "contentRef": "toxiques:tox_creme_5fu",
+    "words": 15,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_permethrine_chat",
+    "screen": "E41",
+    "text": "Remèd pis pou chen ka touye chat. Menm lè chat la kole ak yon chen ki fèk pran remèd la, li danjere.",
+    "contentRef": "toxiques:tox_permethrine_chat",
+    "words": 22,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_ivermectine_betail",
+    "screen": "E41",
+    "text": "Remèd pou bèf ak kabrit ka pwazonnen chen, sitou kèk ras chen gadò.",
+    "contentRef": "toxiques:tox_ivermectine_betail",
+    "words": 13,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_huiles_essentielles_chat",
+    "screen": "E41",
+    "text": "Lwil esansyèl ak kèk dezenfektan pwazonnen chat.",
+    "contentRef": "toxiques:tox_huiles_essentielles_chat",
+    "words": 7,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_lys_chat",
+    "screen": "E41",
+    "text": "Flè lis touye chat, menm ti kras pousyè flè a oswa dlo vaz la. Ale kay veterinè menm si chat la sanble l byen.",
+    "contentRef": "toxiques:tox_lys_chat",
+    "words": 24,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_antigel",
+    "screen": "E41",
+    "text": "Antijèl gen gou dous epi li touye vit. Fò w ale kay veterinè nan premye èdtan yo.",
+    "contentRef": "toxiques:tox_antigel",
+    "words": 17,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_mort_aux_rats",
+    "screen": "E41",
+    "text": "Pwazon rat ka fè bèt la senyen anndan kò l kèk jou apre.",
+    "contentRef": "toxiques:tox_mort_aux_rats",
+    "words": 13,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_cannabis",
+    "screen": "E41",
+    "text": "Mariwana fè chen an pa ka kanpe dwat epi li ka fè l dòmi twò fon.",
+    "contentRef": "toxiques:tox_cannabis",
+    "words": 16,
+    "status": "brouillon"
+  },
+  {
+    "id": "clip_t_tox_pesticides",
+    "screen": "E41",
+    "text": "Pwazon pou plant ak ensèk ka pwazonnen bèt.",
+    "contentRef": "toxiques:tox_pesticides",
+    "words": 8,
+    "status": "brouillon"
+  }
+]

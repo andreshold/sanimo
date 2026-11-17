@@ -9,9 +9,14 @@ Ces fichiers sont des **jeux de données** (autorisés avant le hackathon) et no
 | `symptomes.csv` | Liste fermée des symptômes, avec signe d'alerte, niveau minimal et question oui/non | 46 |
 | `toxiques.csv` | Aliments, médicaments humains, produits et plantes dangereux | 23 |
 | `consignes.csv` | À faire / à ne pas faire : général, urgence, toxiques, plaies, chaleur, convulsions, rage | 30 |
-| `banque_phrases.csv` | Façons dont un propriétaire décrit chaque symptôme, à l'oral (683 en créole, 105 en français) | 788 |
-| `lexique.csv` | Mots-clés et expressions par symptôme (repli toujours actif), avec variantes normalisées | 393 |
-| `cas_test.csv` | Récits complets avec symptômes et niveau attendus | 75 |
+| `banque_phrases.csv` | Façons dont un propriétaire décrit chaque symptôme, à l'oral (créole) | 683 |
+| `lexique.csv` | Mots-clés et expressions par symptôme (repli toujours actif), avec variantes normalisées | 232 |
+| `cas_test.csv` | Récits complets avec symptômes et niveau attendus | 93 |
+| `questions.csv` | Questions oui / non, ordre, « m pa konnen » | 55 |
+| `regles.csv` | Règles écrites à la main (durée, âge, combinaisons) | 22 |
+| `clips.csv` | Textes lus à voix haute propres aux écrans (les autres clips sont générés depuis le contenu) | 17 |
+
+**L'application est entièrement en créole** (décision du 15 nov.) : les colonnes et lignes en français ont été retirées. Seules `note` et `source` restent en français (jamais affichées).
 
 ## Lexique
 - Au moins 5 termes par symptôme. `variantes_normalisees` donne les formes en minuscules, sans accents, avec *lap* / *chyen* / *zye*.
@@ -20,7 +25,7 @@ Ces fichiers sont des **jeux de données** (autorisés avant le hackathon) et no
 - Les négations (« li pa vomi ») ne sont pas gérées par le lexique seul : c'est à prévoir dans la normalisation (TRD §5.1).
 
 ## Cas de test
-- 75 cas (66 en créole, 9 en français) : 45 `alerte`, 23 `non_alerte`, 5 `piege`, 2 `negation`.
+- 93 cas, tous en créole (à l'origine 75 cas : 45 `alerte`, 23 `non_alerte`, 5 `piege`, 2 `negation` ; 18 ajoutés en phase 1, et les 13 cas écrits en français traduits en créole).
 - **Chacun des 27 signes d'alerte a au moins un cas**, et tous les cas d'alerte attendent `ijans`. C'est le jeu qui doit donner 100 % de 🔴 (PRD §5.2).
 - Le style est oral : formules d'introduction (« Bonjou, m pa konnen sa pou m fè… »), plusieurs symptômes à la fois, et transcriptions sans accents ni ponctuation (`ct_065`, `ct_066`).
 - **Pièges** : chien qui halète après l'effort, bave devant la nourriture, toxique cité mais nié, « san » au sens de « sans ».
@@ -43,7 +48,7 @@ Elle sert au modèle de compréhension (embeddings ou classifieur) et au réglag
 - `id` : identifiant `snake_case` stable, le même dans le contenu, le code et la base (plan 06 §7).
 - `especes` : `chien`, `chat` ou `chien,chat` (`humain` pour les consignes rage qui concernent la personne mordue).
 - `niveau_min` / `niveau` : `ijans` (🔴), `konsilte` (🟠), `siveye` (🟢). Pour les symptômes non alarmants, le niveau final dépend des règles de durée et d'évolution, qui restent à écrire.
-- `brouillon_*_ht` : **premier jet en créole rédigé par une IA (Claude)**. Il doit être **réécrit par un locuteur natif** et l'usage de l'IA est à déclarer dans la liste des outils.
+- `*_ht` (`libelle_ht`, `question_ht`, `texte_ht`…) : **premier jet en créole rédigé par une IA (Claude)**. Il doit être **réécrit par un locuteur natif** et l'usage de l'IA est à déclarer dans la liste des outils.
 - `source` : compétence VetClaw (`VetClaw:nom-de-la-competence`), `can-my-dog-eat (MIT)`, `Synthèse §x` (notre recherche) ou `Aucune` (fait ajouté, absent de VetClaw).
 - `recoupe_avec` : source reconnue qui confirme le fait, ou `à recouper`.
 - `statut` : `brouillon` → `relu_ht` (locuteur natif) → `validé` (vétérinaire). Rien ne passe en production sans `validé`.

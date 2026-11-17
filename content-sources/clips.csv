@@ -1,0 +1,18 @@
+﻿id;ecran;texte_ht;source_contenu;statut;note
+clip_e02_avetisman;E02;Sanimo ede w konnen sa pou w fè ak ki lè pou w mennen bèt ou kay veterinè. Li pa bay non maladi, li pa bay medikaman, epi li pa ranplase yon veterinè.;i18n:onboarding.disclaimerBody;brouillon;
+clip_e02_ijans;E02;Si bèt ou an danje, peze bouton wouj « Ijans kounye a ».;i18n:onboarding.disclaimerEmergency;brouillon;
+clip_e03_pake;E03;Pou Sanimo ka tande w epi pale avè w san entènèt, li bezwen telechaje yon pake yon sèl fwa. Sèvi ak Wi-Fi si w kapab.;i18n:onboarding.aiPackBody;brouillon;
+clip_e10_akey;E10;Asistan veterinè pou bèt ou, menm san entènèt.;i18n:home.tagline;brouillon;
+clip_e20_bet;E20;Ki bèt ou genyen?;i18n:triage.animalTitle;brouillon;
+clip_e20_laj;E20;Ki laj li?;i18n:triage.ageTitle;brouillon;
+clip_e20_sekse;E20;Se mal oswa femèl?;i18n:triage.sexTitle;brouillon;
+clip_e20_lot_bet;E20;Pou kounye a, Sanimo konn ede pou chen ak chat sèlman. Pou lòt bèt (kabrit, kochon, poul…), kontakte yon veterinè.;i18n:triage.otherAnimalBody;brouillon;
+clip_e21_rakonte;E21;Pale oswa ekri. Egzanp: « Chen mwen an ap vomi depi ayè, li pa vle manje. »;i18n:triage.descriptionHint;brouillon;
+clip_e22_sentom;E22;Tcheke sa ki vre. Ou ka ajoute lòt.;i18n:triage.symptomsHint;brouillon;
+clip_e22_anyen;E22;Nou pa t jwenn sentòm nan sa ou ekri a. N ap poze w kèk kesyon.;i18n:triage.noneDetected;brouillon;
+clip_e30_ijans;E30;Ale kay yon veterinè kounye a.;i18n:level.ijans.meaning;brouillon;
+clip_e30_konsilte;E30;Al wè yon veterinè nan 24 a 48 èdtan.;i18n:level.konsilte.meaning;brouillon;
+clip_e30_siveye;E30;Siveye bèt la lakay ou.;i18n:level.siveye.meaning;brouillon;
+clip_e11_ijans;E11;Bèt ou an danje. Ale kay yon veterinè kounye a. Men sa pou w fè pandan w ap prepare w.;ecran;brouillon;Texte nouveau : D1 l'affiche depuis content/clips.json
+clip_e40_raj;E40;Yon bèt mòde yon moun oswa yon lòt bèt? Men sa pou w fè.;ecran;brouillon;Texte nouveau : D1 l'affiche depuis content/clips.json
+clip_e41_pwazon;E41;Chèche sa bèt ou a manje oswa bwè nan lis la. Si ou pa sèten, ale kay yon veterinè kounye a.;ecran;brouillon;Texte nouveau : D1 l'affiche depuis content/clips.json. « Si ou pa sèten → veterinè kounye a » : à valider avec le vétérinaire

@@ -1,0 +1,449 @@
+[
+  {
+    "id": "gen_pas_medicament_humain",
+    "context": "general",
+    "type": "a_ne_pas_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Pa janm bay bèt ou medikaman pou moun san ou pa pale ak yon veterinè.",
+    "status": "brouillon",
+    "clipId": "clip_c_gen_pas_medicament_humain"
+  },
+  {
+    "id": "gen_pas_antipuces_chien_sur_chat",
+    "context": "general",
+    "type": "a_ne_pas_faire",
+    "species": [
+      "chat"
+    ],
+    "text": "Pa janm mete remèd pis pou chen sou chat. Kenbe chat la lwen chen ki fèk pran remèd la.",
+    "status": "brouillon",
+    "clipId": "clip_c_gen_pas_antipuces_chien_sur_chat"
+  },
+  {
+    "id": "gen_pas_produit_betail",
+    "context": "general",
+    "type": "a_ne_pas_faire",
+    "species": [
+      "chien"
+    ],
+    "text": "Pa sèvi ak remèd bèf oswa kabrit sou chen san ou pa pale ak yon veterinè.",
+    "status": "brouillon",
+    "clipId": "clip_c_gen_pas_produit_betail"
+  },
+  {
+    "id": "gen_pas_huiles_chat",
+    "context": "general",
+    "type": "a_ne_pas_faire",
+    "species": [
+      "chat"
+    ],
+    "text": "Pa mete lwil esansyèl sou chat oswa toupre l.",
+    "status": "brouillon",
+    "clipId": "clip_c_gen_pas_huiles_chat"
+  },
+  {
+    "id": "gen_chat_se_cache",
+    "context": "general",
+    "type": "information",
+    "species": [
+      "chat"
+    ],
+    "text": "Yon chat ki malad konn kache. Si l ap kache, li manje mwens oswa li pa netwaye kò l ankò, veye l byen.",
+    "status": "brouillon",
+    "clipId": "clip_c_gen_chat_se_cache"
+  },
+  {
+    "id": "gen_chat_silencieux_douleur",
+    "context": "general",
+    "type": "information",
+    "species": [
+      "chat"
+    ],
+    "text": "Yon chat ki pa rele ka gen doulè kanmenm.",
+    "status": "brouillon",
+    "clipId": "clip_c_gen_chat_silencieux_douleur"
+  },
+  {
+    "id": "urg_aller_vite",
+    "context": "urgence",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Ale kay yon veterinè kounye a. Rele l pandan w sou wout si w kapab.",
+    "status": "brouillon",
+    "clipId": "clip_c_urg_aller_vite"
+  },
+  {
+    "id": "urg_dans_le_doute",
+    "context": "urgence",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Si w gen dout, pa tann sa vin pi mal.",
+    "status": "brouillon",
+    "clipId": "clip_c_urg_dans_le_doute"
+  },
+  {
+    "id": "urg_transport_calme",
+    "context": "urgence",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Pote bèt la dousman. Mete chat la nan yon bwat fèmen, mete bèt ki blese a sou yon planch oswa yon dra.",
+    "status": "brouillon",
+    "clipId": "clip_c_urg_transport_calme"
+  },
+  {
+    "id": "tox_garder_emballage",
+    "context": "toxique",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Kenbe anbalaj la oswa yon moso sa li vale a pou w montre veterinè a.",
+    "status": "brouillon",
+    "clipId": "clip_c_tox_garder_emballage"
+  },
+  {
+    "id": "tox_noter_heure",
+    "context": "toxique",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Note ki lè li vale l ak konbyen li vale, si w konnen.",
+    "status": "brouillon",
+    "clipId": "clip_c_tox_noter_heure"
+  },
+  {
+    "id": "tox_pas_faire_vomir",
+    "context": "toxique",
+    "type": "a_ne_pas_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Pa fè l vomi si yon veterinè pa di w fè l.",
+    "status": "brouillon",
+    "clipId": "clip_c_tox_pas_faire_vomir"
+  },
+  {
+    "id": "tox_pas_vomir_caustique",
+    "context": "toxique",
+    "type": "a_ne_pas_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Si li vale yon pwodui ki boule oswa gaz, pa fè l vomi ditou.",
+    "status": "brouillon",
+    "clipId": "clip_c_tox_pas_vomir_caustique"
+  },
+  {
+    "id": "tox_pas_remede_maison",
+    "context": "toxique",
+    "type": "a_ne_pas_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Pa ba l lèt, lwil oswa remèd fèy.",
+    "status": "brouillon",
+    "clipId": "clip_c_tox_pas_remede_maison"
+  },
+  {
+    "id": "tox_meme_sil_va_bien",
+    "context": "toxique",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Gen pwazon ki fè efè kèk èdtan oswa kèk jou apre. Ale kay veterinè menm si bèt la sanble l byen.",
+    "status": "brouillon",
+    "clipId": "clip_c_tox_meme_sil_va_bien"
+  },
+  {
+    "id": "plaie_rincer",
+    "context": "plaie",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Lave blese a ak dlo pwòp.",
+    "status": "brouillon",
+    "clipId": "clip_c_plaie_rincer"
+  },
+  {
+    "id": "plaie_pas_produit_fort",
+    "context": "plaie",
+    "type": "a_ne_pas_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Pa vide pwodui fò (alkòl, klowòks, kleren) sou blese a.",
+    "status": "brouillon",
+    "clipId": "clip_c_plaie_pas_produit_fort"
+  },
+  {
+    "id": "plaie_couvrir",
+    "context": "plaie",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Kouvri blese a ak yon twal pwòp.",
+    "status": "brouillon",
+    "clipId": "clip_c_plaie_couvrir"
+  },
+  {
+    "id": "plaie_appuyer",
+    "context": "plaie",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Si l ap senyen, peze fò sou blese a ak yon twal pwòp.",
+    "status": "brouillon",
+    "clipId": "clip_c_plaie_appuyer"
+  },
+  {
+    "id": "plaie_pas_lecher",
+    "context": "plaie",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Pa kite l niche oswa mòde blese a.",
+    "status": "brouillon",
+    "clipId": "clip_c_plaie_pas_lecher"
+  },
+  {
+    "id": "plaie_morsure_vite",
+    "context": "plaie",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Fòk yon veterinè gade yon kout dan bèt rapid, sitou sou chat.",
+    "status": "brouillon",
+    "clipId": "clip_c_plaie_morsure_vite"
+  },
+  {
+    "id": "chaleur_ombre",
+    "context": "chaleur",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Mete l nan lonbraj, kote ki gen van, epi mouye l ak dlo fre, pa dlo glase.",
+    "status": "brouillon",
+    "clipId": "clip_c_chaleur_ombre"
+  },
+  {
+    "id": "chaleur_races_nez_court",
+    "context": "chaleur",
+    "type": "information",
+    "species": [
+      "chien"
+    ],
+    "text": "Chen ki gen nen kout (bouldòg, kalen) pa sipòte chalè.",
+    "status": "brouillon",
+    "clipId": "clip_c_chaleur_races_nez_court"
+  },
+  {
+    "id": "conv_pas_main_gueule",
+    "context": "convulsions",
+    "type": "a_ne_pas_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Pandan kriz la, pa mete men w nan bouch li.",
+    "status": "brouillon",
+    "clipId": "clip_c_conv_pas_main_gueule"
+  },
+  {
+    "id": "conv_eloigner_objets",
+    "context": "convulsions",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Retire bagay ki bò kote l epi gade konbyen tan kriz la dire.",
+    "status": "brouillon",
+    "clipId": "clip_c_conv_eloigner_objets"
+  },
+  {
+    "id": "rage_laver_15min",
+    "context": "rage",
+    "type": "a_faire",
+    "species": [
+      "humain"
+    ],
+    "text": "Si yon bèt mòde oswa grafouye yon moun : lave blese a ak dlo ak savon pandan omwen 15 minit.",
+    "status": "brouillon",
+    "clipId": "clip_c_rage_laver_15min"
+  },
+  {
+    "id": "rage_centre_sante",
+    "context": "rage",
+    "type": "a_faire",
+    "species": [
+      "humain"
+    ],
+    "text": "Ale nan yon sant sante touswit. Pa tann pou w wè si bèt la ap tonbe malad.",
+    "status": "brouillon",
+    "clipId": "clip_c_rage_centre_sante"
+  },
+  {
+    "id": "rage_observer_animal",
+    "context": "rage",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Pa touye epi pa lage bèt ki mòde a : fòk yo veye l pandan 10 jou.",
+    "status": "brouillon",
+    "clipId": "clip_c_rage_observer_animal"
+  },
+  {
+    "id": "rage_pas_toucher",
+    "context": "rage",
+    "type": "a_ne_pas_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Pa manyen ak men w yon bèt k ap bave anpil oswa ki chanje konpòtman sanzatann.",
+    "status": "brouillon",
+    "clipId": "clip_c_rage_pas_toucher"
+  },
+  {
+    "id": "rage_vacciner",
+    "context": "rage",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Fè vaksinen chen ak chat ou kont raj depi yo gen 3 a 4 mwa, epi fè rapèl la.",
+    "status": "brouillon",
+    "clipId": "clip_c_rage_vacciner"
+  },
+  {
+    "id": "gen_eau_propre",
+    "context": "general",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Toujou kite dlo pwòp pou li.",
+    "status": "brouillon",
+    "clipId": "clip_c_gen_eau_propre"
+  },
+  {
+    "id": "gen_noter",
+    "context": "general",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Ekri sa w wè ak depi kilè, pou w ka di veterinè a.",
+    "status": "brouillon",
+    "clipId": "clip_c_gen_noter"
+  },
+  {
+    "id": "boit_repos",
+    "context": "boiterie",
+    "type": "a_faire",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Kenbe l trankil : pa kite l kouri ni sote.",
+    "status": "brouillon",
+    "clipId": "clip_c_boit_repos"
+  },
+  {
+    "id": "ret_general",
+    "context": "general",
+    "type": "signe_retour",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Si li vin pi mal, li pa bwè ankò, li gen pwoblèm pou l respire oswa li pa ka leve, mennen l kay yon veterinè touswit.",
+    "status": "brouillon",
+    "clipId": "clip_c_ret_general"
+  },
+  {
+    "id": "ret_vomit_diarrhee",
+    "context": "digestif",
+    "type": "signe_retour",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Si ou wè san nan vomi a oswa nan poupou a, si l ap vomi san rete oswa li pa bwè ankò, mennen l kay yon veterinè touswit.",
+    "status": "brouillon",
+    "clipId": "clip_c_ret_vomit_diarrhee"
+  },
+  {
+    "id": "ret_chat_urine",
+    "context": "urinaire",
+    "type": "signe_retour",
+    "species": [
+      "chat"
+    ],
+    "text": "Si chat la ap fòse pou l pipi epi anyen pa soti, se yon ijans : mennen l kay yon veterinè touswit.",
+    "status": "brouillon",
+    "clipId": "clip_c_ret_chat_urine"
+  },
+  {
+    "id": "ret_respi",
+    "context": "respiration",
+    "type": "signe_retour",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Si li gen pwoblèm pou l respire, si chat la ap respire ak bouch louvri, oswa si jansiv li vin pal oswa ble, mennen l kay yon veterinè touswit.",
+    "status": "brouillon",
+    "clipId": "clip_c_ret_respi"
+  },
+  {
+    "id": "ret_plaie",
+    "context": "plaie",
+    "type": "signe_retour",
+    "species": [
+      "chien",
+      "chat"
+    ],
+    "text": "Si blese a anfle, li vin cho, l ap koule oswa li santi move, al wè yon veterinè.",
+    "status": "brouillon",
+    "clipId": "clip_c_ret_plaie"
+  }
+]

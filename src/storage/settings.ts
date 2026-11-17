@@ -6,11 +6,7 @@
 import Storage from 'expo-sqlite/kv-store';
 import { useSyncExternalStore } from 'react';
 
-import type { Lang } from '@/ai/types';
-
 export interface Settings {
-  /** null tant que l'utilisateur n'a pas choisi (E01) */
-  lang: Lang | null;
   /** Avertissement « Sanimo pa ranplase yon veterinè » accepté (E02) */
   disclaimerAccepted: boolean;
   /** Écran du pack IA (E03) vu au moins une fois : téléchargé ou « continuer sans IA » */
@@ -20,7 +16,7 @@ export interface Settings {
 }
 
 const KEY = 'sanimo.settings.v1';
-const DEFAULTS: Settings = { lang: null, disclaimerAccepted: false, aiPackPromptSeen: false, autoplay: true };
+const DEFAULTS: Settings = { disclaimerAccepted: false, aiPackPromptSeen: false, autoplay: true };
 
 function read(): Settings {
   try {
@@ -60,7 +56,7 @@ export function useSettings(): Settings {
   return useSyncExternalStore(subscribe, getSettings);
 }
 
-/** L'onboarding (langue + avertissement + écran du pack IA) est terminé */
+/** L'onboarding (avertissement + écran du pack IA) est terminé */
 export function isOnboarded(s: Settings): boolean {
-  return s.lang !== null && s.disclaimerAccepted && s.aiPackPromptSeen;
+  return s.disclaimerAccepted && s.aiPackPromptSeen;
 }

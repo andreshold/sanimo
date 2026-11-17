@@ -52,7 +52,7 @@ Leur appli mobile (« Klara ») est en **Expo / React Native sur Android** et ch
 | Préparation sans code, 48 h pour tout coder | **14 jours pour coder** (12 → 26 nov.), 6 h sur place |
 | Lignes de coupe à H12, H20, H24… | Lignes de coupe **datées** (§4) |
 | Nuits blanches, rotation de sommeil | Rythme normal ; on teste vraiment sur téléphone |
-| Les jeux de données arrivent le jour J | Ils sont prêts ([`donnees/`](../donnees/LISEZMOI.md)) : il reste à les relire et les valider |
+| Les jeux de données arrivent le jour J | Ils sont prêts ([`content-sources/`](../content-sources/LISEZMOI.md)) : il reste à les relire et les valider |
 | Démo « qui marche à peu près » | Démo **testée sur plusieurs téléphones**, vidéo de secours, application déjà installée |
 
 Le jour J n'est plus un sprint de développement : c'est **démo, pitch, et petites corrections**.

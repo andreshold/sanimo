@@ -22,7 +22,7 @@ describe('session d’évaluation', () => {
 
   it('reprend une évaluation interrompue après un redémarrage', () => {
     const { db, session } = setup();
-    const { id } = session.start('fr');
+    const { id } = session.start('ht');
     session.update({ species: 'chat', age: 'jenn' });
 
     // « Redémarrage » : nouvelle session sur la même base

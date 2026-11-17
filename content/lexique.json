@@ -1,0 +1,2006 @@
+[
+  {
+    "id": "lx_0001",
+    "symptomId": "difficulte_respirer",
+    "term": "difikilte pou l respire",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0002",
+    "symptomId": "difficulte_respirer",
+    "term": "pa respire byen",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0003",
+    "symptomId": "difficulte_respirer",
+    "term": "souf kout",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0004",
+    "symptomId": "difficulte_respirer",
+    "term": "souf li kout",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0005",
+    "symptomId": "difficulte_respirer",
+    "term": "respire vit",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0006",
+    "symptomId": "difficulte_respirer",
+    "term": "pa ka pran souf",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0007",
+    "symptomId": "difficulte_respirer",
+    "term": "trangle pou l respire",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0013",
+    "symptomId": "respiration_bouche_ouverte_chat",
+    "term": "respire ak bouch li louvri",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0014",
+    "symptomId": "respiration_bouche_ouverte_chat",
+    "term": "bouch li louvri",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0015",
+    "symptomId": "respiration_bouche_ouverte_chat",
+    "term": "ranse",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0016",
+    "symptomId": "respiration_bouche_ouverte_chat",
+    "term": "lang li deyò",
+    "variants": [
+      "lang li deyo"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0019",
+    "symptomId": "gencives_pales_bleues",
+    "term": "jansiv li blan",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0020",
+    "symptomId": "gencives_pales_bleues",
+    "term": "jansiv li ble",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0021",
+    "symptomId": "gencives_pales_bleues",
+    "term": "jansiv li vyolèt",
+    "variants": [
+      "jansiv li vyolet"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0022",
+    "symptomId": "gencives_pales_bleues",
+    "term": "jansiv li pal",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0023",
+    "symptomId": "gencives_pales_bleues",
+    "term": "lang li ble",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0029",
+    "symptomId": "effondrement_inconscient",
+    "term": "tonbe atè",
+    "variants": [
+      "tonbe ate"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0030",
+    "symptomId": "effondrement_inconscient",
+    "term": "endispoze",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0031",
+    "symptomId": "effondrement_inconscient",
+    "term": "pa reponn",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0032",
+    "symptomId": "effondrement_inconscient",
+    "term": "san konesans",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0033",
+    "symptomId": "effondrement_inconscient",
+    "term": "pèdi konesans",
+    "variants": [
+      "pedi konesans"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0034",
+    "symptomId": "effondrement_inconscient",
+    "term": "sanble l mouri",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0040",
+    "symptomId": "incapable_se_lever",
+    "term": "pa ka kanpe",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0041",
+    "symptomId": "incapable_se_lever",
+    "term": "pa ka leve",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0042",
+    "symptomId": "incapable_se_lever",
+    "term": "pye dèyè l pa mache",
+    "variants": [
+      "pye deye l pa mache"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0043",
+    "symptomId": "incapable_se_lever",
+    "term": "trennen pye",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0044",
+    "symptomId": "incapable_se_lever",
+    "term": "paralize",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0045",
+    "symptomId": "incapable_se_lever",
+    "term": "pye l mouri",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0050",
+    "symptomId": "convulsions",
+    "term": "kriz",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0051",
+    "symptomId": "convulsions",
+    "term": "malkadi",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0052",
+    "symptomId": "convulsions",
+    "term": "kò l ap sakade",
+    "variants": [
+      "ko l ap sakade | ko lap sakade"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0053",
+    "symptomId": "convulsions",
+    "term": "kò l ap tòde",
+    "variants": [
+      "ko l ap tode | ko lap tode"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0054",
+    "symptomId": "convulsions",
+    "term": "kimen nan bouch",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0055",
+    "symptomId": "convulsions",
+    "term": "pedale",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0059",
+    "symptomId": "tremblements_actifs",
+    "term": "tranble",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0060",
+    "symptomId": "tremblements_actifs",
+    "term": "tranbleman",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0061",
+    "symptomId": "tremblements_actifs",
+    "term": "tranble fò",
+    "variants": [
+      "tranble fo"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0062",
+    "symptomId": "tremblements_actifs",
+    "term": "kò l ap tranble",
+    "variants": [
+      "ko l ap tranble | ko lap tranble"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0066",
+    "symptomId": "ne_peut_pas_uriner",
+    "term": "pa ka pipi",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0067",
+    "symptomId": "ne_peut_pas_uriner",
+    "term": "fòse pou l pipi",
+    "variants": [
+      "fose pou l pipi"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0068",
+    "symptomId": "ne_peut_pas_uriner",
+    "term": "pipi a pa soti",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0069",
+    "symptomId": "ne_peut_pas_uriner",
+    "term": "pa pipi depi",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0070",
+    "symptomId": "ne_peut_pas_uriner",
+    "term": "kèk gout pipi",
+    "variants": [
+      "kek gout pipi"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0071",
+    "symptomId": "ne_peut_pas_uriner",
+    "term": "pouse men anyen pa soti",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0076",
+    "symptomId": "efforts_vomir_sans_resultat",
+    "term": "eseye vomi",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0077",
+    "symptomId": "efforts_vomir_sans_resultat",
+    "term": "efò pou l vomi",
+    "variants": [
+      "efo pou l vomi"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0078",
+    "symptomId": "efforts_vomir_sans_resultat",
+    "term": "vomi vid",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0079",
+    "symptomId": "efforts_vomir_sans_resultat",
+    "term": "ranje pou l vomi",
+    "variants": [
+      "ranzye pou l vomi"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0080",
+    "symptomId": "efforts_vomir_sans_resultat",
+    "term": "anyen pa soti",
+    "variants": [],
+    "risky": true,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0084",
+    "symptomId": "ventre_gonfle_douloureux",
+    "term": "vant li gonfle",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0085",
+    "symptomId": "ventre_gonfle_douloureux",
+    "term": "vant li di",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0086",
+    "symptomId": "ventre_gonfle_douloureux",
+    "term": "vant li anfle",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0087",
+    "symptomId": "ventre_gonfle_douloureux",
+    "term": "vant li fè l mal",
+    "variants": [
+      "vant li fe l mal"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0088",
+    "symptomId": "ventre_gonfle_douloureux",
+    "term": "vant li sere",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0089",
+    "symptomId": "ventre_gonfle_douloureux",
+    "term": "vant li vin gwo",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0094",
+    "symptomId": "vomit_sang",
+    "term": "vomi san",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0095",
+    "symptomId": "vomit_sang",
+    "term": "san nan vomisman",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0096",
+    "symptomId": "vomit_sang",
+    "term": "vomi wouj",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0097",
+    "symptomId": "vomit_sang",
+    "term": "vomi nwa",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0100",
+    "symptomId": "diarrhee_sang",
+    "term": "dyare ak san",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0101",
+    "symptomId": "diarrhee_sang",
+    "term": "san nan poupou",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0102",
+    "symptomId": "diarrhee_sang",
+    "term": "poupou l wouj",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0103",
+    "symptomId": "diarrhee_sang",
+    "term": "poupou l nwa",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0104",
+    "symptomId": "diarrhee_sang",
+    "term": "fè san",
+    "variants": [
+      "fe san"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0105",
+    "symptomId": "diarrhee_sang",
+    "term": "tata ak san",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0109",
+    "symptomId": "vomissements_repetes",
+    "term": "vomi san rete",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0110",
+    "symptomId": "vomissements_repetes",
+    "term": "vomi plizyè fwa",
+    "variants": [
+      "vomi plizye fwa"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0111",
+    "symptomId": "vomissements_repetes",
+    "term": "vomi tout sa l manje",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0112",
+    "symptomId": "vomissements_repetes",
+    "term": "pa kenbe anyen",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0116",
+    "symptomId": "saignement_important",
+    "term": "senyen anpil",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0117",
+    "symptomId": "saignement_important",
+    "term": "san an pa vle rete",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0118",
+    "symptomId": "saignement_important",
+    "term": "pèdi anpil san",
+    "variants": [
+      "pedi anpil san"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0119",
+    "symptomId": "saignement_important",
+    "term": "san ap koule",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0123",
+    "symptomId": "plaie_profonde_os",
+    "term": "gwo blesi",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0124",
+    "symptomId": "plaie_profonde_os",
+    "term": "gwo blese",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0125",
+    "symptomId": "plaie_profonde_os",
+    "term": "wè zo a",
+    "variants": [
+      "we zo a"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0126",
+    "symptomId": "plaie_profonde_os",
+    "term": "zo a soti",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0127",
+    "symptomId": "plaie_profonde_os",
+    "term": "blese a fon",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0128",
+    "symptomId": "plaie_profonde_os",
+    "term": "pye l kase",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0133",
+    "symptomId": "accident_chute",
+    "term": "machin frape",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0134",
+    "symptomId": "accident_chute",
+    "term": "moto frape",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0135",
+    "symptomId": "accident_chute",
+    "term": "kamyon",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0136",
+    "symptomId": "accident_chute",
+    "term": "aksidan",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0137",
+    "symptomId": "accident_chute",
+    "term": "tonbe soti wo",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0138",
+    "symptomId": "accident_chute",
+    "term": "tonbe sou do kay",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0144",
+    "symptomId": "brulure_grave",
+    "term": "boule",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0145",
+    "symptomId": "brulure_grave",
+    "term": "chode",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0146",
+    "symptomId": "brulure_grave",
+    "term": "dlo cho",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0147",
+    "symptomId": "brulure_grave",
+    "term": "dife",
+    "variants": [],
+    "risky": true,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0150",
+    "symptomId": "coup_chaleur",
+    "term": "cho anpil",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0151",
+    "symptomId": "coup_chaleur",
+    "term": "nan solèy",
+    "variants": [
+      "nan soley"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0152",
+    "symptomId": "coup_chaleur",
+    "term": "nan chalè",
+    "variants": [
+      "nan chale"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0153",
+    "symptomId": "coup_chaleur",
+    "term": "kò l cho",
+    "variants": [
+      "ko l cho"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0157",
+    "symptomId": "mise_bas_difficile",
+    "term": "mete pitit li deyò",
+    "variants": [
+      "mete pitit li deyo"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0158",
+    "symptomId": "mise_bas_difficile",
+    "term": "ti pitit la pa soti",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0159",
+    "symptomId": "mise_bas_difficile",
+    "term": "fè pitit",
+    "variants": [
+      "fe pitit"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0160",
+    "symptomId": "mise_bas_difficile",
+    "term": "pitit kole",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0164",
+    "symptomId": "organe_sorti",
+    "term": "soti nan dèyè",
+    "variants": [
+      "soti nan deye"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0165",
+    "symptomId": "organe_sorti",
+    "term": "trip li soti",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0166",
+    "symptomId": "organe_sorti",
+    "term": "pandye nan dèyè",
+    "variants": [
+      "pandye nan deye"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0169",
+    "symptomId": "etouffement",
+    "term": "toufe",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0170",
+    "symptomId": "etouffement",
+    "term": "kole nan gòj",
+    "variants": [
+      "kole nan goj"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0171",
+    "symptomId": "etouffement",
+    "term": "pa ka vale",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0172",
+    "symptomId": "etouffement",
+    "term": "zo kole",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0176",
+    "symptomId": "gonflement_visage_piqure",
+    "term": "figi l gonfle",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0177",
+    "symptomId": "gonflement_visage_piqure",
+    "term": "figi l anfle",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0178",
+    "symptomId": "gonflement_visage_piqure",
+    "term": "bouch li gonfle",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0179",
+    "symptomId": "gonflement_visage_piqure",
+    "term": "gèp pike",
+    "variants": [
+      "gep pike"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0180",
+    "symptomId": "gonflement_visage_piqure",
+    "term": "myèl pike",
+    "variants": [
+      "myel pike"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0181",
+    "symptomId": "gonflement_visage_piqure",
+    "term": "gòj li anfle",
+    "variants": [
+      "goj li anfle"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0187",
+    "symptomId": "oeil_sorti",
+    "term": "je l soti",
+    "variants": [
+      "zye l soti"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0188",
+    "symptomId": "oeil_sorti",
+    "term": "zye l soti",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0189",
+    "symptomId": "oeil_sorti",
+    "term": "je l pete",
+    "variants": [
+      "zye l pete"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0192",
+    "symptomId": "ingestion_toxique",
+    "term": "pwazon",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0193",
+    "symptomId": "ingestion_toxique",
+    "term": "pwazon rat",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0194",
+    "symptomId": "ingestion_toxique",
+    "term": "chokola",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0195",
+    "symptomId": "ingestion_toxique",
+    "term": "kleren",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0196",
+    "symptomId": "ingestion_toxique",
+    "term": "antijèl",
+    "variants": [
+      "antijel"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0197",
+    "symptomId": "ingestion_toxique",
+    "term": "flè lis",
+    "variants": [
+      "fle lis"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0198",
+    "symptomId": "ingestion_toxique",
+    "term": "rezen",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0199",
+    "symptomId": "ingestion_toxique",
+    "term": "chiklèt",
+    "variants": [
+      "chiklet"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0200",
+    "symptomId": "ingestion_toxique",
+    "term": "pwodui netwayaj",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0201",
+    "symptomId": "ingestion_toxique",
+    "term": "zonyon",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0202",
+    "symptomId": "ingestion_toxique",
+    "term": "lay",
+    "variants": [],
+    "risky": true,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0203",
+    "symptomId": "ingestion_toxique",
+    "term": "kafe",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0204",
+    "symptomId": "ingestion_toxique",
+    "term": "mariwana",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0215",
+    "symptomId": "medicament_humain_donne",
+    "term": "tylenòl",
+    "variants": [
+      "tylenol"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0216",
+    "symptomId": "medicament_humain_donne",
+    "term": "parasetamòl",
+    "variants": [
+      "parasetamol"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0217",
+    "symptomId": "medicament_humain_donne",
+    "term": "asetaminofèn",
+    "variants": [
+      "asetaminofen"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0218",
+    "symptomId": "medicament_humain_donne",
+    "term": "aspirin",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0219",
+    "symptomId": "medicament_humain_donne",
+    "term": "ibipwofèn",
+    "variants": [
+      "ibipwofen"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0220",
+    "symptomId": "medicament_humain_donne",
+    "term": "medikaman pa m",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0221",
+    "symptomId": "medicament_humain_donne",
+    "term": "grenn medikaman",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0222",
+    "symptomId": "medicament_humain_donne",
+    "term": "remèd pis chen",
+    "variants": [
+      "remed pis chen | remed pis chyen"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0229",
+    "symptomId": "signes_rage",
+    "term": "vin mechan",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0230",
+    "symptomId": "signes_rage",
+    "term": "bave anpil",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0231",
+    "symptomId": "signes_rage",
+    "term": "mòde tout moun",
+    "variants": [
+      "mode tout moun"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0232",
+    "symptomId": "signes_rage",
+    "term": "machwè l pandye",
+    "variants": [
+      "machwe l pandye"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0233",
+    "symptomId": "signes_rage",
+    "term": "pa ka vale dlo",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0234",
+    "symptomId": "signes_rage",
+    "term": "pa pè moun",
+    "variants": [
+      "pa pe moun"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0239",
+    "symptomId": "chiot_vomit_diarrhee",
+    "term": "ti chen",
+    "variants": [
+      "ti chyen"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0240",
+    "symptomId": "chiot_vomit_diarrhee",
+    "term": "pitit chen",
+    "variants": [
+      "pitit chyen"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0241",
+    "symptomId": "chiot_vomit_diarrhee",
+    "term": "tichen",
+    "variants": [
+      "tichyen"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0242",
+    "symptomId": "chiot_vomit_diarrhee",
+    "term": "chen piti",
+    "variants": [
+      "chyen piti"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0245",
+    "symptomId": "oeil_douloureux_ferme",
+    "term": "je l wouj",
+    "variants": [
+      "zye l wouj"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0246",
+    "symptomId": "oeil_douloureux_ferme",
+    "term": "je fèmen",
+    "variants": [
+      "je femen | zye femen"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0247",
+    "symptomId": "oeil_douloureux_ferme",
+    "term": "fwote je",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0248",
+    "symptomId": "oeil_douloureux_ferme",
+    "term": "je l vin blan",
+    "variants": [
+      "zye l vin blan"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0249",
+    "symptomId": "oeil_douloureux_ferme",
+    "term": "zye l anfle",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0254",
+    "symptomId": "boiterie_sans_appui",
+    "term": "pa poze pye l",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0255",
+    "symptomId": "boiterie_sans_appui",
+    "term": "sou twa pye",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0256",
+    "symptomId": "boiterie_sans_appui",
+    "term": "pye l pandye",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0259",
+    "symptomId": "boiterie",
+    "term": "bwete",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0260",
+    "symptomId": "boiterie",
+    "term": "kòlòkòlò",
+    "variants": [
+      "kolokolo"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0261",
+    "symptomId": "boiterie",
+    "term": "pye l fè l mal",
+    "variants": [
+      "pye l fe l mal"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0262",
+    "symptomId": "boiterie",
+    "term": "pa mache byen",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0265",
+    "symptomId": "ne_mange_plus",
+    "term": "pa manje",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0266",
+    "symptomId": "ne_mange_plus",
+    "term": "pa vle manje",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0267",
+    "symptomId": "ne_mange_plus",
+    "term": "pa gen apeti",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0268",
+    "symptomId": "ne_mange_plus",
+    "term": "refize manje",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0269",
+    "symptomId": "ne_mange_plus",
+    "term": "sispann manje",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0270",
+    "symptomId": "ne_mange_plus",
+    "term": "pa anvi manje",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0275",
+    "symptomId": "vomissements",
+    "term": "vomi",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0276",
+    "symptomId": "vomissements",
+    "term": "vomisman",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0277",
+    "symptomId": "vomissements",
+    "term": "kè plen",
+    "variants": [
+      "ke plen"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0278",
+    "symptomId": "vomissements",
+    "term": "rann manje",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0282",
+    "symptomId": "diarrhee",
+    "term": "dyare",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0283",
+    "symptomId": "diarrhee",
+    "term": "vantmennen",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0284",
+    "symptomId": "diarrhee",
+    "term": "vant pase",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0285",
+    "symptomId": "diarrhee",
+    "term": "tata dlo",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0286",
+    "symptomId": "diarrhee",
+    "term": "poupou l likid",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0287",
+    "symptomId": "diarrhee",
+    "term": "vant li ap kouri",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0291",
+    "symptomId": "abattu_se_cache",
+    "term": "fatige anpil",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0292",
+    "symptomId": "abattu_se_cache",
+    "term": "pa jwe",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0293",
+    "symptomId": "abattu_se_cache",
+    "term": "kache",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0294",
+    "symptomId": "abattu_se_cache",
+    "term": "kouche tout jounen",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0295",
+    "symptomId": "abattu_se_cache",
+    "term": "san fòs",
+    "variants": [
+      "san fos"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0296",
+    "symptomId": "abattu_se_cache",
+    "term": "tris",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0302",
+    "symptomId": "signes_douleur",
+    "term": "plenn",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0303",
+    "symptomId": "signes_douleur",
+    "term": "kriye",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0304",
+    "symptomId": "signes_douleur",
+    "term": "do l bosi",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0305",
+    "symptomId": "signes_douleur",
+    "term": "pa vle bouje",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0306",
+    "symptomId": "signes_douleur",
+    "term": "gen doulè",
+    "variants": [
+      "gen doule"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0307",
+    "symptomId": "signes_douleur",
+    "term": "rele lè m manyen",
+    "variants": [
+      "rele le m manyen"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0313",
+    "symptomId": "changement_litiere_chat",
+    "term": "nan sab la souvan",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0314",
+    "symptomId": "changement_litiere_chat",
+    "term": "pipi ti kras",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0315",
+    "symptomId": "changement_litiere_chat",
+    "term": "pipi lòt kote",
+    "variants": [
+      "pipi lot kote"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0316",
+    "symptomId": "changement_litiere_chat",
+    "term": "kabann sab",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0319",
+    "symptomId": "boit_urine_beaucoup",
+    "term": "bwè dlo anpil",
+    "variants": [
+      "bwe dlo anpil"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0320",
+    "symptomId": "boit_urine_beaucoup",
+    "term": "pipi anpil",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0321",
+    "symptomId": "boit_urine_beaucoup",
+    "term": "toujou swaf",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0322",
+    "symptomId": "boit_urine_beaucoup",
+    "term": "bwè plis",
+    "variants": [
+      "bwe plis"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0326",
+    "symptomId": "perte_poids",
+    "term": "megri",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0327",
+    "symptomId": "perte_poids",
+    "term": "vin mèg",
+    "variants": [
+      "vin meg"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0328",
+    "symptomId": "perte_poids",
+    "term": "zo kòt",
+    "variants": [
+      "zo kot"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0329",
+    "symptomId": "perte_poids",
+    "term": "pèdi pwa",
+    "variants": [
+      "pedi pwa"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0333",
+    "symptomId": "toux",
+    "term": "touse",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0334",
+    "symptomId": "toux",
+    "term": "tous",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0335",
+    "symptomId": "toux",
+    "term": "touse sèch",
+    "variants": [
+      "touse sech"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0336",
+    "symptomId": "toux",
+    "term": "touse lannwit",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0340",
+    "symptomId": "ecoulement_yeux_nez",
+    "term": "nen l ap koule",
+    "variants": [
+      "nen lap koule"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0341",
+    "symptomId": "ecoulement_yeux_nez",
+    "term": "je l ap koule",
+    "variants": [
+      "je lap koule | zye l ap koule"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0342",
+    "symptomId": "ecoulement_yeux_nez",
+    "term": "estènen",
+    "variants": [
+      "estenen"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0343",
+    "symptomId": "ecoulement_yeux_nez",
+    "term": "larim",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0344",
+    "symptomId": "ecoulement_yeux_nez",
+    "term": "kaka je",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0348",
+    "symptomId": "plaie_petite",
+    "term": "ti blese",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0349",
+    "symptomId": "plaie_petite",
+    "term": "grafouye",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0350",
+    "symptomId": "plaie_petite",
+    "term": "ti koupe",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0351",
+    "symptomId": "plaie_petite",
+    "term": "blese pye",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0355",
+    "symptomId": "plaie_infectee",
+    "term": "blese a anfle",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0356",
+    "symptomId": "plaie_infectee",
+    "term": "blese a ap koule",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0357",
+    "symptomId": "plaie_infectee",
+    "term": "santi move",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0358",
+    "symptomId": "plaie_infectee",
+    "term": "gen pi",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0359",
+    "symptomId": "plaie_infectee",
+    "term": "abse",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0364",
+    "symptomId": "morsure_par_animal",
+    "term": "chen mòde",
+    "variants": [
+      "chen mode | chyen mode"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0365",
+    "symptomId": "morsure_par_animal",
+    "term": "chat mòde",
+    "variants": [
+      "chat mode"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0366",
+    "symptomId": "morsure_par_animal",
+    "term": "goumen",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0367",
+    "symptomId": "morsure_par_animal",
+    "term": "bèt mòde",
+    "variants": [
+      "bet mode"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0371",
+    "symptomId": "grattage_intense",
+    "term": "grate san rete",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0372",
+    "symptomId": "grattage_intense",
+    "term": "gratèl",
+    "variants": [
+      "gratel"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0373",
+    "symptomId": "grattage_intense",
+    "term": "pwal li ap tonbe",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0374",
+    "symptomId": "grattage_intense",
+    "term": "pèdi pwal",
+    "variants": [
+      "pedi pwal"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0375",
+    "symptomId": "grattage_intense",
+    "term": "po l wouj",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0379",
+    "symptomId": "puces_tiques",
+    "term": "pis",
+    "variants": [],
+    "risky": true,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0380",
+    "symptomId": "puces_tiques",
+    "term": "karapat",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0381",
+    "symptomId": "puces_tiques",
+    "term": "gen pis",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0382",
+    "symptomId": "puces_tiques",
+    "term": "pis sou li",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0383",
+    "symptomId": "puces_tiques",
+    "term": "gen karapat",
+    "variants": [],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0387",
+    "symptomId": "probleme_oreille",
+    "term": "souke tèt",
+    "variants": [
+      "souke tet"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0388",
+    "symptomId": "probleme_oreille",
+    "term": "zòrèy li santi",
+    "variants": [
+      "zorey li santi"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0389",
+    "symptomId": "probleme_oreille",
+    "term": "grate zòrèy",
+    "variants": [
+      "grate zorey"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  },
+  {
+    "id": "lx_0390",
+    "symptomId": "probleme_oreille",
+    "term": "zòrèy li sal",
+    "variants": [
+      "zorey li sal"
+    ],
+    "risky": false,
+    "status": "brouillon"
+  }
+]

@@ -16,16 +16,16 @@ type Sex = 'male' | 'femelle';
  * « Lòt bèt » : Sanimo ne couvre que chiens et chats → message + annuaire.
  */
 export default function AnimalScreen() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const assessment = useAssessment();
   const [other, setOther] = useState(false);
 
   // Arrivée directe sur l'écran (lien, reprise ratée) : on ouvre une évaluation
   useEffect(() => {
     if (!getAssessmentSession().getCurrent()) {
-      getAssessmentSession().start(i18n.language === 'fr' ? 'fr' : 'ht');
+      getAssessmentSession().start('ht');
     }
-  }, [i18n.language]);
+  }, []);
 
   const species = assessment?.species ?? null;
   const age = assessment?.age ?? null;

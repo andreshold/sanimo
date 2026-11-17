@@ -1,0 +1,1445 @@
+[
+  {
+    "id": "ct_001",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chat mwen an ale nan sab li plizyè fwa depi maten an, l ap fòse men pipi a pa soti, epi l ap kriye.",
+    "expectedSymptoms": [
+      "ne_peut_pas_uriner",
+      "signes_douleur"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Cas typique chat mâle bloqué",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_002",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chen an manje anpil aswè a, kounye a vant li gonfle, li di tankou tanbou, l ap eseye vomi men anyen pa soti.",
+    "expectedSymptoms": [
+      "ventre_gonfle_douloureux",
+      "efforts_vomir_sans_resultat"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Tableau de torsion d'estomac",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_003",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Li tonbe atè toudenkou, kò l ap sakade, l ap kimen nan bouch. Sa dire apeprè senk minit.",
+    "expectedSymptoms": [
+      "convulsions"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_004",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Depi kèk minit chat la ap respire ak bouch li louvri, li pa vle bouje.",
+    "expectedSymptoms": [
+      "respiration_bouche_ouverte_chat",
+      "signes_douleur"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_005",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Yon moto frape chen an devan lakay la. Li kanpe, li sanble byen, men l ap bwete enpe.",
+    "expectedSymptoms": [
+      "accident_chute",
+      "boiterie"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Urgence même s'il a l'air bien",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_006",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Chen m nan manje yon pakèt chokola ki te sou tab la, sa fè de zèdtan. Li poko gen anyen.",
+    "expectedSymptoms": [
+      "ingestion_toxique"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Pas de signes : 🔴 quand même (décision V1)",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_007",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Mwen te gen tèt fè mal, m ba chat la yon grenn tylenòl paske li te sanble l malad.",
+    "expectedSymptoms": [
+      "medicament_humain_donne"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Paracétamol chez le chat",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_008",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Mwen mete remèd pis chen an sou chat la ayè swa, kounye a l ap tranble san rete.",
+    "expectedSymptoms": [
+      "medicament_humain_donne",
+      "tremblements_actifs"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Perméthrine · « medicament_humain_donne » couvre l'antipuces mal utilisé ? à décider",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_009",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chen an pa ka kanpe ankò depi maten an, pye dèyè l pa mache, l ap trennen yo.",
+    "expectedSymptoms": [
+      "incapable_se_lever"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_010",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Jansiv li vin blan nèt, li fèb, li kouche la li pa leve.",
+    "expectedSymptoms": [
+      "gencives_pales_bleues",
+      "abattu_se_cache"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_011",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "L ap vomi san rete depi maten an, menm dlo li bwè li rann li.",
+    "expectedSymptoms": [
+      "vomissements_repetes"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_012",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chen an gen dyare depi ayè, jodi a m wè gen san wouj nan poupou l.",
+    "expectedSymptoms": [
+      "diarrhee",
+      "diarrhee_sang"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_013",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Chat la vomi de fwa, dènye fwa a te gen san ladan l.",
+    "expectedSymptoms": [
+      "vomissements",
+      "vomit_sang"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_014",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Li goumen ak yon lòt chen, li gen yon gwo blesi nan kou, san an pa vle rete.",
+    "expectedSymptoms": [
+      "morsure_par_animal",
+      "plaie_profonde_os",
+      "saignement_important"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_015",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Pye devan l kase, m wè zo a ki soti deyò.",
+    "expectedSymptoms": [
+      "plaie_profonde_os"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_016",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Dlo cho tonbe sou do chat la nan kizin nan, po l boule anpil.",
+    "expectedSymptoms": [
+      "brulure_grave"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_017",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chen bouldòg mwen an te nan lakou a anba solèy midi, kounye a li cho anpil, l ap souf fò, li pa ka kanpe.",
+    "expectedSymptoms": [
+      "coup_chaleur",
+      "incapable_se_lever"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Race à nez court",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_018",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Chen an ap pouse pou l fè pitit depi plizyè èdtan, yon ti pitit sanble kole, okenn pa soti.",
+    "expectedSymptoms": [
+      "mise_bas_difficile"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_019",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Gen yon bagay wouj k ap pandye nan dèyè chat la depi l fin fè pitit.",
+    "expectedSymptoms": [
+      "organe_sorti"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_020",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Li t ap manje yon zo poul, kounye a l ap toufe, l ap grate bouch li ak pat li.",
+    "expectedSymptoms": [
+      "etouffement"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Aussi : os cuits (toxiques.csv)",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_021",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Yon gèp pike chen an, figi l ap gonfle, bouch li anfle.",
+    "expectedSymptoms": [
+      "gonflement_visage_piqure"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_022",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Lè chen an goumen an, je l soti nan twou l.",
+    "expectedSymptoms": [
+      "oeil_sorti",
+      "morsure_par_animal"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_023",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chen vwazen an vin mechan toudenkou, l ap bave anpil, li mòde pitit mwen.",
+    "expectedSymptoms": [
+      "signes_rage"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Déclenche aussi le module rage (humain mordu)",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_024",
+    "species": "chien",
+    "age": "jenn",
+    "sex": "male",
+    "text": "Ti chen an gen twa mwa, li poko pran vaksen, l ap vomi epi l gen dyare depi ayè, li pa manje.",
+    "expectedSymptoms": [
+      "chiot_vomit_diarrhee",
+      "vomissements",
+      "diarrhee",
+      "ne_mange_plus"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Niveau 🔴 proposé, à valider",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_025",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Li manje pwazon rat yo te mete nan depo a.",
+    "expectedSymptoms": [
+      "ingestion_toxique"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_026",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chat la manje fèy flè lis ki nan vaz la, li sanble l byen.",
+    "expectedSymptoms": [
+      "ingestion_toxique"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Lys + chat : 🔴 même sans signes",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_027",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chen an bwè kleren ki te tonbe atè a, kounye a l ap mache tankou l sou.",
+    "expectedSymptoms": [
+      "ingestion_toxique"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Démarche titubante : ne pas confondre avec rage",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_028",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Li pa respire byen, souf li kout, vant li ap monte desann vit.",
+    "expectedSymptoms": [
+      "difficulte_respirer"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_029",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Chat la endispoze, li pa reponn lè m rele l.",
+    "expectedSymptoms": [
+      "effondrement_inconscient"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_030",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Yon kamyon pase sou pye chen an.",
+    "expectedSymptoms": [
+      "accident_chute"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_031",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "M ba l de grenn ibipwofèn paske l t ap bwete.",
+    "expectedSymptoms": [
+      "medicament_humain_donne",
+      "boiterie"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_032",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chat la pa pipi depi ayè, li ale nan sab la souvan men anyen pa soti.",
+    "expectedSymptoms": [
+      "ne_peut_pas_uriner",
+      "changement_litiere_chat"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "« anyen pa soti » sans « vomi » : uriner",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_033",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chen an manje chiklèt ki te nan valiz mwen.",
+    "expectedSymptoms": [
+      "ingestion_toxique"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Xylitol",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_034",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Li fè kriz ayè, jodi a li sanble byen.",
+    "expectedSymptoms": [
+      "convulsions"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Crise passée : 🔴 ou 🟠 ? à valider",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_035",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Chat la pa ka vale, l ap bave, l ap grate bouch li.",
+    "expectedSymptoms": [
+      "etouffement"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Peut aussi évoquer la rage : à discuter",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_036",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chen an vomi yon fwa maten an, apre sa li manje, l ap jwe nòmal.",
+    "expectedSymptoms": [
+      "vomissements"
+    ],
+    "expectedLevel": "siveye",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "Niveau proposé",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_037",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Li gen dyare depi maten an, men l ap manje, l ap jwe, pa gen san ladan l.",
+    "expectedSymptoms": [
+      "diarrhee"
+    ],
+    "expectedLevel": "siveye",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "Contient une négation (« pa gen san ») : ne pas détecter diarrhee_sang",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_038",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chat la pa manje depi de jou, l ap kache anba kabann nan.",
+    "expectedSymptoms": [
+      "ne_mange_plus",
+      "abattu_se_cache"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {
+      "q_chat_jeun_24h": "wi"
+    },
+    "note": "Chat sans manger > 24 h",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_039",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "L ap bwete sou pye dèyè a depi twa jou, men l ap manje.",
+    "expectedSymptoms": [
+      "boiterie"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {
+      "q_boiterie_plus_24h": "wi"
+    },
+    "note": "Durée > 48 h",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_040",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Li pa poze pye devan l atè ditou, l ap mache sou twa pye.",
+    "expectedSymptoms": [
+      "boiterie_sans_appui"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_041",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Je chat la wouj, li kenbe l fèmen, l ap fwote l.",
+    "expectedSymptoms": [
+      "oeil_douloureux_ferme"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "🟠 ou 🔴 à valider",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_042",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "L ap touse depi kèk jou, sitou lannwit, men li manje byen.",
+    "expectedSymptoms": [
+      "toux"
+    ],
+    "expectedLevel": "siveye",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_043",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Nen chat la ap koule, l ap estènen, je l ap koule tou.",
+    "expectedSymptoms": [
+      "ecoulement_yeux_nez"
+    ],
+    "expectedLevel": "siveye",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_044",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Li gen yon ti blese nan pye, li grafouye sou yon fil fè.",
+    "expectedSymptoms": [
+      "plaie_petite"
+    ],
+    "expectedLevel": "siveye",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_045",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Blese li te genyen nan pye a anfle, l ap koule, li santi move.",
+    "expectedSymptoms": [
+      "plaie_infectee"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_046",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Yon lòt chat mòde l nan kou ayè.",
+    "expectedSymptoms": [
+      "morsure_par_animal"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_047",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "L ap grate san rete, pwal li ap tonbe sou do l, m wè pis sou li.",
+    "expectedSymptoms": [
+      "grattage_intense",
+      "puces_tiques"
+    ],
+    "expectedLevel": "siveye",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_048",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "L ap souke tèt li tout tan, zòrèy li santi move.",
+    "expectedSymptoms": [
+      "probleme_oreille"
+    ],
+    "expectedLevel": "siveye",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "🟠 si douleur, à valider",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_049",
+    "species": "chat",
+    "age": "granmoun",
+    "sex": "femelle",
+    "text": "Chat la ap bwè dlo anpil, li pipi anpil, epi l ap megri.",
+    "expectedSymptoms": [
+      "boit_urine_beaucoup",
+      "perte_poids"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_050",
+    "species": "chien",
+    "age": "granmoun",
+    "sex": "male",
+    "text": "Li fatige anpil depi kèk jou, li pa vle jwe, li kouche tout jounen.",
+    "expectedSymptoms": [
+      "abattu_se_cache"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_051",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chat la ap pipi lòt kote pase nan sab li, ti kras chak fwa.",
+    "expectedSymptoms": [
+      "changement_litiere_chat"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "Mâle : poser la question ne_peut_pas_uriner",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_052",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "L ap plenn lè m manyen do l, do l bosi, li pa vle monte eskalye.",
+    "expectedSymptoms": [
+      "signes_douleur"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_053",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Li gen karapat plen sou li.",
+    "expectedSymptoms": [
+      "puces_tiques"
+    ],
+    "expectedLevel": "siveye",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_054",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Li pa manje depi maten an, men l ap bwè dlo, l ap jwe.",
+    "expectedSymptoms": [
+      "ne_mange_plus"
+    ],
+    "expectedLevel": "siveye",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_055",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Li vomi yon boul pwal, apre sa li byen.",
+    "expectedSymptoms": [
+      "vomissements"
+    ],
+    "expectedLevel": "siveye",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_056",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chen an ap ranse apre l fin kouri nan lakou a, men lè l poze li respire nòmal.",
+    "expectedSymptoms": [],
+    "expectedLevel": "siveye",
+    "kind": "piege",
+    "answers": {},
+    "note": "Halètement normal du chien : rien à détecter",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_057",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Li pa vomi, li pa gen dyare, li manje byen, m jis vle konnen si l bezwen vaksen.",
+    "expectedSymptoms": [],
+    "expectedLevel": "siveye",
+    "kind": "piege",
+    "answers": {},
+    "note": "Négations multiples : aucun symptôme",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_058",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Li te manje chokola? Non, se pitit mwen ki manje chokola a, chen an pa touche l.",
+    "expectedSymptoms": [],
+    "expectedLevel": "siveye",
+    "kind": "piege",
+    "answers": {},
+    "note": "Toxique mentionné mais nié : à revoir avec la confirmation par l'utilisateur",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_059",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chat la te tonbe soti sou tab la men li ateri sou pye l, li byen.",
+    "expectedSymptoms": [],
+    "expectedLevel": "siveye",
+    "kind": "piege",
+    "answers": {},
+    "note": "« tonbe » ≠ grosse chute · seuil de hauteur à fixer",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_060",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Li bave anpil lè l wè manje.",
+    "expectedSymptoms": [],
+    "expectedLevel": "siveye",
+    "kind": "piege",
+    "answers": {},
+    "note": "Bave normale : ne pas déclencher signes_rage",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_061",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Pa gen san nan poupou l, se dyare sèlman depi ayè swa.",
+    "expectedSymptoms": [
+      "diarrhee"
+    ],
+    "expectedLevel": "siveye",
+    "kind": "negation",
+    "answers": {},
+    "note": "« san » = sang ici mais nié",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_062",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Li manje san pwoblèm, men li gen yon ti tous.",
+    "expectedSymptoms": [
+      "toux"
+    ],
+    "expectedLevel": "siveye",
+    "kind": "negation",
+    "answers": {},
+    "note": "« san » = sans : ne pas déclencher sang",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_063",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chat mwen an pa pipi depi yè, li pa vle manje.",
+    "expectedSymptoms": [
+      "ne_peut_pas_uriner",
+      "ne_mange_plus"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Formulation courte, sans « fòse »",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_064",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Bonjou, m pa konnen sa pou m fè, chen m nan kouche la, l ap tranble, jansiv li ble, li pa ka leve.",
+    "expectedSymptoms": [
+      "tremblements_actifs",
+      "gencives_pales_bleues",
+      "incapable_se_lever"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Style oral avec introduction",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_065",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "lap vomi san rete depi maten an e vant li gonfle",
+    "expectedSymptoms": [
+      "vomissements_repetes",
+      "ventre_gonfle_douloureux"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Imite une transcription sans accents ni ponctuation",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_066",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "chat la ap respire bouch louvri li pa vle manje",
+    "expectedSymptoms": [
+      "respiration_bouche_ouverte_chat",
+      "ne_mange_plus"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Transcription imparfaite",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_067",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chen mwen an manje pwazon rat sa gen inèdtan, li sanble nòmal.",
+    "expectedSymptoms": [
+      "ingestion_toxique"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Traduit du français, à relire",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_068",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chat mwen an ale nan sab li chak senk minit epi anyen pa soti, l ap miyannen.",
+    "expectedSymptoms": [
+      "ne_peut_pas_uriner",
+      "changement_litiere_chat"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Traduit du français, à relire",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_069",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Li vomi yon fwa maten an men l ap manje epi l ap jwe nòmal.",
+    "expectedSymptoms": [
+      "vomissements"
+    ],
+    "expectedLevel": "siveye",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "Traduit du français, à relire",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_070",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Vant li gonfle epi l ap eseye vomi men anyen pa soti.",
+    "expectedSymptoms": [
+      "ventre_gonfle_douloureux",
+      "efforts_vomir_sans_resultat"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Traduit du français, à relire",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_071",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Mwen ba li yon grenn Doliprane paske li te sanble l gen doulè.",
+    "expectedSymptoms": [
+      "medicament_humain_donne",
+      "signes_douleur"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Traduit du français, à relire",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_072",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Li bwete depi de jou men li poze pat li atè.",
+    "expectedSymptoms": [
+      "boiterie"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {
+      "q_boiterie_plus_24h": "wi"
+    },
+    "note": "Traduit du français, à relire",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_073",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Li fè yon kriz konvilsyon ki dire twa minit.",
+    "expectedSymptoms": [
+      "convulsions"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Traduit du français, à relire",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_074",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "L ap grate kò l anpil epi li gen pis.",
+    "expectedSymptoms": [
+      "grattage_intense",
+      "puces_tiques"
+    ],
+    "expectedLevel": "siveye",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "Traduit du français, à relire",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_075",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Yon machin frape l men l ap mache.",
+    "expectedSymptoms": [
+      "accident_chute"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Traduit du français, à relire",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_076",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chat mwen an ap vomi depi ayè, li pa vle bwè dlo ankò.",
+    "expectedSymptoms": [
+      "vomissements"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {
+      "q_ne_boit_plus": "wi"
+    },
+    "note": "Ne boit plus",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_077",
+    "species": "chien",
+    "age": "jenn",
+    "sex": "femelle",
+    "text": "Ti chen an ap vomi epi li gen dyare depi maten an.",
+    "expectedSymptoms": [
+      "vomissements",
+      "diarrhee"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Chiot qui vomit et a la diarrhée (règle r_chiot_vomit_et_diarrhee, à valider)",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_078",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chat la ap ale nan sab li souvan, m pa fin wè si pipi a soti.",
+    "expectedSymptoms": [
+      "changement_litiere_chat"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {
+      "q_chat_male_uriner": "mpakonnen"
+    },
+    "note": "Chat mâle, « m pa konnen » sur l'urine → 🔴 (à valider)",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_079",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Chen an pa manje depi twa jou, li kouche nan yon kwen.",
+    "expectedSymptoms": [
+      "ne_mange_plus",
+      "abattu_se_cache"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {
+      "q_chien_jeun_48h": "wi"
+    },
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_080",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Chat la pa manje anyen depi de jou.",
+    "expectedSymptoms": [
+      "ne_mange_plus"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {
+      "q_chat_jeun_24h": "wi"
+    },
+    "note": "Chat sans manger > 24 h",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_081",
+    "species": "chien",
+    "age": "granmoun",
+    "sex": "male",
+    "text": "Chen an granmoun, li pa vle manje depi ayè.",
+    "expectedSymptoms": [
+      "ne_mange_plus"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "Animal âgé (règle à valider)",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_082",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "L ap touse depi plis pase de semèn, men li pa vin pi mal.",
+    "expectedSymptoms": [
+      "toux"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {
+      "q_respi_plus_semaine": "wi"
+    },
+    "note": "Toux > 1 semaine",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_083",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Li gen dyare depi kat jou, men l ap manje.",
+    "expectedSymptoms": [
+      "diarrhee"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {
+      "q_diarrhee_plus_48h": "wi"
+    },
+    "note": "Diarrhée > 48 h",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_084",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Je chat la ap koule depi kèk jou, epi l ap vin pi mal.",
+    "expectedSymptoms": [
+      "ecoulement_yeux_nez"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {
+      "q_aggravation": "wi"
+    },
+    "note": "Aggravation",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_085",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "M pa konnen si l ap respire nòmal, li fatige anpil jodi a.",
+    "expectedSymptoms": [
+      "abattu_se_cache"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {
+      "q_difficulte_respirer": "mpakonnen"
+    },
+    "note": "« m pa konnen » sur la respiration → prudence",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_086",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chen an vale yon grenn medikaman pou tèt fè mal ki te tonbe atè.",
+    "expectedSymptoms": [
+      "medicament_humain_donne"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_087",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Chat la ap tranble san rete, mwen te mete remèd pis chen an sou li.",
+    "expectedSymptoms": [
+      "tremblements_actifs"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Antipuces pour chien sur un chat",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_088",
+    "species": "chat",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Chat mwen an ale souvan nan sab li, l ap fòse, men anyen pa soti.",
+    "expectedSymptoms": [
+      "ne_peut_pas_uriner",
+      "changement_litiere_chat"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Traduit du français, à relire",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_089",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "femelle",
+    "text": "Li vomi depi de jou epi li pa ka kenbe dlo.",
+    "expectedSymptoms": [
+      "vomissements"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {
+      "q_vomit_plus_24h": "wi",
+      "q_ne_boit_plus": "wi"
+    },
+    "note": "Traduit du français, à relire",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_090",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Li manje chokola nwa sa gen inèdtan, li sanble byen.",
+    "expectedSymptoms": [
+      "ingestion_toxique"
+    ],
+    "expectedLevel": "ijans",
+    "kind": "alerte",
+    "answers": {},
+    "note": "Toxique même sans signe · Traduit du français, à relire",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_091",
+    "species": "chat",
+    "age": "granmoun",
+    "sex": "femelle",
+    "text": "Vye chat mwen an bwè dlo anpil epi l ap megri.",
+    "expectedSymptoms": [
+      "boit_urine_beaucoup",
+      "perte_poids"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "Traduit du français, à relire",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_092",
+    "species": "chien",
+    "age": "jenn",
+    "sex": "male",
+    "text": "Ti chen an gen dyare depi ayè men li pa vomi.",
+    "expectedSymptoms": [
+      "diarrhee"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "negation",
+    "answers": {},
+    "note": "Jeune + négation (« li pa vomi »)",
+    "status": "brouillon"
+  },
+  {
+    "id": "ct_093",
+    "species": "chien",
+    "age": "adilt",
+    "sex": "male",
+    "text": "Li te gen yon ti blese, kounye a blese a anfle epi li santi move.",
+    "expectedSymptoms": [
+      "plaie_infectee"
+    ],
+    "expectedLevel": "konsilte",
+    "kind": "non_alerte",
+    "answers": {},
+    "note": "",
+    "status": "brouillon"
+  }
+]
