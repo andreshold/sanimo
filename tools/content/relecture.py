@@ -1,8 +1,11 @@
-"""Classeurs de relecture (feuille de route D3, étape 6).
+"""Classeurs de relecture (feuille de route D3, étapes 6 et 8).
 
 Lit content-sources/*.csv et produit dans relecture/ :
 - Sanimo-relecture-veterinaire-v<version>.xlsx : niveaux, règles, consignes, toxiques, cas ;
-- Sanimo-relecture-creole-v<version>.xlsx      : textes créoles à réécrire par un locuteur natif.
+- Sanimo-relecture-creole-v<version>.xlsx      : textes créoles à réécrire par un locuteur natif
+  (retour : tools/content/import_creole.py) ;
+- Sanimo-anrejistreman-ka-v<version>.xlsx      : cas à lire à voix haute, avec l'accord des voix ;
+- Sanimo-ekoute-klip-v<version>.xlsx           : écoute des clips audio générés par D2.
 
 Lancement : python -I tools/content/relecture.py
 """
@@ -251,7 +254,121 @@ def creole_workbook():
     return path
 
 
+def yellow_header(ws, row, headers, widths):
+    for c, (h, w) in enumerate(zip(headers, widths), 1):
+        cell = ws.cell(row=row, column=c, value=h)
+        cell.font = Font(name=FONT, bold=True, color='1B2B36')
+        cell.fill = PatternFill('solid', fgColor='E8A33D')
+        cell.alignment = Alignment(wrap_text=True, vertical='center')
+        ws.column_dimensions[get_column_letter(c)].width = w
+
+
+def dropdown(ws, choices, cell_range):
+    dv = DataValidation(type='list', formula1='"' + ','.join(choices) + '"', allow_blank=True)
+    ws.add_data_validation(dv)
+    dv.add(cell_range)
+
+
+def pick_recording_cases(n=24):
+    """Cas à enregistrer : pièges et négations, puis un cas d'alerte par signe, puis des cas non alarmants."""
+    cases = read('cas_test.csv')
+    chosen = [c for c in cases if c['type_cas'] in ('piege', 'negation')]
+    signs = set()
+    for c in cases:
+        first = c['symptomes_attendus'].split(',')[0]
+        if c['type_cas'] == 'alerte' and first not in signs and len(chosen) < n - 5:
+            signs.add(first)
+            chosen.append(c)
+    chosen += [c for c in cases if c['type_cas'] == 'non_alerte'][: n - len(chosen)]
+    order = {c['id']: i for i, c in enumerate(cases)}
+    return sorted(chosen, key=lambda c: order[c['id']])
+
+
+VOICES = ['v1', 'v2', 'v3', 'v4']
+
+
+def recording_workbook():
+    """Étape 8 : les récits lus à voix haute (3 voix ou plus) pour tester la reconnaissance vocale."""
+    wb = Workbook()
+    cover(wb, f'Sanimo — anrejistre ka yo (kontni v{VERSION})', [
+        'Mèsi paske w ap ede nou. N ap teste si Sanimo konprann moun k ap pale kreyòl. '
+        'Nou bezwen tande menm istwa yo nan bouch plizyè moun (omwen 3 vwa : fanm, gason, laj diferan).',
+        '',
+        'Kijan pou w anrejistre :',
+        '• Sèvi ak telefòn ou (aplikasyon anrejistreman vwa a), nan yon chanm nòmal : pa bezwen silans total.',
+        '• Kenbe telefòn nan tankou w ap pale nan telefòn. Li istwa a natirèlman, tankou w ap rakonte l bay yon zanmi. '
+        'Ou ka chanje kèk mo si se pa konsa ou ta di l.',
+        '• Yon fichye pou chak istwa. Non fichye a : idantifyan istwa a + nimewo vwa w (egzanp : ct_001_v1.m4a).',
+        '• Make « Wi » nan kolòn vwa w lè w fin anrejistre istwa a.',
+        '',
+        'Dakò ou (obligatwa anvan nou sèvi ak vwa w) :',
+        '• Ekri non w nan onglet « Dakò » epi chwazi si nou ka pibliye vwa w.',
+        '• Si w di « Non », anrejistreman w yo ap rete prive : yo p ap janm mete sou entènèt.',
+        '• Ou ka chanje lide nenpòt ki lè : n ap efase anrejistreman w yo.',
+    ])
+
+    consent = wb.create_sheet('Dakò')
+    consent['A1'] = ('Mwen dakò pou ekip Sanimo sèvi ak anrejistreman vwa m yo pou teste aplikasyon an. '
+                     'Mwen ka chanje lide nenpòt ki lè : y ap efase anrejistreman m yo.')
+    consent['A1'].font = Font(name=FONT, size=11)
+    consent['A1'].alignment = Alignment(wrap_text=True, vertical='top')
+    consent.merge_cells('A1:E1')
+    consent.row_dimensions[1].height = 50
+    yellow_header(consent, 3, ['Vwa', 'Non', 'Dat', 'Nou ka pibliye vwa w ? (Wi / Non)', 'Siyati oswa « Dakò »'],
+                  [8, 30, 14, 30, 30])
+    for r, v in enumerate(VOICES + ['v5', 'v6'], 4):
+        consent.cell(row=r, column=1, value=v).font = Font(name=FONT, size=10)
+        for c in range(2, 6):
+            consent.cell(row=r, column=c).fill = PatternFill('solid', fgColor=YELLOW)
+    dropdown(consent, ['Wi', 'Non'], 'D4:D9')
+
+    cases = pick_recording_cases()
+    sheet(wb, 'Istwa yo', 'Li chak istwa awotvwa. Yon fichye pou chak istwa, pou chak vwa.', [
+        ('Idantifyan', 'id'), ('Bèt', 'espece'), ('Istwa pou w li', 'texte'),
+    ], cases, [f'Vwa {v} fini ?' for v in VOICES], [10, 8, 80])
+    ws = wb['Istwa yo']
+    last = get_column_letter(3 + len(VOICES))
+    dropdown(ws, ['Wi'], f'D3:{last}{len(cases) + 2}')
+    for c in range(4, 4 + len(VOICES)):
+        ws.column_dimensions[get_column_letter(c)].width = 14
+
+    path = os.path.join(OUT, f'Sanimo-anrejistreman-ka-v{VERSION}.xlsx')
+    wb.save(path)
+    return path
+
+
+def listening_workbook():
+    """Étape 8 : faire écouter les clips générés par D2 (assets/clips/<id>.mp3) à un locuteur natif."""
+    with open(os.path.join(ROOT, 'content', 'clips.json'), encoding='utf-8') as f:
+        clips = json.load(f)
+    wb = Workbook()
+    cover(wb, f'Sanimo — koute klip yo (kontni v{VERSION})', [
+        'Mèsi paske w ap koute klip yo. Se yon vwa atifisyèl ki li tèks yo : nou bezwen konnen si l pale kreyòl byen.',
+        '',
+        'Kijan pou w reponn :',
+        '• Koute chak klip (fichye ki nan kolòn « Fichye »), epi li tèks la an menm tan.',
+        '• « Byen pwononse ? » : Wi oswa Non.',
+        '• « Mo ki mal li » : ekri mo a jan vwa a di l, epi jan l ta dwe sonnen.',
+        '• « Vitès » : Byen, Twò vit oswa Twò dousman. Si tèks la menm pa bon, ekri sa nan « Kòmantè ».',
+    ])
+    rows = [{'id': c['id'], 'ecran': c['screen'], 'text': c['text'], 'file': f"assets/clips/{c['id']}.mp3"}
+            for c in clips]
+    sheet(wb, 'Klip', 'Yon liy pou chak klip.', [
+        ('Idantifyan', 'id'), ('Ekran', 'ecran'), ('Tèks', 'text'), ('Fichye', 'file'),
+    ], rows, ['Byen pwononse ?', 'Mo ki mal li', 'Vitès', 'Kòmantè'], [26, 7, 60, 30])
+    ws = wb['Klip']
+    end = len(rows) + 2
+    dropdown(ws, ['Wi', 'Non'], f'E3:E{end}')
+    dropdown(ws, ['Byen', 'Twò vit', 'Twò dousman'], f'G3:G{end}')
+    for col, w in (('E', 14), ('F', 30), ('G', 16), ('H', 40)):
+        ws.column_dimensions[col].width = w
+
+    path = os.path.join(OUT, f'Sanimo-ekoute-klip-v{VERSION}.xlsx')
+    wb.save(path)
+    return path
+
+
 if __name__ == '__main__':
     os.makedirs(OUT, exist_ok=True)
-    for p in (vet_workbook(), creole_workbook()):
+    for p in (vet_workbook(), creole_workbook(), recording_workbook(), listening_workbook()):
         print('OK', os.path.relpath(p, ROOT))

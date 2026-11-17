@@ -278,6 +278,11 @@ Tests à ajouter : chaque « m pa konnen », chaque règle de durée, l'ordre de
 
 ✅ Tous les textes HT des écrans P0 en `relu_ht` ; clips refaits si besoin ; au moins 20 cas enregistrés × 3 voix remis à D2.
 
+> **Outils prêts le 16 nov.** — reste la partie humaine (locuteurs, voix, clips audio de D2).
+> - **Corrections créoles** : `python -I tools/content/import_creole.py <classeur rempli>.xlsx [autres…] [--dry-run]` reporte « Kreyòl korije » dans les CSV et passe le statut en `relu_ht` (« OK » = texte gardé ; un toxique ne passe en `relu_ht` que si son nom et son message sont relus). Les commentaires vont dans `note`. Deux relecteurs en désaccord, ou un texte modifié depuis l'envoi : ligne ignorée et signalée. Les clips d'écran liés à `src/i18n/ht.ts` y sont corrigés aussi (prévenir D1). Puis `npm run content && npm test`. Testé sur deux faux classeurs.
+> - **Enregistrement des cas** : `relecture/Sanimo-anrejistreman-ka-v0.5.0.xlsx`, tout en créole. 24 récits (pièges, négations, un cas par signe d'alerte, quelques cas non alarmants), 4 colonnes de voix, un onglet **Dakò** (accord écrit, publication oui / non). Fichiers `ct_xxx_v1.m4a`. **Les enregistrements ne vont jamais dans le dépôt** (public) : `tests/cas/audio/`, `*.m4a` et `*.wav` sont dans `.gitignore` ; les remettre à D2 directement.
+> - **Écoute des clips** : `relecture/Sanimo-ekoute-klip-v0.5.0.xlsx`, 133 lignes (texte, fichier `assets/clips/<id>.mp3`, « Byen pwononse ? », mots mal lus, vitesse, commentaire). À envoyer quand D2 a généré les clips.
+
 #### Étape 9 — Retours du vétérinaire, règles 1.0 ⏱ ½ jour
 1. Reporter chaque retour dans les CSV, colonne `note` = décision prise.
 2. Statut `validé` pour tout ce que le vétérinaire a accepté ; `rulesVersion` passe à `1.0`.

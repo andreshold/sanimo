@@ -62,3 +62,8 @@ models/
 
 # tests
 coverage/
+
+# Enregistrements de voix (étape 8) : jamais dans le dépôt public, même avec accord
+tests/cas/audio/
+*.m4a
+*.wav
