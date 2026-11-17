@@ -11,3 +11,4 @@ export { ProgressSteps } from './progress-steps';
 export { Screen } from './screen';
 export * from './theme';
 export { ComingSoon } from './coming-soon';
+export { TextField } from './text-field';
